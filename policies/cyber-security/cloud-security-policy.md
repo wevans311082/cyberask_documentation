@@ -11,15 +11,18 @@ This policy applies to all employees, contractors, and third parties who access 
 ## Policy
 
 1. The organization shall define and document procedures for cloud security.
-2. Controls for cloud security must align with industry best practices and regulatory obligations.
-3. Activities related to cloud security shall be reviewed and updated regularly to address emerging risks.
-4. Records demonstrating compliance with this policy shall be maintained.
+2. All Microsoft 365 services shall be configured according to Microsoft security and compliance guidance, including Secure Score recommendations.
+3. Controls for cloud security must align with industry best practices and regulatory obligations.
+4. Activities related to cloud security shall be reviewed and updated regularly to address emerging risks.
+5. Records demonstrating compliance with this policy shall be maintained.
 
 ## Technical Controls
 
 - Configure and maintain systems to enforce the requirements of the Cloud Security Policy, using appropriate tools and automation.
 - Enable logging, monitoring, and alerting to detect and respond to deviations from the Cloud Security Policy.
 - Apply encryption, access controls, and regular audits to ensure compliance with this policy.
+- Utilize Microsoft Secure Score, Defender for Cloud Apps, and compliance center dashboards to track and remediate security issues.
+- Implement Microsoft 365 Conditional Access, data loss prevention, and retention policies to protect cloud-resident data.
 
 ## Roles and Responsibilities
 
