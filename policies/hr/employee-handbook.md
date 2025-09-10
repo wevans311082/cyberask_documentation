@@ -1,5 +1,8 @@
 # Employee Handbook
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 The Employee Handbook provides key policies and guidelines governing employment at the company, complementing CE/CE+ and ISO/IEC 27001 commitments. It serves as a reference for expectations, procedures, and resources available to all employees, contractors, and interns.
 
 ## Employment Practices

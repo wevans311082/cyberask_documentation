@@ -1,5 +1,8 @@
 # Access Control Policy
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 This policy establishes comprehensive requirements for granting, reviewing, and revoking access to information systems so that only authorized individuals perform approved activities. It aligns with ISO/IEC 27001 and other regulatory frameworks, providing a control environment that protects confidentiality, integrity, and availability of organizational assets.
 
 ## Purpose

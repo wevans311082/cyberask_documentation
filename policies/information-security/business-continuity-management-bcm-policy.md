@@ -1,5 +1,8 @@
 # Business Continuity Management (BCM) Policy
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 ## Purpose
 
 This policy establishes requirements for business continuity management (bcm) to protect organizational assets and ensure compliance with applicable laws and regulations.

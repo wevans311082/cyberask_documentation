@@ -1,5 +1,8 @@
 # Information Security Policy
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 This policy defines the organization's overall approach to managing information security risks and maintaining compliance with CE/CE+ and ISO 27001.
 
 ## Purpose
