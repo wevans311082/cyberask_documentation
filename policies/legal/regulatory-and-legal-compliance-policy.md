@@ -10,33 +10,26 @@ This policy establishes requirements for regulatory and legal compliance to prot
 This policy applies to all employees, contractors, and third parties who access or manage company resources related to regulatory and legal compliance.
 
 ## Policy
-1. The organization shall define and document procedures for regulatory and legal compliance.
-2. Controls for regulatory and legal compliance must align with industry best practices and regulatory obligations.
-3. Activities related to regulatory and legal compliance shall be reviewed and updated regularly to address emerging risks.
-4. Records demonstrating compliance with this policy shall be maintained.
 
-- All aspects of Regulatory And Legal Compliance Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
-- Procedures shall be documented, communicated, and reviewed at least annually by the Information Security Manager.
-- Staff and contractors must receive training on Regulatory And Legal Compliance Policy before being granted related responsibilities.
-- Access and activities associated with Regulatory And Legal Compliance Policy shall be logged and monitored to detect and respond to unauthorised actions.
-- Deviations from this policy must be reported within 24 hours and remedied within 30 days.
-- Technology configurations supporting Regulatory And Legal Compliance Policy must follow relevant CIS Benchmarks and vendor hardening guides.
-- Third parties engaged in Regulatory And Legal Compliance Policy processes shall have contractual obligations to meet equivalent security standards.
-- Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
-- The Information Security Manager must approve exceptions in writing, including scope, duration, and compensating controls.
-- Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
+### Regulatory Landscape
+- The company maintains a register of applicable laws and regulations including, but not limited to, the UK Data Protection Act 2018, UK GDPR, Computer Misuse Act 1990, PCI DSS, and relevant industry guidance from the FCA and NCSC.
+- Each regulation within the register is assigned an owner responsible for monitoring changes and ensuring that business processes remain compliant.
 
-- Systems processing Regulatory And Legal Compliance Policy shall enforce least privilege and role-based access controls.
-- Changes affecting Regulatory And Legal Compliance Policy configurations must follow the Change Management Policy and receive formal approval.
-- Monitoring tools shall generate alerts for Regulatory And Legal Compliance Policy violations and designated staff must review these alerts daily.
-- Internal audits shall verify adherence to Regulatory And Legal Compliance Policy at least annually and report findings to senior management.
-- Data associated with Regulatory And Legal Compliance Policy must be protected in accordance with GDPR and UK statutory requirements.
-- Users shall acknowledge and accept this policy annually to retain relevant access rights.
+### Compliance Management
+- A Data Protection Officer (DPO) oversees adherence to privacy legislation and coordinates responses to data subject requests in line with the [Records of Processing Policy](records-of-processing-policy.md) and the [Data Protection and Privacy Policy](../cyber-security/data-protection-and-privacy-policy.md).
+- Compliance obligations are reviewed quarterly. Evidence such as audit reports, training records, and contracts are stored in the compliance management system for a minimum of six years.
+- Significant regulatory changes trigger a risk assessment and updates to affected policies and procedures via the Change Management process.
+- Third parties providing services on behalf of the company must evidence compliance with applicable laws through contractual clauses and regular attestations.
+
+### Reporting and Escalation
+- Suspected legal or regulatory breaches must be reported to the Compliance Manager within one business day.
+- Non-compliance issues are logged in the ticketing system, assigned to control owners, and tracked until closure.
+- Serious breaches are escalated to the board and, where required, reported to the Information Commissioner’s Office within 72 hours.
 
 ## Technical Controls
-- Configure and maintain systems to enforce the requirements of the Regulatory and Legal Compliance Policy, using appropriate tools and automation.
-- Enable logging, monitoring, and alerting to detect and respond to deviations from the Regulatory and Legal Compliance Policy.
-- Apply encryption, access controls, and regular audits to ensure compliance with this policy.
+- Compliance management tools track regulatory obligations, map them to controls, and produce audit-ready evidence.
+- Access to compliance records is restricted based on least privilege and protected with multi-factor authentication.
+- Automated alerts notify the Compliance Manager when regulatory deadlines or contract renewals approach.
 
 ## Roles and Responsibilities
 - **Employees and Contractors:** Follow regulatory and legal compliance procedures and report issues or non-compliance.
@@ -48,3 +41,19 @@ Failure to adhere to this policy may result in disciplinary action, up to and in
 
 ## Review
 This policy will be reviewed at least annually and updated as necessary to remain effective and compliant with relevant requirements.
+
+## Revision History
+
+| Version | Date       | Description                                                       | Author |
+| ------- | ---------- | ----------------------------------------------------------------- | ------ |
+| 1.0     | 2023-01-01 | Initial policy release                                            | WEvans Director |
+| 1.1     | 2025-09-10 | Detailed regulatory register, compliance process and cross-references added | ChatGPT |
+| 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+
+## Implementation Guidelines
+- All requests and approvals must be tracked in the ServiceDesk system.
+- Data at rest must use AES-256 encryption; data in transit must use TLS 1.2+ with perfect forward secrecy.
+- Security events shall log to the central SIEM and be retained for 12 months.
+- Control owners perform quarterly self-assessments; Information Security conducts annual audits.
+- Exceptions require written CISO approval and must include compensating controls.
+
