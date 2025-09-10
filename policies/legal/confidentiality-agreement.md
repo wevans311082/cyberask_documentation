@@ -1,8 +1,22 @@
 # Confidentiality Agreement
 
-Placeholder for confidentiality obligations with third parties.
+This agreement governs the protection of confidential information exchanged between the company and third parties.
 
-Reflects CE/CE+ and ISO 27001 considerations.
+## Definitions
+- **Confidential Information:** Any non-public business, technical, or customer data disclosed in any form.
 
-## Sections
-- TODO: Outline confidential information handling and exceptions.
+## Obligations
+- Use confidential information solely for the defined business purpose.
+- Limit disclosure to personnel with a need to know and under similar obligations.
+- Exercise reasonable care to protect the information from unauthorized access.
+
+## Exceptions
+- Information already known, independently developed, or publicly available without breach.
+- Disclosures required by law, provided the disclosing party is notified in advance where permitted.
+
+## Term and Return
+- Obligations continue for three years after termination of the relationship.
+- Upon request, return or destroy all confidential information.
+
+## Governing Law
+This agreement is governed by the laws of the jurisdiction specified in the associated contract.

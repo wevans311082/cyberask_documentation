@@ -1,8 +1,19 @@
 # Leave Policy
 
-Placeholder for leave and time-off guidelines.
+This policy outlines the types of leave available to employees and the procedures for requesting and approving leave.
 
-Designed to meet CE/CE+ and ISO 27001 compliance requirements.
+## Types of Leave
+- **Vacation:** Accrued based on tenure and scheduled in advance.
+- **Sick Leave:** Used for personal illness or medical appointments; may require documentation.
+- **Parental Leave:** Provided in accordance with local laws.
+- **Unpaid Leave:** Granted at management discretion for special circumstances.
 
-## Sections
-- TODO: Define vacation, sick leave, and other absence procedures.
+## Request Procedure
+- Submit leave requests through the HR system as early as possible.
+- Managers approve requests based on staffing needs and policy compliance.
+
+## Record Keeping
+HR maintains leave balances and ensures compliance with legal requirements.
+
+## Review
+This policy is reviewed annually and communicated to all staff.
