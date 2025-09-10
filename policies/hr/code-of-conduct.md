@@ -3,6 +3,7 @@
 This Code of Conduct sets expectations for professional behavior and ethical decision-making for all personnel. It supports CE/CE+ and ISO/IEC 27001 by fostering a culture of security, integrity, and respect. By adhering to these principles, employees help maintain the organization’s reputation and comply with legal and regulatory obligations.
 
 ## Principles
+
 1. **Respect**
    - Treat colleagues, customers, partners, and competitors with dignity and professionalism.
    - Embrace diversity and inclusion by valuing different perspectives and backgrounds.
@@ -43,32 +44,40 @@ This Code of Conduct sets expectations for professional behavior and ethical dec
    - Unauthorized software installation or circumvention of security controls is prohibited.
 
 10. **Anti-Harassment and Workplace Behavior**
-   - The organization maintains zero tolerance for harassment, bullying, or intimidation.
-   - Complaints will be investigated promptly, and appropriate corrective actions will be taken.
+
+- The organization maintains zero tolerance for harassment, bullying, or intimidation.
+- Complaints will be investigated promptly, and appropriate corrective actions will be taken.
 
 11. **Environmental Responsibility**
-   - Employees should minimize waste, conserve resources, and adhere to environmental regulations and company sustainability initiatives.
+
+- Employees should minimize waste, conserve resources, and adhere to environmental regulations and company sustainability initiatives.
 
 12. **Community Engagement**
-   - Employees are encouraged to participate in community and charitable activities that reflect positively on the organization.
+
+- Employees are encouraged to participate in community and charitable activities that reflect positively on the organization.
 
 ## Reporting
+
 - Employees must report suspected violations or unethical behavior to management, Human Resources, or the compliance hotline without fear of retaliation.
 - Reports may be made anonymously where permitted by law, and all concerns will be investigated promptly and fairly.
 
 ## Enforcement
+
 - Violations may result in disciplinary action up to and including termination or legal action.
 - Managers are responsible for enforcing this code and ensuring that reported concerns are addressed appropriately.
 
 ## Training and Acknowledgment
+
 - All employees must review and acknowledge this Code of Conduct upon hiring and annually thereafter.
 - Periodic training sessions will reinforce expectations and address emerging ethical issues.
 
 ## Review and Updates
+
 This code is reviewed annually and whenever significant legal or organizational changes occur. Updates will be communicated to all employees, who must re-acknowledge the code after revisions.
 
 ## Revision History
+
 | Version | Date       | Description                        | Author |
-|---------|------------|------------------------------------|--------|
+| ------- | ---------- | ---------------------------------- | ------ |
 | 1.0     | 2023-01-01 | Initial code release               | HR     |
 | 2.0     | 2025-09-10 | Comprehensive expansion and update | HR     |
