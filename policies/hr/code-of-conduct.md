@@ -1,85 +1,76 @@
 # Code of Conduct
 
-**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248
 **Author:** WEvans Director
 
-This Code of Conduct sets expectations for professional behavior and ethical decision-making for all personnel. It supports CE/CE+ and ISO/IEC 27001 by fostering a culture of security, integrity, and respect. By adhering to these principles, employees help maintain the organization’s reputation and comply with legal and regulatory obligations.
+## Purpose
+Define mandatory standards of professional, ethical, and secure behaviour for all personnel so that Cyber Ask Ltd complies with UK legislation, ISO/IEC 27001 controls, the NCSC Cyber Assessment Framework and relevant CIS Benchmarks.
 
-## Principles
+## Scope
+This Code applies to every employee, director, agency worker, consultant, and contractor engaged by Cyber Ask Ltd, regardless of location or working arrangement.
 
-1. **Respect**
-   - Treat colleagues, customers, partners, and competitors with dignity and professionalism.
-   - Embrace diversity and inclusion by valuing different perspectives and backgrounds.
-   - Avoid harassment, discrimination, or any behavior that creates a hostile work environment.
+## Policy
+### 1. Legal and Regulatory Compliance
+1.1 Personnel shall comply with UK laws including the Companies Act 2006, Employment Rights Act 1996, Equality Act 2010, Data Protection Act 2018, Bribery Act 2010 and Modern Slavery Act 2015.
+1.2 Individuals must promptly report any request to engage in unlawful or unethical activity.
 
-2. **Integrity**
-   - Act honestly in all business dealings and avoid conflicts of interest.
-   - Do not offer, give, solicit, or accept bribes or improper payments.
-   - Make decisions based on sound judgment and in the best interest of the organization.
+### 2. Behaviour and Respect
+2.1 All staff must treat colleagues, customers and partners with dignity, courtesy and professionalism.
+2.2 Harassment, victimisation, bullying, or discrimination on any protected characteristic is prohibited and shall trigger disciplinary action.
+2.3 Workers shall observe health and safety rules and take reasonable care for their own and others’ wellbeing.
 
-3. **Confidentiality and Privacy**
-   - Protect company and customer information from unauthorized disclosure or misuse.
-   - Use confidential information only for legitimate business purposes and share it on a need-to-know basis.
-   - Comply with data protection laws and company privacy policies when handling personal data.
+### 3. Integrity and Conflicts of Interest
+3.1 Gifts or hospitality exceeding £100 must be declared to the Company Secretary and recorded in the gifts register.
+3.2 Employees shall not accept bribes or inducements and must report attempted bribery without delay.
+3.3 Any personal interest that could influence business decisions shall be disclosed in writing to HR and managed through documented mitigation actions.
 
-4. **Compliance with Laws and Policies**
-   - Follow all applicable laws, regulations, and internal policies at all times.
-   - Understand and comply with industry-specific requirements, including export controls and anti-corruption laws.
+### 4. Protection of Information
+4.1 Confidential, personal or commercially sensitive information must only be accessed for legitimate business purposes and shared on a need-to-know basis.
+4.2 Staff shall follow the Information Security Policy, Acceptable Use Policy and Data Protection Policy when processing information.
+4.3 Printed materials must be disposed of using approved confidential waste facilities.
+4.4 Passwords and authentication mechanisms shall meet the requirements of the Password Policy and must not be shared.
 
-5. **Health, Safety, and Security**
-   - Maintain a safe working environment by following health and safety guidelines.
-   - Report unsafe conditions, injuries, or security concerns promptly.
+### 5. Use of Company Assets
+5.1 Company IT equipment, vehicles, tools and intellectual property shall be used solely for authorised business activities.
+5.2 Installation of unapproved software or altering security configurations is prohibited unless authorised by the IT Manager.
+5.3 Employees must lock screens when leaving devices unattended and physically secure equipment when travelling.
 
-6. **Use of Company Assets**
-   - Use company resources, including technology and equipment, responsibly and for business purposes.
-   - Protect physical and intellectual property from theft, damage, or loss.
+### 6. Communications and Social Media
+6.1 Only authorised spokespersons may communicate with the media or post on official company social media channels.
+6.2 Personal social media content shall not disclose confidential information, damage the company’s reputation or imply company endorsement of personal views.
+6.3 Employees must include a disclaimer when referencing the company on personal accounts.
 
-7. **Social Media and Public Communications**
-   - Ensure that public statements or social media posts do not misrepresent the company or disclose confidential information.
-   - Only authorized personnel may speak on behalf of the organization.
+### 7. Record Keeping and Reporting
+7.1 Business records, timesheets and expense claims must be accurate, complete and submitted in line with financial procedures.
+7.2 Suspected fraud, security incidents or breaches of this Code must be reported immediately via the Whistleblowing and Ethical Reporting Procedure.
 
-8. **Conflicts of Interest**
-   - Employees must disclose any personal or financial interests that could influence their professional judgment.
-   - Outside employment or business ventures that conflict with company interests require prior written approval.
+### 8. Environment and Community
+8.1 Staff shall minimise waste, conserve energy and comply with environmental legislation and company sustainability initiatives.
+8.2 Participation in community or charitable work is encouraged where it does not conflict with work duties.
 
-9. **Use of Information Technology Resources**
-   - Company IT resources, including email and internet access, are provided for business purposes and may be monitored in accordance with the Acceptable Use Policy.
-   - Unauthorized software installation or circumvention of security controls is prohibited.
+### 9. Monitoring and Enforcement
+9.1 The company may monitor use of its systems, premises and equipment to ensure compliance with this Code.
+9.2 Breaches shall be investigated in accordance with the Disciplinary Policy. Sanctions may include dismissal or referral to law enforcement.
 
-10. **Anti-Harassment and Workplace Behavior**
-
-- The organization maintains zero tolerance for harassment, bullying, or intimidation.
-- Complaints will be investigated promptly, and appropriate corrective actions will be taken.
-
-11. **Environmental Responsibility**
-
-- Employees should minimize waste, conserve resources, and adhere to environmental regulations and company sustainability initiatives.
-
-12. **Community Engagement**
-
-- Employees are encouraged to participate in community and charitable activities that reflect positively on the organization.
+## Roles and Responsibilities
+- **All Personnel:** Understand and comply with this Code; attend mandatory training and report concerns.
+- **Managers:** Lead by example, ensure team compliance and respond to reported issues.
+- **Human Resources:** Maintain this Code, provide guidance and ensure disciplinary processes are followed.
+- **Information Security Manager:** Monitor compliance with security-related obligations and advise on protective measures.
 
 ## Reporting
-
-- Employees must report suspected violations or unethical behavior to management, Human Resources, or the compliance hotline without fear of retaliation.
-- Reports may be made anonymously where permitted by law, and all concerns will be investigated promptly and fairly.
+Employees must report suspected violations or unethical behaviour to management, Human Resources or the confidential reporting channel without fear of retaliation. Anonymous reports will be accepted where legally permissible.
 
 ## Enforcement
-
-- Violations may result in disciplinary action up to and including termination or legal action.
-- Managers are responsible for enforcing this code and ensuring that reported concerns are addressed appropriately.
+Disciplinary action for breaches may include verbal or written warnings, suspension, dismissal and/or legal action. Managers are accountable for enforcing this Code within their teams.
 
 ## Training and Acknowledgment
-
-- All employees must review and acknowledge this Code of Conduct upon hiring and annually thereafter.
-- Periodic training sessions will reinforce expectations and address emerging ethical issues.
+All personnel shall complete Code of Conduct training on induction and annually thereafter, confirming acknowledgment electronically.
 
 ## Review and Updates
-
-This code is reviewed annually and whenever significant legal or organizational changes occur. Updates will be communicated to all employees, who must re-acknowledge the code after revisions.
+This Code will be reviewed at least annually or upon significant legal or organisational change. Updated versions shall be published and acknowledged by all staff.
 
 ## Revision History
-
 | Version | Date       | Description                        | Author |
 | ------- | ---------- | ---------------------------------- | ------ |
 | 1.0     | 2023-01-01 | Initial code release               | HR     |

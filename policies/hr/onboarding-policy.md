@@ -1,82 +1,54 @@
 # Onboarding Policy
 
-**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248
 **Author:** WEvans Director
 
-This policy defines the process for integrating new employees into the organization while meeting security, legal, and compliance requirements. A structured onboarding process ensures that new hires become productive quickly and understand their responsibilities.
+## Purpose
+Provide a standardised approach to introduce new employees and contractors to Cyber Ask Ltd, ensuring security, legal and compliance requirements are met from day one.
 
-## Pre-Employment
+## Scope
+Covers all permanent, fixed-term and temporary personnel joining the organisation.
 
-1. **Recruitment and Offer**
-   - Candidates shall receive clear job descriptions outlining duties and required qualifications.
-   - Employment offers are contingent upon successful completion of background checks.
+## Policy
+### 1. Pre-employment
+1.1 Job descriptions shall clearly state duties, required qualifications and any background screening needed.
+1.2 Conditional offers shall be issued subject to satisfactory background checks, references and right to work verification.
+1.3 Employment agreements must include confidentiality clauses, intellectual property assignments and reference to key policies.
 
-2. **Background Checks**
-   - Background screening will be conducted consistent with legal and contractual requirements, including verification of identity, employment history, and educational credentials.
-   - Roles with elevated access may require additional checks such as credit history or security clearance.
+### 2. Day One Activities
+2.1 HR shall deliver an induction covering company structure, values, health and safety and employment policies.
+2.2 IT shall provide pre-configured equipment and ensure default passwords are changed on first login.
+2.3 Managers shall introduce new starters to their team and assign a mentor for the first three months.
 
-3. **Employment Agreements**
-   - Employment agreements must include confidentiality, non-disclosure, and acceptable use obligations.
-   - New hires must acknowledge the Code of Conduct and other relevant policies prior to start.
+### 3. Training and Compliance
+3.1 Security awareness training and Code of Conduct acknowledgement must be completed before system access is granted.
+3.2 Role-based training, including GDPR, information security and relevant technical skills, shall be completed within 30 days.
+3.3 Completion of training shall be recorded and reviewed by HR quarterly.
 
-## Orientation
+### 4. Probationary Period
+4.1 Probation objectives shall be documented within one week of start date.
+4.2 Managers shall hold formal review meetings at months one, three and six and document performance.
+4.3 Failure to meet expectations may result in probation extension or termination in line with the Employment Rights Act 1996.
 
-1. **First-Day Orientation**
-   - Provide an overview of company culture, mission, and values.
-   - Review key policies, including security, privacy, and workplace conduct.
+### 5. Access and Asset Management
+5.1 Access rights must follow least privilege and be approved by the Information Security Manager.
+5.2 Asset allocation shall be recorded in the asset register and signed for by the new starter.
+5.3 Access reviews shall be conducted at the end of the probation period.
 
-2. **Equipment and Account Provisioning**
-   - Issue necessary equipment such as laptops, access badges, and software licenses.
-   - Accounts are provisioned with least privilege and documented approval.
-   - Default passwords must be changed at first login.
-
-3. **Training Requirements**
-   - New hires must complete initial security awareness training before system access is granted.
-   - Role-specific training, including job-related tools and compliance topics, must be completed within 30 days.
-
-4. **Introductions and Mentoring**
-   - Managers should introduce new employees to team members and assign a mentor or buddy to aid integration.
-
-5. **Preboarding Activities**
-   - Prior to the start date, HR will provide access to required forms and educational materials.
-   - New hires may complete certain training modules online to expedite orientation.
-
-## Probationary Period
-
-- Managers evaluate performance, cultural fit, and adherence to company values within the first three months.
-- Feedback and expectations should be communicated through regular check-ins.
-- Employment may be terminated during the probationary period if performance or conduct does not meet expectations.
-
-## End of Probation
-
-- Successful completion of the probationary period results in confirmation of employment.
-- Managers shall document performance evaluations and development plans for ongoing growth.
-
-## Documentation and Record Keeping
-
-- HR maintains onboarding checklists and records of completed training and agreements.
-- Documentation must be stored securely and retained in accordance with the data retention policy.
+### 6. Documentation
+6.1 HR shall maintain a completed onboarding checklist and store signed documents in the personnel file.
+6.2 Any deviations from this policy require documented approval from HR and the Information Security Manager.
 
 ## Roles and Responsibilities
-
-- **Hiring Manager:** Coordinates onboarding activities, sets expectations, and provides feedback.
-- **Human Resources:** Manages paperwork, background checks, and policy acknowledgments.
-- **IT Department:** Provisions accounts, equipment, and access according to the Access Control Policy.
-- **New Employee:** Completes required training, reviews policies, and seeks clarification when needed.
-
-## Continuous Improvement
-
-- HR collects feedback from new employees and managers to refine onboarding processes.
-- Metrics such as time-to-productivity and training completion rates are reviewed quarterly.
-- Suggestions for improvement may be submitted anonymously through the employee feedback portal.
-- Summary results are reported to senior leadership to drive enhancements.
+- **HR:** Coordinate onboarding, deliver induction and maintain records.
+- **Line Managers:** Plan role-specific training, provide supervision and evaluate performance.
+- **IT:** Provision equipment and access, maintain inventory and assist with technical setup.
+- **New Starter:** Complete required training, review policies and seek clarification when unsure.
 
 ## Review
-
-HR reviews this policy annually to incorporate feedback, business needs, and regulatory changes.
+This policy will be reviewed annually and updated to reflect changes in legislation, security standards and organisational requirements.
 
 ## Revision History
-
 | Version | Date       | Description                        | Author |
 | ------- | ---------- | ---------------------------------- | ------ |
 | 1.0     | 2023-01-01 | Initial policy release             | HR     |

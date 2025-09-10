@@ -1,85 +1,55 @@
 # Leave Policy
 
-**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248
 **Author:** WEvans Director
 
-This policy outlines the types of leave available to employees and the procedures for requesting and approving leave. The organization supports work-life balance and complies with applicable labor laws.
+## Purpose
+Set out entitlements and procedures for requesting, approving and recording leave in compliance with UK employment legislation and ISO/IEC 27001 control A.7.1.2.
 
-## Types of Leave
+## Scope
+Applies to all employees of Cyber Ask Ltd; contractors may have separate contractual arrangements.
 
-1. **Vacation Leave**
-   - Employees accrue vacation leave based on tenure and employment status.
-   - Vacations should be scheduled in advance to ensure adequate coverage.
+## Policy
+### 1. Leave Entitlements
+1.1 Statutory annual leave entitlement is 25 days plus UK public holidays for full-time employees, pro-rated for part-time staff.
+1.2 Additional leave types such as sick, parental, bereavement, jury service and unpaid leave are available in accordance with the Employment Rights Act 1996 and related regulations.
+1.3 Carry-over of up to five days annual leave to the next leave year is permitted with manager approval and must be taken within the first quarter.
 
-2. **Sick Leave**
-   - Sick leave may be used for personal illness, medical appointments, or to care for an immediate family member.
-   - Documentation from a healthcare provider may be required for absences exceeding three consecutive days.
+### 2. Requesting Leave
+2.1 Employees shall submit leave requests through the HR system at least two weeks in advance for annual leave and as soon as practicable for emergency leave.
+2.2 Managers must approve or decline requests within five working days, ensuring adequate staffing levels.
+2.3 Medical certificates are required for sickness absence exceeding seven calendar days.
+2.4 Unauthorised absence shall be recorded and may lead to disciplinary action.
 
-3. **Parental Leave**
-   - Parental leave is provided in accordance with local laws for birth, adoption, or foster care placement.
-   - Employees should notify HR as soon as possible to coordinate leave and benefits.
+### 3. Recording and Monitoring
+3.1 HR shall maintain accurate leave records and provide monthly reports to management.
+3.2 Employees are responsible for checking their leave balance and resolving discrepancies immediately.
+3.3 Excessive absence patterns shall trigger review under the Attendance Management Procedure.
 
-4. **Bereavement Leave**
-   - Employees may take paid leave in the event of a death in the immediate family.
-   - Additional time off may be granted at management discretion.
+### 4. Return to Work
+4.1 Employees returning from sickness absence shall complete a return-to-work interview with their manager on the first day back.
+4.2 Fit notes and adjustments recommended by medical practitioners must be considered and, where reasonable, accommodated.
 
-5. **Jury Duty and Witness Leave**
-   - Employees summoned for jury duty or as a witness will be granted leave and may be required to provide court documentation.
+### 5. Paid Holidays
+5.1 A list of company holidays will be published annually; business-critical operations may require cover and will receive compensatory time off or payment in lieu.
 
-6. **Military Leave**
-   - Military leave will be granted in accordance with applicable laws. Employees must provide notice and documentation of service obligations.
+### 6. Special Leave
+6.1 Compassionate leave of up to five days may be granted for immediate family bereavement.
+6.2 Parental leave and shared parental leave shall follow statutory schemes; employees must provide required notices and declarations.
+6.3 Reservists shall be granted military leave in accordance with the Reserve Forces Act 1996.
 
-7. **Unpaid Leave**
-   - Unpaid leave may be granted for special circumstances such as extended travel, education, or personal matters.
-   - Approval is at management discretion and subject to business needs.
-
-## Request Procedure
-
-1. Submit leave requests through the HR system as early as possible.
-2. Managers approve requests based on staffing needs, policy compliance, and legal requirements.
-3. For unforeseen emergencies, employees should notify their supervisor as soon as practicable.
-4. Changes to approved leave require manager approval.
-
-## Leave Accrual and Carryover
-
-- Leave balances are tracked in the HR system and displayed on employee pay statements.
-- Unused vacation may be carried over to the next calendar year up to a specified maximum; excess balances may be forfeited or paid out according to local law.
-- Sick leave may accumulate without limit unless otherwise restricted by jurisdiction.
-
-## Paid Holidays
-
-- The company observes a list of paid holidays each year. Employees required to work on a holiday may receive compensatory time off or additional pay.
-
-## Record Keeping
-
-HR maintains leave balances, approvals, and documentation to ensure compliance with legal requirements. Employees are responsible for verifying their leave balances and reporting discrepancies promptly.
+### 7. Policy Exceptions
+7.1 Any exception to this policy requires written approval from HR and may necessitate consultation with legal advisors.
 
 ## Roles and Responsibilities
-
-- **Employees:** Submit accurate leave requests, provide required documentation, and notify managers of changes.
-- **Managers:** Review requests promptly, ensure staffing coverage, and verify compliance with policy.
-- **Human Resources:** Maintain records, advise on legal requirements, and monitor leave usage for trends.
-
-## Communication and Planning
-
-- Annual calendars of holidays and company shutdown periods will be published to assist in planning.
-- Employees should coordinate leave plans with teammates to minimize disruption to operations.
-
-## Return to Work
-
-- Employees returning from extended leave must coordinate with HR and their manager to ensure a smooth reintegration.
-- Medical clearance may be required for return after medical or parental leave.
-
-## Policy Exceptions
-
-- Any exceptions to this policy must be approved by HR and documented in writing.
+- **Employees:** Submit timely and accurate leave requests and provide required documentation.
+- **Managers:** Plan resources, approve leave fairly and conduct return-to-work interviews.
+- **Human Resources:** Maintain records, advise on legislation and monitor compliance.
 
 ## Review
-
-This policy is reviewed annually and communicated to all staff. Changes will be announced via company channels and updated in the employee handbook.
+This policy will be reviewed annually or following changes in employment law.
 
 ## Revision History
-
 | Version | Date       | Description                        | Author |
 | ------- | ---------- | ---------------------------------- | ------ |
 | 1.0     | 2023-01-01 | Initial policy release             | HR     |

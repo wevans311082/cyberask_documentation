@@ -1,56 +1,50 @@
 # Social Media and External Communications Policy
 
-**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248
 **Author:** WEvans Director
 
 ## Purpose
-
-This policy establishes requirements for social media and external communications to protect organizational assets and ensure compliance with applicable laws and regulations.
+Control the creation and dissemination of information about Cyber Ask Ltd to protect reputation, maintain confidentiality and comply with legal obligations.
 
 ## Scope
-
-This policy applies to all employees, contractors, and third parties who access or manage company resources related to social media and external communications.
+Applies to all employees, contractors and representatives using social media or engaging in public communications on behalf of or in reference to the company.
 
 ## Policy
-1. The organization shall define and document procedures for social media and external communications.
-2. Controls for social media and external communications must align with industry best practices and regulatory obligations.
-3. Activities related to social media and external communications shall be reviewed and updated regularly to address emerging risks.
-4. Records demonstrating compliance with this policy shall be maintained.
+### 1. Official Communications
+1.1 Only authorised spokespeople designated by the Marketing Director may speak to the media or post on official company accounts.
+1.2 Press releases and public statements shall be approved by the Marketing Director and, where relevant, Legal before publication.
+1.3 Corporate social media accounts shall be protected by multi-factor authentication and managed using approved tools.
 
-- All aspects of Social Media And External Communications Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
-- Procedures shall be documented, communicated, and reviewed at least annually by the Information Security Manager.
-- Staff and contractors must receive training on Social Media And External Communications Policy before being granted related responsibilities.
-- Access and activities associated with Social Media And External Communications Policy shall be logged and monitored to detect and respond to unauthorised actions.
-- Deviations from this policy must be reported within 24 hours and remedied within 30 days.
-- Technology configurations supporting Social Media And External Communications Policy must follow relevant CIS Benchmarks and vendor hardening guides.
-- Third parties engaged in Social Media And External Communications Policy processes shall have contractual obligations to meet equivalent security standards.
-- Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
-- The Information Security Manager must approve exceptions in writing, including scope, duration, and compensating controls.
-- Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
+### 2. Personal Use of Social Media
+2.1 Employees must make it clear that personal accounts and views are their own and not representative of the company.
+2.2 Confidential or commercially sensitive information must never be disclosed on social media.
+2.3 Posting discriminatory, defamatory or offensive content that could damage the company's reputation is prohibited and may result in disciplinary action.
+2.4 Employees shall not engage with media enquiries or online discussions about company matters; such enquiries must be referred to the Marketing Director.
 
-- Systems processing Social Media And External Communications Policy shall enforce least privilege and role-based access controls.
-- Changes affecting Social Media And External Communications Policy configurations must follow the Change Management Policy and receive formal approval.
-- Monitoring tools shall generate alerts for Social Media And External Communications Policy violations and designated staff must review these alerts daily.
-- Internal audits shall verify adherence to Social Media And External Communications Policy at least annually and report findings to senior management.
-- Data associated with Social Media And External Communications Policy must be protected in accordance with GDPR and UK statutory requirements.
-- Users shall acknowledge and accept this policy annually to retain relevant access rights.
+### 3. External Presentations and Publications
+3.1 Employees must obtain manager approval and, if necessary, legal review before publishing articles, giving interviews or speaking at events on topics related to the company’s business.
+3.2 Material containing personal data or security details must be reviewed by the Information Security Manager prior to release.
 
-## Technical Controls
+### 4. Monitoring and Records
+4.1 Use of official accounts may be monitored and logged in accordance with the Monitoring Policy.
+4.2 Records of public communications shall be retained for a minimum of three years for audit purposes.
 
-- Configure and maintain systems to enforce the requirements of the Social Media and External Communications Policy, using appropriate tools and automation.
-- Enable logging, monitoring, and alerting to detect and respond to deviations from the Social Media and External Communications Policy.
-- Apply encryption, access controls, and regular audits to ensure compliance with this policy.
+### 5. Incident Response
+5.1 Any unauthorised disclosure or reputational incident on social media must be reported immediately to the Marketing Director and Information Security Manager.
+5.2 Crisis communications plans shall be invoked for incidents likely to attract media attention.
+
+### 6. Training
+6.1 Staff authorised to manage official accounts shall receive training on branding, legal considerations, accessibility and security controls.
+6.2 All employees shall complete annual refresher training on acceptable personal use of social media.
 
 ## Roles and Responsibilities
-
-- **Employees and Contractors:** Follow social media and external communications procedures and report issues or non-compliance.
-- **Management:** Provide resources and enforce this policy within their areas of responsibility.
-- **Security and Compliance Teams:** Monitor social media and external communications controls, provide guidance, and coordinate improvements.
+- **Employees and Contractors:** Use social media responsibly and comply with this policy.
+- **Marketing Director:** Approve public communications, manage corporate accounts and coordinate incident response.
+- **Information Security Manager:** Ensure secure configuration and monitoring of accounts and tools.
+- **HR:** Enforce policy breaches and maintain training records.
 
 ## Compliance
-
-Failure to adhere to this policy may result in disciplinary action, up to and including termination, and may expose the organization to legal or regulatory penalties.
+Non-compliance may result in removal of access, disciplinary action or legal proceedings. This policy supports ISO/IEC 27001 controls A.13.2 and NCSC CAF objective A: Managing Security Risk.
 
 ## Review
-
-This policy will be reviewed at least annually and updated as necessary to remain effective and compliant with relevant requirements.
+This policy shall be reviewed annually or following significant changes in social media platforms or regulatory requirements.

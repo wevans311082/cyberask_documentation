@@ -1,91 +1,80 @@
 # Employee Handbook
 
-**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248
 **Author:** WEvans Director
 
-The Employee Handbook provides key policies and guidelines governing employment at the company, complementing CE/CE+ and ISO/IEC 27001 commitments. It serves as a reference for expectations, procedures, and resources available to all employees, contractors, and interns.
+## Purpose
+Provide a consolidated reference of mandatory employment policies, working conditions and behavioural expectations for all personnel.
 
-## Employment Practices
+## Scope
+Applies to every employee, worker, intern and contractor engaged by Cyber Ask Ltd in the UK and overseas.
 
-1. **Equal Opportunity and Non-Discrimination**
-   - The company is committed to providing a workplace free of discrimination and harassment. Employment decisions are based on merit, qualifications, and business needs.
-   - We comply with all applicable labor laws and provide reasonable accommodations for individuals with disabilities.
+## Policy
+### 1. Employment Practices
+1.1 Recruitment, selection and promotion shall be based on merit and conducted in line with the Equality Act 2010 and company Diversity and Inclusion Policy.
+1.2 Right to work and identity documents must be verified before commencement of employment.
+1.3 Written terms and conditions of employment shall be issued on or before the first day of work as required by the Employment Rights Act 1996.
+1.4 Background screening appropriate to the role shall be completed prior to granting system access.
 
-2. **Recruitment and Hiring**
-   - Job postings will be advertised internally and externally to attract diverse candidates.
-   - Background checks may be conducted in accordance with legal requirements.
+### 2. Working Time and Pay
+2.1 Standard working hours are defined in employment contracts and must comply with the Working Time Regulations 1998.
+2.2 Overtime and time off in lieu must be authorised in advance by line managers and recorded in the timekeeping system.
+2.3 Payroll information and bank details must be kept up to date; fraudulent claims will be treated as gross misconduct.
 
-3. **Performance Expectations and Reviews**
-   - Employees receive clear objectives and feedback through regular performance evaluations.
-   - Professional development opportunities are encouraged to support career growth.
+### 3. Conduct and Behaviour
+3.1 All staff shall comply with the Code of Conduct and Disciplinary Policy for Security Breaches.
+3.2 Harassment, bullying, intimidation or victimisation is prohibited. Complaints will be managed through the Grievance Procedure.
+3.3 Consumption of alcohol or illegal drugs during working hours or on company premises is forbidden.
+3.4 Staff must wear company issued identification when on site and challenge unauthorised individuals.
 
-4. **Remote Work and Use of Company Equipment**
-   - Remote work arrangements require approval from management and adherence to security guidelines.
-   - Company-issued equipment remains company property and must be returned upon request or termination.
+### 4. Health, Safety and Environment
+4.1 Employees shall follow the Health and Safety in IT Operations Policy and report accidents or hazards immediately.
+4.2 Display screen equipment assessments must be completed for all regular computer users.
+4.3 Staff working remotely must maintain an ergonomic workstation and a safe environment.
 
-## Workplace Conduct
+### 5. Security Responsibilities
+5.1 All personnel must complete security awareness training on induction and annually thereafter.
+5.2 Sensitive data shall be processed only on company-approved systems and stored in accordance with the Data Classification Policy.
+5.3 Lost or stolen equipment must be reported within one hour of discovery.
 
-1. **Anti-Harassment and Anti-Bullying**
-   - Harassment, bullying, or discrimination of any kind is prohibited. Complaints will be investigated promptly and confidentially.
-   - Retaliation against individuals who report concerns in good faith is strictly forbidden.
+### 6. Use of Company Assets
+6.1 IT assets and accounts are provided for business use. Personal use shall be minimal and must not interfere with operations.
+6.2 Installation of software requires IT approval and shall comply with licensing agreements and CIS hardening guidelines.
+6.3 Employees must return all company property on request or upon termination.
 
-2. **Health and Safety Responsibilities**
-   - Employees must follow safety procedures, use protective equipment when required, and report accidents or hazards immediately.
-   - The company promotes wellness programs and encourages work-life balance.
+### 7. Benefits and Leave
+7.1 Eligibility and entitlement for leave and benefits are detailed in the Leave Policy and benefits portal.
+7.2 Leave requests must be submitted through the HR system and approved before travel arrangements are made.
+7.3 Sick absence of seven calendar days or more requires a fit note from a medical practitioner.
 
-3. **Substance Abuse and Fitness for Duty**
-   - The workplace is drug-free. Employees may be subject to testing where permitted by law.
-   - Being under the influence of alcohol or controlled substances while on duty is prohibited.
+### 8. Performance and Development
+8.1 Formal performance reviews shall occur at least annually with interim check-ins every six months.
+8.2 Training and development plans shall be agreed between employees and managers and recorded in the HR system.
+8.3 Underperformance will be addressed through the Performance Improvement Procedure.
 
-## Security Responsibilities
+### 9. Data Protection and Privacy
+9.1 Personnel files will be maintained securely and retained in line with the Records Management Policy.
+9.2 Employees may submit subject access requests to HR under the UK GDPR.
+9.3 Monitoring of electronic communications will be conducted for legitimate business purposes and in accordance with the Telecommunications (Lawful Business Practice) Regulations 2000.
 
-1. **Security Awareness Training**
-   - All employees must complete security awareness training upon hire and annually thereafter.
-   - Specialized training may be required for roles with elevated access or responsibilities.
+### 10. Employee Relations and Communication
+10.1 The company operates an open-door policy. Concerns shall be escalated to managers or HR without fear of retaliation.
+10.2 Company-wide updates will be issued through official channels such as email, intranet and town hall meetings.
+10.3 Trade union membership is recognised and staff may be accompanied by a union representative in formal meetings.
 
-2. **Reporting Security Incidents**
-   - Employees must report security incidents, suspicious activities, or policy violations immediately through the designated channels.
-   - Cooperation with investigations is expected.
+### 11. Discipline and Grievance
+11.1 Disciplinary action shall follow the ACAS Code of Practice.
+11.2 Employees may lodge grievances in writing to HR; grievances will be investigated impartially and outcomes documented.
 
-3. **Acceptable Use of Technology**
-   - Use of company systems must comply with the Acceptable Use Policy, including restrictions on unauthorized software and personal use.
-
-## Benefits and Leave
-
-1. **Health, Retirement, and Other Benefits**
-   - The company offers comprehensive benefits, including medical, dental, vision, life insurance, and retirement savings plans.
-   - Eligibility and enrollment details are provided during onboarding and in the benefits portal.
-
-2. **Leave Programs**
-   - Vacation, sick, parental, and other leave types are governed by the Leave Policy and applicable laws.
-   - Requests for leave should be submitted through the HR system and approved by supervisors.
-
-## Employee Relations and Communication
-
-- The company maintains an open-door policy, encouraging employees to raise concerns or suggestions to management or HR.
-- Regular town halls and team meetings provide updates on company performance and initiatives.
-
-## Disciplinary Procedures
-
-- The company may take corrective action for policy violations or performance issues, ranging from coaching to termination.
-- Employees will be informed of concerns and given an opportunity to respond.
-
-## Grievance Process
-
-- Employees may file grievances through HR if they believe policies have been applied unfairly.
-- HR will investigate grievances impartially and communicate outcomes in a timely manner.
-
-## Company Culture and Values
-
-- We strive to maintain a collaborative, innovative, and customer-focused environment.
-- Employees are encouraged to embody the company’s core values in daily work.
+## Roles and Responsibilities
+- **Employees:** Understand and comply with handbook policies and attend mandatory training.
+- **Managers:** Communicate expectations, monitor compliance and support staff development.
+- **Human Resources:** Maintain policies, provide advice and ensure legal compliance.
 
 ## Review and Acknowledgment
-
-The handbook is reviewed annually and employees acknowledge receipt upon hire and whenever updates are issued. Employees are responsible for familiarizing themselves with the contents and complying with all policies herein.
+Employees must acknowledge receipt of this handbook on joining and whenever revised. The handbook will be reviewed annually to ensure alignment with legislation and best practice.
 
 ## Revision History
-
 | Version | Date       | Description                        | Author |
 | ------- | ---------- | ---------------------------------- | ------ |
 | 1.0     | 2023-01-01 | Initial handbook release           | HR     |
