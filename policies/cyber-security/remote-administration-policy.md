@@ -12,11 +12,28 @@ This policy establishes requirements for remote administration to protect organi
 This policy applies to all employees, contractors, and third parties who access or manage company resources related to remote administration.
 
 ## Policy
-
 1. The organization shall define and document procedures for remote administration.
 2. Controls for remote administration must align with industry best practices and regulatory obligations.
 3. Activities related to remote administration shall be reviewed and updated regularly to address emerging risks.
 4. Records demonstrating compliance with this policy shall be maintained.
+
+- All aspects of Remote Administration Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
+- Procedures shall be documented, communicated, and reviewed at least annually by the Information Security Manager.
+- Staff and contractors must receive training on Remote Administration Policy before being granted related responsibilities.
+- Access and activities associated with Remote Administration Policy shall be logged and monitored to detect and respond to unauthorised actions.
+- Deviations from this policy must be reported within 24 hours and remedied within 30 days.
+- Technology configurations supporting Remote Administration Policy must follow relevant CIS Benchmarks and vendor hardening guides.
+- Third parties engaged in Remote Administration Policy processes shall have contractual obligations to meet equivalent security standards.
+- Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
+- The Information Security Manager must approve exceptions in writing, including scope, duration, and compensating controls.
+- Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
+
+- Systems processing Remote Administration Policy shall enforce least privilege and role-based access controls.
+- Changes affecting Remote Administration Policy configurations must follow the Change Management Policy and receive formal approval.
+- Monitoring tools shall generate alerts for Remote Administration Policy violations and designated staff must review these alerts daily.
+- Internal audits shall verify adherence to Remote Administration Policy at least annually and report findings to senior management.
+- Data associated with Remote Administration Policy must be protected in accordance with GDPR and UK statutory requirements.
+- Users shall acknowledge and accept this policy annually to retain relevant access rights.
 
 ## Technical Controls
 

@@ -12,11 +12,28 @@ This policy establishes requirements for environmental security to protect organ
 This policy applies to all employees, contractors, and third parties who access or manage company resources related to environmental security.
 
 ## Policy
-
 1. The organization shall define and document procedures for environmental security.
 2. Controls for environmental security must align with industry best practices and regulatory obligations.
 3. Activities related to environmental security shall be reviewed and updated regularly to address emerging risks.
 4. Records demonstrating compliance with this policy shall be maintained.
+
+- All aspects of Environmental Security Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
+- Procedures shall be documented, communicated, and reviewed at least annually by the Information Security Manager.
+- Staff and contractors must receive training on Environmental Security Policy before being granted related responsibilities.
+- Access and activities associated with Environmental Security Policy shall be logged and monitored to detect and respond to unauthorised actions.
+- Deviations from this policy must be reported within 24 hours and remedied within 30 days.
+- Technology configurations supporting Environmental Security Policy must follow relevant CIS Benchmarks and vendor hardening guides.
+- Third parties engaged in Environmental Security Policy processes shall have contractual obligations to meet equivalent security standards.
+- Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
+- The Information Security Manager must approve exceptions in writing, including scope, duration, and compensating controls.
+- Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
+
+- Systems processing Environmental Security Policy shall enforce least privilege and role-based access controls.
+- Changes affecting Environmental Security Policy configurations must follow the Change Management Policy and receive formal approval.
+- Monitoring tools shall generate alerts for Environmental Security Policy violations and designated staff must review these alerts daily.
+- Internal audits shall verify adherence to Environmental Security Policy at least annually and report findings to senior management.
+- Data associated with Environmental Security Policy must be protected in accordance with GDPR and UK statutory requirements.
+- Users shall acknowledge and accept this policy annually to retain relevant access rights.
 
 ## Technical Controls
 
