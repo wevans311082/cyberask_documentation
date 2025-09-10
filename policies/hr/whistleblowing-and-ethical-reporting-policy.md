@@ -1,56 +1,34 @@
 # Whistleblowing and Ethical Reporting Policy
 
-**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248
 **Author:** WEvans Director
 
 ## Purpose
-
-This policy establishes requirements for whistleblowing and ethical reporting to protect organizational assets and ensure compliance with applicable laws and regulations.
+Provide a secure process for reporting suspected wrongdoing or unethical conduct and ensure concerns are investigated without fear of retaliation, in line with the Public Interest Disclosure Act 1998.
 
 ## Scope
-
-This policy applies to all employees, contractors, and third parties who access or manage company resources related to whistleblowing and ethical reporting.
+Covers all employees, contractors, suppliers and stakeholders who wish to report concerns relating to Cyber Ask Ltd.
 
 ## Policy
-1. The organization shall define and document procedures for whistleblowing and ethical reporting.
-2. Controls for whistleblowing and ethical reporting must align with industry best practices and regulatory obligations.
-3. Activities related to whistleblowing and ethical reporting shall be reviewed and updated regularly to address emerging risks.
-4. Records demonstrating compliance with this policy shall be maintained.
-
-- All aspects of Whistleblowing And Ethical Reporting Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
-- Procedures shall be documented, communicated, and reviewed at least annually by the Information Security Manager.
-- Staff and contractors must receive training on Whistleblowing And Ethical Reporting Policy before being granted related responsibilities.
-- Access and activities associated with Whistleblowing And Ethical Reporting Policy shall be logged and monitored to detect and respond to unauthorised actions.
-- Deviations from this policy must be reported within 24 hours and remedied within 30 days.
-- Technology configurations supporting Whistleblowing And Ethical Reporting Policy must follow relevant CIS Benchmarks and vendor hardening guides.
-- Third parties engaged in Whistleblowing And Ethical Reporting Policy processes shall have contractual obligations to meet equivalent security standards.
-- Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
-- The Information Security Manager must approve exceptions in writing, including scope, duration, and compensating controls.
-- Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
-
-- Systems processing Whistleblowing And Ethical Reporting Policy shall enforce least privilege and role-based access controls.
-- Changes affecting Whistleblowing And Ethical Reporting Policy configurations must follow the Change Management Policy and receive formal approval.
-- Monitoring tools shall generate alerts for Whistleblowing And Ethical Reporting Policy violations and designated staff must review these alerts daily.
-- Internal audits shall verify adherence to Whistleblowing And Ethical Reporting Policy at least annually and report findings to senior management.
-- Data associated with Whistleblowing And Ethical Reporting Policy must be protected in accordance with GDPR and UK statutory requirements.
-- Users shall acknowledge and accept this policy annually to retain relevant access rights.
-
-## Technical Controls
-
-- Configure and maintain systems to enforce the requirements of the Whistleblowing and Ethical Reporting Policy, using appropriate tools and automation.
-- Enable logging, monitoring, and alerting to detect and respond to deviations from the Whistleblowing and Ethical Reporting Policy.
-- Apply encryption, access controls, and regular audits to ensure compliance with this policy.
+1. Reports may be made through the confidential reporting channel, directly to HR or the Managing Director, or via the dedicated email whistleblow@cyberask.co.uk.
+2. Reports may be anonymous; however, providing contact details can facilitate investigation.
+3. All disclosures shall be acknowledged within two working days and assessed by the Whistleblowing Officer within five working days.
+4. Investigations shall be impartial and may involve HR, Legal, Information Security or external specialists as appropriate.
+5. Findings and corrective actions shall be documented and retained for a minimum of six years.
+6. Individuals who make protected disclosures in good faith shall not suffer dismissal, disciplinary action, demotion or any form of retaliation.
+7. Malicious or knowingly false allegations constitute misconduct and may result in disciplinary action.
+8. Where allegations involve criminal activity, the company shall report the matter to appropriate authorities.
+9. Feedback on the outcome of investigations shall be provided to the whistleblower where possible and lawful.
+10. Data relating to whistleblowing reports shall be handled confidentially and in accordance with the Data Protection Act 2018.
 
 ## Roles and Responsibilities
-
-- **Employees and Contractors:** Follow whistleblowing and ethical reporting procedures and report issues or non-compliance.
-- **Management:** Provide resources and enforce this policy within their areas of responsibility.
-- **Security and Compliance Teams:** Monitor whistleblowing and ethical reporting controls, provide guidance, and coordinate improvements.
+- **Whistleblowing Officer:** Receive disclosures, coordinate investigations and maintain records.
+- **Management:** Foster a culture of openness, support investigations and ensure no retaliation occurs.
+- **Employees and Contractors:** Report suspected misconduct promptly and cooperate with investigations.
+- **HR and Legal:** Provide guidance on employment and legal implications.
 
 ## Compliance
-
-Failure to adhere to this policy may result in disciplinary action, up to and including termination, and may expose the organization to legal or regulatory penalties.
+Failure to adhere to this policy may result in disciplinary action. This policy supports ISO/IEC 27001 control A.16.1 and NCSC CAF response and recovery objectives.
 
 ## Review
-
-This policy will be reviewed at least annually and updated as necessary to remain effective and compliant with relevant requirements.
+This policy shall be reviewed annually to ensure effectiveness and compliance with legislation.
