@@ -1,5 +1,8 @@
 # Account Separation Policy
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 ## Purpose
 
 This policy establishes requirements for account separation to protect organizational assets and ensure compliance with applicable laws and regulations.

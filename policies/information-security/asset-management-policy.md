@@ -1,5 +1,8 @@
 # Asset Management Policy
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 This policy outlines requirements for inventorying and protecting information assets in alignment with ISO 27001.
 
 ## Asset Inventory

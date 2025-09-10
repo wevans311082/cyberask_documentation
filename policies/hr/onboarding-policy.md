@@ -1,5 +1,8 @@
 # Onboarding Policy
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 This policy defines the process for integrating new employees into the organization while meeting security, legal, and compliance requirements. A structured onboarding process ensures that new hires become productive quickly and understand their responsibilities.
 
 ## Pre-Employment

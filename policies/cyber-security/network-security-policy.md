@@ -1,5 +1,8 @@
 # Network Security Policy
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 This policy defines comprehensive safeguards for protecting company networks from unauthorized access, misuse, and disruption, supporting CE/CE+ and ISO/IEC 27001 control requirements. A secure network infrastructure is essential for protecting information assets and ensuring reliable business operations.
 
 ## Purpose

@@ -1,5 +1,8 @@
 # Business Continuity Plan
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 This plan ensures critical business functions continue during and after a disruption, aligning with CE/CE+ and ISO/IEC 22301 business continuity and ISO/IEC 27001 information security requirements. It establishes a framework to protect life, safeguard assets, and maintain stakeholder confidence through predefined recovery strategies and communication protocols.
 
 ## Purpose

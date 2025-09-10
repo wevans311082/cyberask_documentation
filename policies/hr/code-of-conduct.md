@@ -1,5 +1,8 @@
 # Code of Conduct
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 This Code of Conduct sets expectations for professional behavior and ethical decision-making for all personnel. It supports CE/CE+ and ISO/IEC 27001 by fostering a culture of security, integrity, and respect. By adhering to these principles, employees help maintain the organization’s reputation and comply with legal and regulatory obligations.
 
 ## Principles

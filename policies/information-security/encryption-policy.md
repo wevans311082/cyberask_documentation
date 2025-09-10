@@ -1,5 +1,8 @@
 # Encryption Policy
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 This policy defines the requirements for encrypting sensitive information to protect confidentiality and integrity in line with CE/CE+ and ISO 27001 controls.
 
 ## Purpose

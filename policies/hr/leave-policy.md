@@ -1,5 +1,8 @@
 # Leave Policy
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 This policy outlines the types of leave available to employees and the procedures for requesting and approving leave. The organization supports work-life balance and complies with applicable labor laws.
 
 ## Types of Leave

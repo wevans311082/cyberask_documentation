@@ -1,5 +1,8 @@
 # Statement of Applicability
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 The Statement of Applicability (SoA) lists ISO 27001 Annex A controls and their implementation status within the organization.
 
 ## Structure

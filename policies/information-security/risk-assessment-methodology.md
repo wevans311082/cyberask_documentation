@@ -1,5 +1,8 @@
 # Risk Assessment Methodology
 
+**Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
+**Author:** WEvans Director
+
 This document describes the systematic approach for identifying, analyzing, and evaluating information security risks in compliance with ISO 27001.
 
 ## Method
