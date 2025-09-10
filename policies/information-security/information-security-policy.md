@@ -13,6 +13,19 @@ Protect the confidentiality, integrity, and availability of information assets b
 
 Applies to all employees, contractors, and third parties who access company information.
 
+## Policy
+
+- The organisation shall maintain an Information Security Management System aligned to ISO/IEC 27001:2022 and the NCSC Cyber Assessment Framework.
+- Information assets must be inventoried and classified, and handling shall follow the Data Classification and Handling Policy.
+- Access to company systems and data shall be authorised, logged and limited to the minimum necessary; privileged access shall be reviewed quarterly.
+- Multi-factor authentication must be used for remote, administrative and cloud services; default passwords and accounts shall be disabled or changed before deployment.
+- Security patches and configuration baselines shall be applied in accordance with the Patch and Vulnerability Management Policy and relevant CIS Benchmarks; unsupported software must not be used.
+- Logging and monitoring controls shall be enabled on all production systems and log data retained for a minimum of 12 months to support audit and incident investigation.
+- Backups of critical information must be taken daily, encrypted, and tested at least quarterly.
+- Users shall only use company-approved devices and services; personal storage solutions or unauthorised software are prohibited.
+- Actual or suspected security incidents, weaknesses or policy breaches must be reported to the Information Security Officer immediately via the incident reporting procedure.
+- Compliance with this policy is mandatory. Breaches may result in disciplinary action and where appropriate, legal or contractual penalties.
+
 ## Governance
 
 - Senior management endorses the ISMS and allocates resources for implementation.
