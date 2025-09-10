@@ -12,11 +12,28 @@ This policy establishes requirements for document control to protect organizatio
 This policy applies to all employees, contractors, and third parties who access or manage company resources related to document control.
 
 ## Policy
-
 1. The organization shall define and document procedures for document control.
 2. Controls for document control must align with industry best practices and regulatory obligations.
 3. Activities related to document control shall be reviewed and updated regularly to address emerging risks.
 4. Records demonstrating compliance with this policy shall be maintained.
+
+- All aspects of Document Control Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
+- Procedures shall be documented, communicated, and reviewed at least annually by the Information Security Manager.
+- Staff and contractors must receive training on Document Control Policy before being granted related responsibilities.
+- Access and activities associated with Document Control Policy shall be logged and monitored to detect and respond to unauthorised actions.
+- Deviations from this policy must be reported within 24 hours and remedied within 30 days.
+- Technology configurations supporting Document Control Policy must follow relevant CIS Benchmarks and vendor hardening guides.
+- Third parties engaged in Document Control Policy processes shall have contractual obligations to meet equivalent security standards.
+- Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
+- The Information Security Manager must approve exceptions in writing, including scope, duration, and compensating controls.
+- Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
+
+- Systems processing Document Control Policy shall enforce least privilege and role-based access controls.
+- Changes affecting Document Control Policy configurations must follow the Change Management Policy and receive formal approval.
+- Monitoring tools shall generate alerts for Document Control Policy violations and designated staff must review these alerts daily.
+- Internal audits shall verify adherence to Document Control Policy at least annually and report findings to senior management.
+- Data associated with Document Control Policy must be protected in accordance with GDPR and UK statutory requirements.
+- Users shall acknowledge and accept this policy annually to retain relevant access rights.
 
 ## Technical Controls
 

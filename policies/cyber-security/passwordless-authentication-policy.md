@@ -12,11 +12,28 @@ This policy establishes requirements for passwordless authentication to protect 
 This policy applies to all employees, contractors, and third parties who access or manage company resources related to passwordless authentication.
 
 ## Policy
-
 1. The organization shall define and document procedures for passwordless authentication.
 2. Controls for passwordless authentication must align with industry best practices and regulatory obligations.
 3. Activities related to passwordless authentication shall be reviewed and updated regularly to address emerging risks.
 4. Records demonstrating compliance with this policy shall be maintained.
+
+- All aspects of Passwordless Authentication Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
+- Procedures shall be documented, communicated, and reviewed at least annually by the Information Security Manager.
+- Staff and contractors must receive training on Passwordless Authentication Policy before being granted related responsibilities.
+- Access and activities associated with Passwordless Authentication Policy shall be logged and monitored to detect and respond to unauthorised actions.
+- Deviations from this policy must be reported within 24 hours and remedied within 30 days.
+- Technology configurations supporting Passwordless Authentication Policy must follow relevant CIS Benchmarks and vendor hardening guides.
+- Third parties engaged in Passwordless Authentication Policy processes shall have contractual obligations to meet equivalent security standards.
+- Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
+- The Information Security Manager must approve exceptions in writing, including scope, duration, and compensating controls.
+- Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
+
+- Systems processing Passwordless Authentication Policy shall enforce least privilege and role-based access controls.
+- Changes affecting Passwordless Authentication Policy configurations must follow the Change Management Policy and receive formal approval.
+- Monitoring tools shall generate alerts for Passwordless Authentication Policy violations and designated staff must review these alerts daily.
+- Internal audits shall verify adherence to Passwordless Authentication Policy at least annually and report findings to senior management.
+- Data associated with Passwordless Authentication Policy must be protected in accordance with GDPR and UK statutory requirements.
+- Users shall acknowledge and accept this policy annually to retain relevant access rights.
 
 ## Technical Controls
 

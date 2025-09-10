@@ -12,11 +12,28 @@ This policy establishes requirements for end-of-life and unsupported software to
 This policy applies to all employees, contractors, and third parties who access or manage company resources related to end-of-life and unsupported software.
 
 ## Policy
-
 1. The organization shall define and document procedures for end-of-life and unsupported software.
 2. Controls for end-of-life and unsupported software must align with industry best practices and regulatory obligations.
 3. Activities related to end-of-life and unsupported software shall be reviewed and updated regularly to address emerging risks.
 4. Records demonstrating compliance with this policy shall be maintained.
+
+- All aspects of End Of Life And Unsupported Software Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
+- Procedures shall be documented, communicated, and reviewed at least annually by the Information Security Manager.
+- Staff and contractors must receive training on End Of Life And Unsupported Software Policy before being granted related responsibilities.
+- Access and activities associated with End Of Life And Unsupported Software Policy shall be logged and monitored to detect and respond to unauthorised actions.
+- Deviations from this policy must be reported within 24 hours and remedied within 30 days.
+- Technology configurations supporting End Of Life And Unsupported Software Policy must follow relevant CIS Benchmarks and vendor hardening guides.
+- Third parties engaged in End Of Life And Unsupported Software Policy processes shall have contractual obligations to meet equivalent security standards.
+- Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
+- The Information Security Manager must approve exceptions in writing, including scope, duration, and compensating controls.
+- Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
+
+- Systems processing End Of Life And Unsupported Software Policy shall enforce least privilege and role-based access controls.
+- Changes affecting End Of Life And Unsupported Software Policy configurations must follow the Change Management Policy and receive formal approval.
+- Monitoring tools shall generate alerts for End Of Life And Unsupported Software Policy violations and designated staff must review these alerts daily.
+- Internal audits shall verify adherence to End Of Life And Unsupported Software Policy at least annually and report findings to senior management.
+- Data associated with End Of Life And Unsupported Software Policy must be protected in accordance with GDPR and UK statutory requirements.
+- Users shall acknowledge and accept this policy annually to retain relevant access rights.
 
 ## Technical Controls
 
