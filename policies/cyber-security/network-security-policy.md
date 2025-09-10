@@ -3,17 +3,21 @@
 This policy defines comprehensive safeguards for protecting company networks from unauthorized access, misuse, and disruption, supporting CE/CE+ and ISO/IEC 27001 control requirements. A secure network infrastructure is essential for protecting information assets and ensuring reliable business operations.
 
 ## Purpose
+
 Ensure the confidentiality, integrity, and availability of network services by establishing requirements for network architecture, configuration, monitoring, and incident response.
 
 ## Scope
+
 This policy applies to all corporate networks, including wired, wireless, virtual private networks (VPNs), cloud-hosted environments, and remote connections. It covers network devices such as routers, switches, firewalls, wireless access points, and any other equipment used to transmit or process company data.
 
 ## Definitions
+
 - **Demilitarized Zone (DMZ):** A network segment that separates external-facing services from the internal network.
 - **Intrusion Detection/Prevention System (IDS/IPS):** Tools that monitor network traffic for malicious activity and take actions to block or alert on threats.
 - **Network Access Control (NAC):** Technology that restricts network access based on device compliance and user authentication.
 
 ## Policy Statements
+
 1. **Perimeter Defense**
    - Firewalls, IDS/IPS, and web application firewalls shall be deployed at network boundaries and monitored continuously.
    - Firewall rules must follow the principle of least privilege and be reviewed quarterly.
@@ -68,20 +72,24 @@ This policy applies to all corporate networks, including wired, wireless, virtua
     - Up-to-date network diagrams and asset inventories must be maintained to support security analysis and troubleshooting.
 
 ## Roles and Responsibilities
+
 - **Network Administrators:** Configure, maintain, and monitor network security controls, ensure compliance with change management procedures, and document network diagrams.
 - **Security Team:** Reviews logs, performs vulnerability assessments, coordinates incident response, and conducts periodic penetration tests.
 - **IT Operations:** Supports deployment of network infrastructure and ensures backups of device configurations.
 - **Employees and Contractors:** Use corporate networks only for authorized purposes and report suspected security issues.
 
 ## Training and Awareness
+
 - Administrators must receive ongoing training on secure network design and emerging threats.
 - Employees shall complete annual security awareness training that includes safe network usage practices.
 
 ## Compliance and Review
+
 Noncompliance may result in access restrictions or disciplinary action. This policy is reviewed annually or after significant network changes to ensure alignment with evolving security requirements and business objectives.
 
 ## Revision History
+
 | Version | Date       | Description                        | Author |
-|---------|------------|------------------------------------|--------|
+| ------- | ---------- | ---------------------------------- | ------ |
 | 1.0     | 2023-01-01 | Initial policy release             | NetSec |
 | 2.0     | 2025-09-10 | Comprehensive expansion and update | NetSec |
