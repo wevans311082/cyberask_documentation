@@ -12,34 +12,31 @@ This policy establishes requirements for data classification and handling to pro
 This policy applies to all employees, contractors, and third parties who access or manage company resources related to data classification and handling.
 
 ## Policy
-1. The organization shall define and document procedures for data classification and handling.
-2. Controls for data classification and handling must align with industry best practices and regulatory obligations.
-3. Activities related to data classification and handling shall be reviewed and updated regularly to address emerging risks.
-4. Records demonstrating compliance with this policy shall be maintained.
 
-- All aspects of Data Classification And Handling Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
-- Procedures shall be documented, communicated, and reviewed at least annually by the Information Security Manager.
-- Staff and contractors must receive training on Data Classification And Handling Policy before being granted related responsibilities.
-- Access and activities associated with Data Classification And Handling Policy shall be logged and monitored to detect and respond to unauthorised actions.
-- Deviations from this policy must be reported within 24 hours and remedied within 30 days.
-- Technology configurations supporting Data Classification And Handling Policy must follow relevant CIS Benchmarks and vendor hardening guides.
-- Third parties engaged in Data Classification And Handling Policy processes shall have contractual obligations to meet equivalent security standards.
-- Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
-- The Information Security Manager must approve exceptions in writing, including scope, duration, and compensating controls.
-- Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
+### Classification Levels
+| Level      | Description                                                   | Examples                                                 | Minimum Handling Requirements |
+|------------|---------------------------------------------------------------|----------------------------------------------------------|-------------------------------|
+| **Public** | Approved for general release                                  | Marketing brochures, published blog articles             | May be shared without restriction |
+| **Internal** | Business information not intended for external distribution | Internal project plans, routine internal emails          | Store on company-managed systems; share only with employees |
+| **Confidential** | Sensitive business or personal data                     | Contract terms, internal financial reports               | Access limited to authorised staff; encrypt at rest using AES-256; transmit via company email/VPN |
+| **Restricted** | Highly sensitive data whose compromise could cause severe damage | Customer personal data, financial records, credentials | Access logged and limited to named individuals; encryption using AES-256 at rest and TLS 1.2+ in transit; MFA required; storage only in approved repositories |
 
-- Systems processing Data Classification And Handling Policy shall enforce least privilege and role-based access controls.
-- Changes affecting Data Classification And Handling Policy configurations must follow the Change Management Policy and receive formal approval.
-- Monitoring tools shall generate alerts for Data Classification And Handling Policy violations and designated staff must review these alerts daily.
-- Internal audits shall verify adherence to Data Classification And Handling Policy at least annually and report findings to senior management.
-- Data associated with Data Classification And Handling Policy must be protected in accordance with GDPR and UK statutory requirements.
-- Users shall acknowledge and accept this policy annually to retain relevant access rights.
+### Handling Procedures
+- All documents and data repositories must display their classification in the header, footer or metadata.
+- Uploading Confidential or Restricted data to personal or unsanctioned cloud services is prohibited.
+- Transmission of Restricted data requires TLS 1.2 or higher. Removable media containing Restricted data must be encrypted and registered with IT.
+- Retention and disposal shall follow the [Records Management and Archiving Policy](../legal/records-management-and-archiving-policy.md).
+- Data owners are responsible for reviewing classifications annually or whenever the sensitivity of data changes.
+
+### Training and Awareness
+- Staff receive onboarding training that includes examples of classified data and handling requirements.
+- Technical teams must implement data loss prevention controls to prevent exfiltration of Restricted data.
 
 ## Technical Controls
 
-- Configure and maintain systems to enforce the requirements of the Data Classification and Handling Policy, using appropriate tools and automation.
-- Enable logging, monitoring, and alerting to detect and respond to deviations from the Data Classification and Handling Policy.
-- Apply encryption, access controls, and regular audits to ensure compliance with this policy.
+- Data loss prevention tools enforce classification tags and block unauthorised transfers.
+- Encryption must follow the [Encryption Policy](encryption-policy.md) and use AES-256 for data at rest and TLS 1.2+ in transit.
+- Access controls and audit logging must be enabled on systems storing Confidential or Restricted data.
 
 ## Roles and Responsibilities
 
@@ -54,3 +51,19 @@ Failure to adhere to this policy may result in disciplinary action, up to and in
 ## Review
 
 This policy will be reviewed at least annually and updated as necessary to remain effective and compliant with relevant requirements.
+
+## Revision History
+
+| Version | Date       | Description                                                                | Author |
+| ------- | ---------- | -------------------------------------------------------------------------- | ------ |
+| 1.0     | 2023-01-01 | Initial policy release                                                     | WEvans Director |
+| 1.1     | 2025-09-10 | Added classification levels, handling procedures and technical controls | ChatGPT |
+| 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+
+## Implementation Guidelines
+- All requests and approvals must be tracked in the ServiceDesk system.
+- Data at rest must use AES-256 encryption; data in transit must use TLS 1.2+ with perfect forward secrecy.
+- Security events shall log to the central SIEM and be retained for 12 months.
+- Control owners perform quarterly self-assessments; Information Security conducts annual audits.
+- Exceptions require written CISO approval and must include compensating controls.
+

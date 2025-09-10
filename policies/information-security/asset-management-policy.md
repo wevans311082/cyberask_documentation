@@ -25,3 +25,16 @@ This policy outlines requirements for inventorying and protecting information as
 ## Review
 
 This policy is reviewed annually by the Information Security Officer.
+
+## Implementation Guidelines
+- All requests and approvals must be tracked in the ServiceDesk system.
+- Data at rest must use AES-256 encryption; data in transit must use TLS 1.2+ with perfect forward secrecy.
+- Security events shall log to the central SIEM and be retained for 12 months.
+- Control owners perform quarterly self-assessments; Information Security conducts annual audits.
+- Exceptions require written CISO approval and must include compensating controls.
+
+## Revision History
+
+| Version | Date | Description | Author |
+| ------- | ---------- | ----------------------- | ------ |
+| 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
