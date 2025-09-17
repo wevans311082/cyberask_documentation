@@ -80,6 +80,11 @@ Applies to every employee, worker, intern and contractor engaged by Cyber Ask Lt
 
 Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
 
+## Approval and Communication
+- The Board of Directors and Chief Executive Officer review and approve this handbook and any material updates before issue.
+- Once approved, the Executive Leadership Team and HR Director communicate the current version to all personnel via email, the intranet, and onboarding briefings.
+- Employees must sign an acknowledgement within 10 working days of receipt; signed acknowledgements are filed with individual HR records in the secure HR information system.
+
 ## Review and Acknowledgment
 Employees must acknowledge receipt of this handbook on joining and whenever revised. The handbook will be reviewed annually to ensure alignment with legislation and best practice.
 
