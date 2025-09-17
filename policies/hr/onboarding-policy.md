@@ -45,6 +45,15 @@ Covers all permanent, fixed-term and temporary personnel joining the organisatio
 - **IT:** Provision equipment and access, maintain inventory and assist with technical setup.
 - **New Starter:** Complete required training, review policies and seek clarification when unsure.
 
+## Accountable Roles and Decision Authority
+
+- **Policy Owner (HR Director):** Maintains this policy, coordinates updates, and ensures alignment with the Document Control Policy and Cyber Governance Policy.
+- **Chief Information Security Officer (CISO):** Reviews people-related security risks and approves exceptions impacting information assets in line with the Information Security Policy.
+- **Risk and Compliance Committee:** Evaluates residual workforce risks and endorses major decisions consistent with the Risk Management Policy.
+- **Executive Leadership Team:** Approves strategic or resource-intensive changes in accordance with the Cyber Governance Policy.
+
+Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+
 ## Review
 This policy will be reviewed annually and updated to reflect changes in legislation, security standards and organisational requirements.
 

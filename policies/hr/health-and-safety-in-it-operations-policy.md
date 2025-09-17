@@ -29,6 +29,15 @@ Applies to all employees, contractors and visitors who access IT facilities or u
 - **Employees and Contractors:** Follow safety procedures, complete assessments and report hazards or incidents.
 - **Facilities Team:** Maintain physical infrastructure, fire safety systems and environmental controls.
 
+## Accountable Roles and Decision Authority
+
+- **Policy Owner (HR Director):** Maintains this policy, coordinates updates, and ensures alignment with the Document Control Policy and Cyber Governance Policy.
+- **Chief Information Security Officer (CISO):** Reviews people-related security risks and approves exceptions impacting information assets in line with the Information Security Policy.
+- **Risk and Compliance Committee:** Evaluates residual workforce risks and endorses major decisions consistent with the Risk Management Policy.
+- **Executive Leadership Team:** Approves strategic or resource-intensive changes in accordance with the Cyber Governance Policy.
+
+Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+
 ## Compliance
 Failure to comply may result in disciplinary action and could lead to prosecution under health and safety legislation. Compliance with ISO/IEC 27001 control A.6 and NCSC CAF managing security risk objective is required.
 

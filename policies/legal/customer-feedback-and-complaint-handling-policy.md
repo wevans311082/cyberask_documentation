@@ -47,6 +47,15 @@ This policy applies to all employees, contractors, and third parties who access 
 - **Management:** Provide resources and enforce this policy within their areas of responsibility.
 - **Security and Compliance Teams:** Monitor customer feedback and complaint handling controls, provide guidance, and coordinate improvements.
 
+## Accountable Roles and Decision Authority
+
+- **Policy Owner (General Counsel):** Maintains this policy, coordinates updates, and ensures alignment with the Document Control Policy and Cyber Governance Policy.
+- **Chief Information Security Officer (CISO):** Validates security implications and approves exceptions affecting information assets per the Information Security Policy.
+- **Risk and Compliance Committee:** Oversees regulatory risk treatment decisions consistent with the Risk Management Policy.
+- **Executive Leadership Team:** Ratifies significant legal or contractual commitments in line with the Cyber Governance Policy.
+
+Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+
 ## Compliance
 
 Failure to adhere to this policy may result in disciplinary action, up to and including termination, and may expose the organization to legal or regulatory penalties.

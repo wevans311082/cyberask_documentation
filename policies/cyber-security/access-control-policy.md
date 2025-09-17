@@ -67,6 +67,15 @@ This policy applies to all employees, contractors, consultants, partners, and te
 - **Internal Audit:** Performs independent assessments of access control effectiveness and reports findings to management.
 - **Users:** Maintain the confidentiality of their credentials, follow approved procedures, and report suspected account misuse.
 
+## Accountable Roles and Decision Authority
+
+- **Policy Owner (Information Security Manager):** Maintains this policy, coordinates updates, and ensures alignment with the Cyber Governance Policy and Document Control Policy.
+- **Chief Information Security Officer (CISO):** Approves exceptions, risk acceptances, and material control changes in line with the Information Security Policy and Risk Management Policy.
+- **Risk and Compliance Committee:** Reviews escalated risks, endorses significant remediation decisions, and provides oversight consistent with the Risk Management Policy.
+- **Executive Leadership Team:** Ratifies budgetary or strategic decisions related to this policy as defined in the Cyber Governance Policy.
+
+Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+
 ## Monitoring and Enforcement
 
 - All access to critical systems must be logged and retained according to the company’s data retention schedule.

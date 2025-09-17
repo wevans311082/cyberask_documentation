@@ -27,6 +27,15 @@ Applies to employees, contractors and third parties who require access to compan
 - **Employees and Contractors:** Complete required training by specified deadlines and apply learning in their duties.
 - **Information Security Manager:** Provide subject matter expertise and verify effectiveness of security training.
 
+## Accountable Roles and Decision Authority
+
+- **Policy Owner (HR Director):** Maintains this policy, coordinates updates, and ensures alignment with the Document Control Policy and Cyber Governance Policy.
+- **Chief Information Security Officer (CISO):** Reviews people-related security risks and approves exceptions impacting information assets in line with the Information Security Policy.
+- **Risk and Compliance Committee:** Evaluates residual workforce risks and endorses major decisions consistent with the Risk Management Policy.
+- **Executive Leadership Team:** Approves strategic or resource-intensive changes in accordance with the Cyber Governance Policy.
+
+Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+
 ## Compliance
 Failure to complete mandatory training may lead to disciplinary action or removal of system access. This policy aligns with ISO/IEC 27001 control A.7.2.2 and NCSC CAF objective C: Cyber Defence.
 

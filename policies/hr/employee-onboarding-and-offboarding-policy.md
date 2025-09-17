@@ -39,6 +39,15 @@ Applies to all employees, contractors and third parties who join or leave Cyber 
 - **IT Department:** Provision and revoke technical access, maintain asset inventory and log changes.
 - **Facilities:** Manage physical access cards and office equipment.
 
+## Accountable Roles and Decision Authority
+
+- **Policy Owner (HR Director):** Maintains this policy, coordinates updates, and ensures alignment with the Document Control Policy and Cyber Governance Policy.
+- **Chief Information Security Officer (CISO):** Reviews people-related security risks and approves exceptions impacting information assets in line with the Information Security Policy.
+- **Risk and Compliance Committee:** Evaluates residual workforce risks and endorses major decisions consistent with the Risk Management Policy.
+- **Executive Leadership Team:** Approves strategic or resource-intensive changes in accordance with the Cyber Governance Policy.
+
+Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+
 ## Compliance
 Failure to follow this policy may lead to disciplinary action and increased security risk. Regular audits shall verify adherence to ISO/IEC 27001 control A.7.1 and NCSC CAF principles.
 

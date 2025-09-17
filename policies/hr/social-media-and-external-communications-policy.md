@@ -43,6 +43,15 @@ Applies to all employees, contractors and representatives using social media or 
 - **Information Security Manager:** Ensure secure configuration and monitoring of accounts and tools.
 - **HR:** Enforce policy breaches and maintain training records.
 
+## Accountable Roles and Decision Authority
+
+- **Policy Owner (HR Director):** Maintains this policy, coordinates updates, and ensures alignment with the Document Control Policy and Cyber Governance Policy.
+- **Chief Information Security Officer (CISO):** Reviews people-related security risks and approves exceptions impacting information assets in line with the Information Security Policy.
+- **Risk and Compliance Committee:** Evaluates residual workforce risks and endorses major decisions consistent with the Risk Management Policy.
+- **Executive Leadership Team:** Approves strategic or resource-intensive changes in accordance with the Cyber Governance Policy.
+
+Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+
 ## Compliance
 Non-compliance may result in removal of access, disciplinary action or legal proceedings. This policy supports ISO/IEC 27001 controls A.13.2 and NCSC CAF objective A: Managing Security Risk.
 

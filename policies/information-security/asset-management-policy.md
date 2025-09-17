@@ -22,6 +22,16 @@ This policy outlines requirements for inventorying and protecting information as
 
 - Assets leaving company control must be approved by management and have data securely erased or destroyed.
 
+## Accountable Roles and Decision Authority
+
+- **Policy Owner (Information Security Manager):** Maintains this policy, coordinates updates, and ensures alignment with the Cyber Governance Policy and Document Control Policy.
+- **Chief Information Security Officer (CISO):** Approves exceptions, risk acceptances, and material control changes in line with the Information Security Policy and Risk Management Policy.
+- **Risk and Compliance Committee:** Reviews escalated risks, endorses significant remediation decisions, and provides oversight consistent with the Risk Management Policy.
+- **Executive Leadership Team:** Ratifies budgetary or strategic decisions related to this policy as defined in the Cyber Governance Policy.
+
+Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+
+
 ## Review
 
 This policy is reviewed annually by the Information Security Officer.
