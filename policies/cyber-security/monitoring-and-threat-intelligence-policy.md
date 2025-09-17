@@ -33,6 +33,9 @@ This policy applies to all employees, contractors, and third parties who access 
 - Monitoring tools shall generate alerts for Monitoring And Threat Intelligence Policy violations and designated staff must review these alerts daily.
 - Internal audits shall verify adherence to Monitoring And Threat Intelligence Policy at least annually and report findings to senior management.
 - Data associated with Monitoring And Threat Intelligence Policy must be protected in accordance with GDPR and UK statutory requirements.
+- Personal data collected through monitoring or threat intelligence activities shall be processed on the lawful bases of legal obligation and legitimate interests under UK GDPR Article 6(1)(c) and 6(1)(f), supporting risk management, regulatory compliance, and incident detection.
+- Monitoring operations must comply with the Data Protection Act 2018, the Investigatory Powers Act 2016, and the Telecommunications (Lawful Business Practice) (Interception of Communications) Regulations 2000, ensuring interception or surveillance is proportionate and limited to authorised purposes.
+- The Data Protection Officer (DPO) is responsible for overseeing related data protection impact assessments, advising on safeguards, and routinely reviewing monitoring outputs to confirm continued protection of individual rights.
 - Users shall acknowledge and accept this policy annually to retain relevant access rights.
 
 ## Technical Controls

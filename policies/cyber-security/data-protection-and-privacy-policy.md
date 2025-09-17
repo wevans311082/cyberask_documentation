@@ -33,7 +33,16 @@ This policy applies to all employees, contractors, and third parties who access 
 - Monitoring tools shall generate alerts for Data Protection And Privacy Policy violations and designated staff must review these alerts daily.
 - Internal audits shall verify adherence to Data Protection And Privacy Policy at least annually and report findings to senior management.
 - Data associated with Data Protection And Privacy Policy must be protected in accordance with GDPR and UK statutory requirements.
+- Processing of personal data shall be based on the appropriate lawful bases under UK GDPR, including performance of a contract (Article 6(1)(b)), compliance with legal obligations (Article 6(1)(c)), protection of vital interests where applicable (Article 6(1)(d)), consent for clearly defined optional services (Article 6(1)(a)), and legitimate interests pursued by the organisation (Article 6(1)(f)).
+- Monitoring, audit, and security activities that involve personal data rely primarily on the legal obligation and legitimate interest bases and must align with the Data Protection Act 2018, the Investigatory Powers Act 2016, and the Telecommunications (Lawful Business Practice) (Interception of Communications) Regulations 2000 to ensure that any interception is necessary and proportionate.
+- The Data Protection Officer (DPO) shall oversee data protection impact assessments, maintain records of processing, and provide independent oversight of monitoring controls to confirm they uphold privacy rights and statutory requirements.
 - Users shall acknowledge and accept this policy annually to retain relevant access rights.
+
+## Lawful Bases and Oversight
+
+- Processing purposes shall be documented alongside their lawful bases and retention periods within the Record of Processing Activities maintained by the DPO.
+- The DPO is responsible for advising on UK GDPR compliance, reviewing monitoring proposals, and verifying that mitigations protect data subject rights, including transparency notices and mechanisms for individuals to exercise their rights.
+- Any new monitoring or interception capability must undergo a documented data protection impact assessment, approved by the DPO before deployment and reviewed periodically to confirm ongoing compliance with privacy and interception legislation.
 
 ## Technical Controls
 

@@ -49,6 +49,8 @@ Applies to all employees, contractors, and third parties using company equipment
 
 ### Monitoring and Compliance
 - Use of company systems may be monitored and logged for operational, compliance and security purposes. Users have no expectation of privacy when utilising company resources.
+- Monitoring and inspection of communications or usage data is undertaken under the lawful bases of legal obligation and legitimate interests in accordance with UK GDPR Article 6(1)(c) and 6(1)(f), and only where necessary to meet regulatory, contractual, and security obligations.
+- All monitoring is designed to comply with the Data Protection Act 2018, the Investigatory Powers Act 2016, and the Telecommunications (Lawful Business Practice) (Interception of Communications) Regulations 2000, with proportional safeguards recorded in data protection impact assessments overseen by the Data Protection Officer (DPO).
 - Failure to comply with this policy may result in disciplinary action up to and including dismissal, and could lead to civil or criminal penalties.
 
 ## Accountable Roles and Decision Authority

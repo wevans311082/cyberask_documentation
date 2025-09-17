@@ -50,6 +50,8 @@ This Code applies to every employee, director, agency worker, consultant, and co
 
 ### 9. Monitoring and Enforcement
 9.1 The company may monitor use of its systems, premises and equipment to ensure compliance with this Code.
+9.1.1 Any monitoring of personal data is carried out under the lawful bases of legal obligation and legitimate interests in line with UK GDPR Article 6(1)(c) and 6(1)(f), and limited to what is necessary to evidence compliance, protect assets, and investigate misconduct.
+9.1.2 Monitoring arrangements shall comply with the Data Protection Act 2018, the Investigatory Powers Act 2016, and the Telecommunications (Lawful Business Practice) (Interception of Communications) Regulations 2000. The Data Protection Officer (DPO) oversees related data protection impact assessments, reviews proportionality, and serves as the escalation point for privacy concerns.
 9.2 Breaches shall be investigated in accordance with the Disciplinary Policy. Sanctions may include dismissal or referral to law enforcement.
 
 ## Roles and Responsibilities
