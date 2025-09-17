@@ -69,6 +69,11 @@ This Code applies to every employee, director, agency worker, consultant, and co
 
 Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
 
+## Approval and Communication
+- The Board of Directors and Chief Executive Officer approve this Code of Conduct and any material revisions before they take effect.
+- Following approval, the Executive Leadership Team and HR Director distribute the current version to all personnel via email, the intranet, and formal briefings.
+- Employees must sign an acknowledgement within 10 working days of publication; completed acknowledgements are stored with individual HR records in the secure HR information system.
+
 ## Reporting
 Employees must report suspected violations or unethical behaviour to management, Human Resources or the confidential reporting channel without fear of retaliation. Anonymous reports will be accepted where legally permissible.
 
