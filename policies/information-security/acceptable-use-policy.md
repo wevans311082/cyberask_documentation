@@ -57,7 +57,14 @@ Company systems may be monitored to ensure compliance and security.
 
 ## Enforcement
 
-Violations may result in disciplinary action up to and including termination.
+Alleged breaches must be reported immediately and will be logged jointly by Information Security and HR. An investigation will
+commence within one working day following the steps defined in the [Disciplinary Policy for Security Breaches](../hr/disciplinary-policy-for-security-breaches.md),
+including evidence preservation, witness interviews and documented findings. Outcomes and sanctions will align with that policy
+and may include corrective training, written warnings or dismissal.
+
+Individuals have the right to appeal any disciplinary decision through the formal route set out in the
+[Grievance Policy](../hr/grievance-policy.md). Appeals must be submitted in writing within the timeframe stated in the
+grievance procedure and will be heard by a manager not previously involved in the case.
 
 ## Review
 

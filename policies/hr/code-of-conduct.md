@@ -50,7 +50,7 @@ This Code applies to every employee, director, agency worker, consultant, and co
 
 ### 9. Monitoring and Enforcement
 9.1 The company may monitor use of its systems, premises and equipment to ensure compliance with this Code.
-9.2 Breaches shall be investigated in accordance with the Disciplinary Policy. Sanctions may include dismissal or referral to law enforcement.
+9.2 Breaches shall be investigated in accordance with the [Disciplinary Policy for Security Breaches](disciplinary-policy-for-security-breaches.md), ensuring evidence is preserved and interviews are documented. Sanctions may include dismissal or referral to law enforcement, with a right of appeal through the [Grievance Policy](grievance-policy.md).
 
 ## Roles and Responsibilities
 - **All Personnel:** Understand and comply with this Code; attend mandatory training and report concerns.
@@ -62,7 +62,9 @@ This Code applies to every employee, director, agency worker, consultant, and co
 Employees must report suspected violations or unethical behaviour to management, Human Resources or the confidential reporting channel without fear of retaliation. Anonymous reports will be accepted where legally permissible.
 
 ## Enforcement
-Disciplinary action for breaches may include verbal or written warnings, suspension, dismissal and/or legal action. Managers are accountable for enforcing this Code within their teams.
+Alleged breaches of this Code shall be logged with HR and investigated in accordance with the [Disciplinary Policy for Security Breaches](disciplinary-policy-for-security-breaches.md). Investigations must start within one working day of a report, document evidence, interview relevant parties and record findings and sanctions. Managers are accountable for cooperating with HR and Information Security during the investigation and ensuring corrective actions are implemented.
+
+Sanctions will align with the disciplinary policy and may include counselling, written warnings, suspension, dismissal and/or referral to law enforcement. Individuals may appeal outcomes via the formal route described in the [Grievance Policy](grievance-policy.md), which provides an impartial manager to review the case and issue a final decision.
 
 ## Training and Acknowledgment
 All personnel shall complete Code of Conduct training on induction and annually thereafter, confirming acknowledgment electronically.

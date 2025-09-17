@@ -71,7 +71,8 @@ This policy applies to all employees, contractors, consultants, partners, and te
 
 - All access to critical systems must be logged and retained according to the company’s data retention schedule.
 - Security operations will review logs for suspicious activity and escalate incidents per the incident response plan.
-- Violations of this policy may result in disciplinary action up to and including termination, civil liability, or criminal prosecution.
+- Alleged access control violations will be documented and investigated with HR following the [Disciplinary Policy for Security Breaches](../hr/disciplinary-policy-for-security-breaches.md), including timely evidence preservation and interviews with relevant personnel.
+- Violations of this policy may result in disciplinary action up to and including termination, civil liability, or criminal prosecution. Individuals retain the right to appeal decisions using the process defined in the [Grievance Policy](../hr/grievance-policy.md).
 
 ## Training and Awareness
 
