@@ -53,7 +53,7 @@
 - [Acceptable Use Policy](policies/information-security/acceptable-use-policy.md) – Protect company assets from misuse and maintain a secure working environment.
 - [Account Separation Policy](policies/information-security/account-separation-policy.md) – This policy establishes requirements for account separation to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [AI and Emerging Technology Security Policy](policies/information-security/ai-and-emerging-technology-security-policy.md) – This policy establishes requirements for ai and emerging technology security to protect organizational assets and ensure compliance with applicable laws and regulations.
-- [Asset Management Policy](policies/information-security/asset-management-policy.md) – 
+- [Asset Management Policy](policies/information-security/asset-management-policy.md) – Provide a framework to inventory, classify, and safeguard organizational assets throughout their lifecycle.
 - [Bring Your Own Device (BYOD) Policy](policies/information-security/bring-your-own-device-byod-policy.md) – This policy establishes requirements for bring your own device (byod) to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Business Continuity Management (BCM) Policy](policies/information-security/business-continuity-management-bcm-policy.md) – This policy establishes requirements for business continuity management (bcm) to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Change Management Policy](policies/information-security/change-management-policy.md) – This policy establishes requirements for change management to protect organizational assets and ensure compliance with applicable laws and regulations.
@@ -61,7 +61,7 @@
 - [Corrective and Preventive Action (CAPA) Policy](policies/information-security/corrective-and-preventive-action-capa-policy.md) – This policy establishes requirements for corrective and preventive action (capa) to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Cyber Governance Policy](policies/information-security/cyber-governance-policy.md) – This policy establishes requirements for cyber governance to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Data Classification and Handling Policy](policies/information-security/data-classification-and-handling-policy.md) – This policy establishes requirements for data classification and handling to protect organizational assets and ensure compliance with applicable laws and regulations.
-- [Data Classification Policy](policies/information-security/data-classification-policy.md) – 
+- [Data Classification Policy](policies/information-security/data-classification-policy.md) – Define categories and handling rules for information based on sensitivity to ensure consistent protection.
 - [Data Integrity and Quality Policy](policies/information-security/data-integrity-and-quality-policy.md) – This policy establishes requirements for data integrity and quality to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Data Loss Prevention (DLP) Policy](policies/information-security/data-loss-prevention-dlp-policy.md) – This policy establishes requirements for data loss prevention (dlp) to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Document Control Policy](policies/information-security/document-control-policy.md) – This policy establishes requirements for document control to protect organizational assets and ensure compliance with applicable laws and regulations.
@@ -72,28 +72,28 @@
 - [Internal Audit Policy](policies/information-security/internal-audit-policy.md) – This policy establishes requirements for internal audit to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Media Handling and Equipment Disposal Policy](policies/information-security/media-handling-and-equipment-disposal-policy.md) – This policy establishes requirements for media handling and equipment disposal to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Privileged Access Management (PAM) Policy](policies/information-security/privileged-access-management-pam-policy.md) – This policy establishes requirements for privileged access management (pam) to protect organizational assets and ensure compliance with applicable laws and regulations.
-- [Risk Assessment Methodology](policies/information-security/risk-assessment-methodology.md) – 
-- [Risk Assessment Report](policies/information-security/risk-assessment-report.md) – 
+- [Risk Assessment Methodology](policies/information-security/risk-assessment-methodology.md) – Outline repeatable steps for identifying, analyzing, and prioritizing risks to information assets.
+- [Risk Assessment Report](policies/information-security/risk-assessment-report.md) – Document assessment results, conclusions, and recommended actions to inform risk treatment decisions.
 - [Risk Management Policy](policies/information-security/risk-management-policy.md) – This policy establishes requirements for risk management to protect organizational assets and ensure compliance with applicable laws and regulations.
-- [Risk Treatment Plan](policies/information-security/risk-treatment-plan.md) – 
-- [Scope of the ISMS](policies/information-security/scope-of-isms.md) – 
+- [Risk Treatment Plan](policies/information-security/risk-treatment-plan.md) – Specify selected controls, responsibilities, and timelines to reduce identified risks to acceptable levels.
+- [Scope of the ISMS](policies/information-security/scope-of-isms.md) – Describe the organizational boundaries, processes, and assets covered by the information security management system.
 - [Secure Configuration Policy](policies/information-security/secure-configuration-policy.md) – This policy establishes requirements for secure configuration to protect organizational assets and ensure compliance with applicable laws and regulations.
-- [Information Security Objectives](policies/information-security/security-objectives.md) – 
+- [Information Security Objectives](policies/information-security/security-objectives.md) – Set measurable security goals aligned with business requirements and risk appetite.
 - [Security Operations Policy](policies/information-security/security-operations-policy.md) – This policy establishes requirements for security operations to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Software Development Security Policy](policies/information-security/software-development-security-policy.md) – This policy establishes requirements for software development security to protect organizational assets and ensure compliance with applicable laws and regulations.
-- [Statement of Applicability](policies/information-security/statement-of-applicability.md) – 
+- [Statement of Applicability](policies/information-security/statement-of-applicability.md) – Map chosen controls to ISO/IEC 27001 requirements and justify inclusions or exclusions.
 - [Supplier Security Policy](policies/information-security/supplier-security-policy.md) – This policy establishes requirements for supplier security to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Supply Chain Continuity Policy](policies/information-security/supply-chain-continuity-policy.md) – This policy establishes requirements for supply chain continuity to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Testing and QA Policy](policies/information-security/testing-and-qa-policy.md) – This policy establishes requirements for testing and qa to protect organizational assets and ensure compliance with applicable laws and regulations.
 
 ## Legal
-- [Confidentiality Agreement](policies/legal/confidentiality-agreement.md) – 
+- [Confidentiality Agreement](policies/legal/confidentiality-agreement.md) – Bind parties to protect proprietary and sensitive information shared during business activities.
 - [Customer Feedback and Complaint Handling Policy](policies/legal/customer-feedback-and-complaint-handling-policy.md) – This policy establishes requirements for customer feedback and complaint handling to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Cyber Insurance Compliance Policy](policies/legal/cyber-insurance-compliance-policy.md) – This policy establishes requirements for cyber insurance compliance to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Export Control and Sanctions Compliance Policy](policies/legal/export-control-and-sanctions-compliance-policy.md) – This policy establishes requirements for export control and sanctions compliance to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Insurance and Cyber Liability Policy](policies/legal/insurance-and-cyber-liability-policy.md) – This policy establishes requirements for insurance and cyber liability to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Intellectual Property Protection Policy](policies/legal/intellectual-property-protection-policy.md) – This policy establishes requirements for intellectual property protection to protect organizational assets and ensure compliance with applicable laws and regulations.
-- [Non-Disclosure Agreement (NDA) Template](policies/legal/nda-template.md) – 
+- [Non-Disclosure Agreement (NDA) Template](policies/legal/nda-template.md) – Provide standard terms for restricting disclosure and use of confidential information by third parties.
 - [Outsourcing and Managed Service Provider (MSP) Policy](policies/legal/outsourcing-and-managed-service-provider-msp-policy.md) – This policy establishes requirements for outsourcing and managed service provider (msp) to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Outsourcing Governance Policy](policies/legal/outsourcing-governance-policy.md) – This policy establishes requirements for outsourcing governance to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [PCI DSS Policy](policies/legal/pci-dss-policy.md) – This policy establishes requirements for pci dss to protect organizational assets and ensure compliance with applicable laws and regulations.
