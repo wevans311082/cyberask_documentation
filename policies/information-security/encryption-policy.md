@@ -44,6 +44,15 @@ All systems, applications, and devices that store or transmit company data.
 - **System Owners:** Implement encryption according to this policy.
 - **Users:** Protect passwords and report potential compromises.
 
+## Accountable Roles and Decision Authority
+
+- **Policy Owner (Information Security Manager):** Maintains this policy, coordinates updates, and ensures alignment with the Cyber Governance Policy and Document Control Policy.
+- **Chief Information Security Officer (CISO):** Approves exceptions, risk acceptances, and material control changes in line with the Information Security Policy and Risk Management Policy.
+- **Risk and Compliance Committee:** Reviews escalated risks, endorses significant remediation decisions, and provides oversight consistent with the Risk Management Policy.
+- **Executive Leadership Team:** Ratifies budgetary or strategic decisions related to this policy as defined in the Cyber Governance Policy.
+
+Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+
 ## Review
 
 This policy is reviewed annually or when new cryptographic standards emerge.

@@ -58,6 +58,15 @@ This Code applies to every employee, director, agency worker, consultant, and co
 - **Human Resources:** Maintain this Code, provide guidance and ensure disciplinary processes are followed.
 - **Information Security Manager:** Monitor compliance with security-related obligations and advise on protective measures.
 
+## Accountable Roles and Decision Authority
+
+- **Policy Owner (HR Director):** Maintains this policy, coordinates updates, and ensures alignment with the Document Control Policy and Cyber Governance Policy.
+- **Chief Information Security Officer (CISO):** Reviews people-related security risks and approves exceptions impacting information assets in line with the Information Security Policy.
+- **Risk and Compliance Committee:** Evaluates residual workforce risks and endorses major decisions consistent with the Risk Management Policy.
+- **Executive Leadership Team:** Approves strategic or resource-intensive changes in accordance with the Cyber Governance Policy.
+
+Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+
 ## Reporting
 Employees must report suspected violations or unethical behaviour to management, Human Resources or the confidential reporting channel without fear of retaliation. Anonymous reports will be accepted where legally permissible.
 

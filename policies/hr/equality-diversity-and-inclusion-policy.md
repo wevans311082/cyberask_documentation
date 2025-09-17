@@ -24,6 +24,15 @@ Applies to all employees, contractors, applicants and visitors of Cyber Ask Ltd.
 - **Managers:** Lead inclusive teams, challenge inappropriate behaviour and support reasonable adjustments.
 - **HR:** Monitor diversity metrics, provide guidance and ensure compliance with legislation.
 
+## Accountable Roles and Decision Authority
+
+- **Policy Owner (HR Director):** Maintains this policy, coordinates updates, and ensures alignment with the Document Control Policy and Cyber Governance Policy.
+- **Chief Information Security Officer (CISO):** Reviews people-related security risks and approves exceptions impacting information assets in line with the Information Security Policy.
+- **Risk and Compliance Committee:** Evaluates residual workforce risks and endorses major decisions consistent with the Risk Management Policy.
+- **Executive Leadership Team:** Approves strategic or resource-intensive changes in accordance with the Cyber Governance Policy.
+
+Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+
 ## Compliance
 Breaches of this policy may result in disciplinary action. The policy supports ISO/IEC 27001 control A.7.1 and NCSC CAF culture objectives.
 

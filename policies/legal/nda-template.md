@@ -23,6 +23,16 @@ This template provides standard terms for establishing confidentiality obligatio
 
 The NDA is effective when signed by authorized representatives of both parties.
 
+## Accountable Roles and Decision Authority
+
+- **Policy Owner (General Counsel):** Maintains this policy, coordinates updates, and ensures alignment with the Document Control Policy and Cyber Governance Policy.
+- **Chief Information Security Officer (CISO):** Validates security implications and approves exceptions affecting information assets per the Information Security Policy.
+- **Risk and Compliance Committee:** Oversees regulatory risk treatment decisions consistent with the Risk Management Policy.
+- **Executive Leadership Team:** Ratifies significant legal or contractual commitments in line with the Cyber Governance Policy.
+
+Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+
+
 ## Implementation Guidelines
 - All requests and approvals must be tracked in the ServiceDesk system.
 - Data at rest must use AES-256 encryption; data in transit must use TLS 1.2+ with perfect forward secrecy.

@@ -32,6 +32,15 @@ Applies to all employees, contractors and third parties who access Cyber Ask Ltd
 - **Information Security Manager:** Lead technical investigations, maintain evidence and advise on corrective controls.
 - **Human Resources:** Oversee disciplinary procedures, maintain records and ensure fairness and compliance with employment law.
 
+## Accountable Roles and Decision Authority
+
+- **Policy Owner (HR Director):** Maintains this policy, coordinates updates, and ensures alignment with the Document Control Policy and Cyber Governance Policy.
+- **Chief Information Security Officer (CISO):** Reviews people-related security risks and approves exceptions impacting information assets in line with the Information Security Policy.
+- **Risk and Compliance Committee:** Evaluates residual workforce risks and endorses major decisions consistent with the Risk Management Policy.
+- **Executive Leadership Team:** Approves strategic or resource-intensive changes in accordance with the Cyber Governance Policy.
+
+Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+
 ## Compliance
 Failure to comply with this policy may result in disciplinary action up to and including dismissal, civil recovery and criminal prosecution.
 
