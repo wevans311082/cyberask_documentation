@@ -33,6 +33,9 @@ This policy applies to all employees, contractors, and third parties who access 
 - Monitoring tools shall generate alerts for Logging And Monitoring Policy violations and designated staff must review these alerts daily.
 - Internal audits shall verify adherence to Logging And Monitoring Policy at least annually and report findings to senior management.
 - Data associated with Logging And Monitoring Policy must be protected in accordance with GDPR and UK statutory requirements.
+- Processing of log data containing personal information relies on the lawful bases of legal obligation and legitimate interests under UK GDPR Article 6(1)(c) and 6(1)(f), reflecting the organisation's duties to safeguard assets, evidence compliance, and detect wrongdoing.
+- Monitoring controls shall be designed to comply with the Data Protection Act 2018, the Investigatory Powers Act 2016, and the Telecommunications (Lawful Business Practice) (Interception of Communications) Regulations 2000, with any interception activities limited to what is necessary for business continuity, security, and regulatory obligations.
+- The Data Protection Officer (DPO) shall oversee privacy impact assessments, maintain governance records for monitoring activities, and review controls regularly to ensure proportionality and protection of data subject rights.
 - Users shall acknowledge and accept this policy annually to retain relevant access rights.
 
 ## Technical Controls
