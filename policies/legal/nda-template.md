@@ -5,6 +5,8 @@
 
 This template provides standard terms for establishing confidentiality obligations with partners, vendors, or prospective clients.
 
+> For a fillable short-form NDA, use [templates/nda-template.md](../../templates/nda-template.md).
+
 ## Parties
 
 - **Disclosing Party:** Company sharing confidential information.
