@@ -102,3 +102,13 @@
 - [Regulatory and Legal Compliance Policy](policies/legal/regulatory-and-legal-compliance-policy.md) – This policy establishes requirements for regulatory and legal compliance to protect organizational assets and ensure compliance with applicable laws and regulations.
 - [Third-Party Access Control Policy](policies/legal/third-party-access-control-policy.md) – This policy establishes requirements for third-party access control to protect organizational assets and ensure compliance with applicable laws and regulations.
 
+
+## Templates
+- [Data Protection Impact Assessment (DPIA) Template](../templates/dpia-template.md) – Capture privacy risks, mitigations, and approvals for high-risk processing activities.
+- [Records of Processing Activities Template](../templates/records-of-processing-template.md) – Maintain a GDPR-compliant register of processing purposes, data categories, and retention.
+- [Asset Register Template](../templates/asset-register-template.md) – Inventory information assets, owners, classifications, and lifecycle events.
+- [Risk Assessment Template](../templates/risk-assessment-template.md) – Document threats, scoring, treatment decisions, and review checkpoints.
+- [Non-Disclosure Agreement Template](../templates/nda-template.md) – Generate a short-form bilateral confidentiality agreement with fillable placeholders.
+- [Master Services Contract Template](../templates/contract-template.md) – Structure commercial engagements with scopes, fees, and legal protections.
+- [Security Incident Log Template](../templates/security-incident-log-template.md) – Record real-time response activities, communications, and decisions during an incident.
+- [Security Incident Report Template](../templates/security-incident-report-template.md) – Summarise incident impact, response actions, lessons learned, and approvals after closure.
