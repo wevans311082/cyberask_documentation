@@ -25,10 +25,43 @@ This policy establishes requirements for data loss prevention (dlp) to protect o
 This policy applies to all employees, contractors, and third parties who access or manage company resources related to data loss prevention (dlp).
 
 ## Policy
-1. The organization shall define and document procedures for data loss prevention (dlp).
-2. Controls for data loss prevention (dlp) must align with industry best practices and regulatory obligations.
-3. Activities related to data loss prevention (dlp) shall be reviewed and updated regularly to address emerging risks.
-4. Records demonstrating compliance with this policy shall be maintained.
+1. The organisation shall define and document procedures for data loss prevention (DLP), including tooling configuration, event handling, and exception management.
+2. DLP controls must align with industry best practices, contractual commitments, and regulatory obligations (e.g., UK GDPR Articles 32–34, client security schedules).
+3. Activities related to DLP shall be reviewed quarterly to address emerging risks, data handling changes, or lessons learned from incidents.
+4. Records demonstrating compliance with this policy—including policy configuration exports, incident tickets, and review minutes—shall be maintained for at least six years.
+5. DLP metrics (blocked events, overrides, false positives) must be reported to the Director monthly and fed into management review meetings.
+
+## Procedures and Tooling
+
+### Microsoft Purview Configuration
+
+1. Classify data using sensitivity labels mapped to the Data Classification and Handling Policy.  
+2. Implement Exchange Online, SharePoint, OneDrive, and Teams DLP policies with rules for Restricted and Confidential data.  
+3. Enable endpoint DLP for managed Windows devices to monitor USB, printing, and clipboard actions.  
+4. Configure policy tips to educate users before enforcing blocking actions.  
+5. Review and test DLP policies in audit mode before moving to enforcement.
+
+### False Positive Reduction
+
+1. Apply document fingerprinting for approved templates to improve detection accuracy.  
+2. Exclude trusted domains and service accounts documented in supplier agreements.  
+3. Utilise adaptive scopes (e.g., high-risk departments) to focus blocking controls where they deliver greatest value.  
+4. Conduct monthly tuning sessions analysing incident logs to adjust thresholds and rule conditions.  
+5. Provide feedback loops with users via the DLP override justification form to refine business rules.
+
+### Incident Response Integration
+
+1. DLP alerts feed into the incident management workflow; high severity alerts trigger the incident response plan.  
+2. All overrides require justification and manager approval within two working days.  
+3. Repeat offenders are referred for additional training or disciplinary action in line with the Disciplinary Policy.
+
+## GDPR Alignment
+
+1. Document lawful processing purposes for monitored data and communicate monitoring practices in privacy notices.  
+2. Ensure DLP logging complies with data minimisation principles; limit retention to 12 months unless legal proceedings require longer.  
+3. Support data subject rights by enabling extraction of monitoring data relevant to subject access requests.  
+4. Notify the Director within one hour of any DLP event indicating potential personal data breach to ensure 72-hour supervisory authority reporting can be met.  
+5. Record DPIA outcomes for DLP deployments and review annually.
 
 1. All aspects of Data Loss Prevention Dlp Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
 2. Procedures shall be documented, communicated, and reviewed at least annually by the Director.

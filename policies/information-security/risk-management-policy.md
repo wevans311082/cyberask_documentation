@@ -25,12 +25,27 @@ This policy establishes requirements for risk management to protect organization
 This policy applies to all employees, contractors, and third parties who access or manage company resources related to risk management.
 
 ## Policy
-1. The organization shall define and document procedures for risk management.
-2. Controls for risk management must align with industry best practices and regulatory obligations.
-3. Activities related to risk management shall be reviewed and updated regularly to address emerging risks.
-4. Records demonstrating compliance with this policy shall be maintained.
+1. The organisation shall define and document procedures for risk management, including identification, analysis, evaluation, treatment, monitoring, and reporting.
+2. Controls for risk management must align with industry best practices, contractual obligations, and regulatory requirements (e.g., ISO/IEC 27001:2022 clause 6.1.3 and UK GDPR Article 32).
+3. Activities related to risk management shall be reviewed and updated regularly to address emerging risks, changes in context, or material incidents.
+4. Records demonstrating compliance with this policy shall be maintained in the enterprise risk register and associated evidence repositories.
 5. A master risk register, risk treatment plan, and supporting risk assessments shall be maintained in the "Risk Assessments" repository folder with version control and access limited to authorised personnel.
 6. Risk treatment progress shall be monitored monthly and reported through the security metrics pack alongside evidence of control effectiveness.
+7. Quantitative analyses (e.g., Monte Carlo simulations) shall be documented for high-impact risks to inform residual risk tolerance decisions.
+
+## Risk Scoring Model
+
+Risk scores combine qualitative descriptors with quantitative ranges to support prioritisation and reporting. Likelihood and impact ratings are assigned on a five-point scale with corresponding numeric values (1–5). The inherent risk score is calculated by multiplying likelihood and impact; residual risk is recalculated following treatment.
+
+| Likelihood ↓ / Impact → | 1 – Insignificant (≤£1k, no regulatory breach) | 2 – Minor (≤£5k, limited service disruption) | 3 – Moderate (≤£25k, reportable near miss) | 4 – Major (≤£100k, contractual breach) | 5 – Severe (>£100k, statutory breach) |
+| --- | --- | --- | --- | --- | --- |
+| 1 – Rare (≤1% annually) | 1 (Very Low) | 2 | 3 | 4 | 5 |
+| 2 – Unlikely (1–5% annually) | 2 | 4 | 6 | 8 | 10 |
+| 3 – Possible (5–20% annually) | 3 | 6 | 9 | 12 | 15 |
+| 4 – Likely (20–50% annually) | 4 | 8 | 12 | 16 | 20 |
+| 5 – Almost Certain (>50% annually) | 5 | 10 | 15 | 20 | 25 |
+
+*Risk tolerance thresholds:* 1–5 (Low), 6–10 (Moderate), 11–15 (High), 16–25 (Critical). Critical risks require immediate escalation to the Director and documented acceptance, mitigation, or transfer decisions.
 
 1. All aspects of Risk Management Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
 2. Procedures shall be documented, communicated, and reviewed at least annually by the Director.

@@ -27,12 +27,13 @@ This policy applies to all employees, contractors, and third parties who access 
 ## Policy
 
 ### Classification Levels
-| Level      | Description                                                   | Examples                                                 | Minimum Handling Requirements |
-|------------|---------------------------------------------------------------|----------------------------------------------------------|-------------------------------|
-| **Public** | Approved for general release                                  | Marketing brochures, published blog articles             | May be shared without restriction |
-| **Internal** | Business information not intended for external distribution | Internal project plans, routine internal emails          | Store on company-managed systems; share only with employees |
-| **Confidential** | Sensitive business or personal data                     | Contract terms, internal financial reports               | Access limited to authorised staff; encrypt at rest using AES-256; transmit via company email/VPN |
-| **Restricted** | Highly sensitive data whose compromise could cause severe damage | Customer personal data, financial records, credentials | Access logged and limited to named individuals; encryption using AES-256 at rest and TLS 1.2+ in transit; MFA required; storage only in approved repositories |
+
+| Level | Description | Typical Examples | Storage Requirements | Transmission Requirements | Access Controls | Retention & Disposal |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Public** | Information authorised for disclosure outside the organisation with no adverse impact. | Published marketing content, public case studies, job adverts. | Store on approved collaboration platforms without additional encryption. | No restriction; ensure integrity when publishing. | None beyond standard publishing approvals. | Retain as long as commercially relevant; dispose when obsolete. |
+| **Internal** | Operational information not intended for public release; low impact if disclosed. | Internal procedures, project plans, supplier contact lists. | Store on company-managed services (e.g., SharePoint, Teams) with default encryption. | Use company email or Teams; prohibit forwarding to personal accounts. | Limit to employees/contractors with business need; review access quarterly. | Follow Records Management Policy; shred/recycle paper copies securely. |
+| **Confidential** | Sensitive business or personal data requiring enhanced protection. | Contract terms, financial reports, employee HR records. | Encrypt at rest (BitLocker, SharePoint encryption); maintain audit trails. | Use TLS 1.2+ channels; apply rights management where available. | Enforce least privilege, MFA, and conditional access; review monthly. | Retain per legal/regulatory schedule; securely erase media using approved tools. |
+| **Restricted** | Mission-critical or highly sensitive data whose compromise causes severe harm or regulatory breach. | Client PII, security credentials, incident evidence, privileged legal files. | Store only in approved repositories with encryption, DLP, and logging; no local storage unless explicitly authorised. | Use encrypted channels (TLS 1.2+, SFTP); prohibit removable media unless encrypted and logged. | Limit to named individuals; require explicit approval and monitoring; enable continuous logging and alerting. | Retain only for mandated periods; perform certified destruction (crypto-shredding, secure wipe) and record evidence. |
 
 ### Handling Procedures
 1. All documents and data repositories must display their classification in the header, footer or metadata.

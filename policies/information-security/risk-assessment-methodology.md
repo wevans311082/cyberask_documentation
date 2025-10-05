@@ -20,10 +20,41 @@ This document describes the systematic approach for identifying, analyzing, and 
 
 ## Method
 
-1. **Asset Identification:** Compile an inventory of information assets, owners, and locations.
-2. **Threat and Vulnerability Identification:** Determine potential threats and vulnerabilities for each asset.
-3. **Risk Analysis:** Evaluate likelihood and impact using a qualitative scale of Low, Medium, High.
-4. **Risk Evaluation:** Compare risks against predefined acceptance criteria to prioritize treatment.
+The methodology follows an Identify → Analyse → Evaluate → Treat (IAET) cycle supported by the enterprise risk register.
+
+1. **Identify**  
+   a. Catalogue business processes, information assets, supporting technology, and data flows using the asset inventory.  
+   b. Assign asset owners and capture confidentiality, integrity, and availability (CIA) requirements.  
+   c. Link assets to legal, regulatory, and contractual obligations (e.g., UK GDPR, client SLAs).
+2. **Analyse**  
+   a. Identify threats, vulnerabilities, and existing controls using sources such as threat intelligence feeds, vulnerability scans, and audit findings.  
+   b. Estimate inherent likelihood and impact using the 5x5 scoring matrix defined in the Risk Management Policy.  
+   c. Where data is available, perform quantitative analysis (e.g., estimating annualised loss expectancy) and record assumptions in the risk register.
+3. **Evaluate**  
+   a. Compare inherent risk scores against tolerance thresholds (Low/Moderate/High/Critical).  
+   b. Determine residual risk after considering existing controls, evidencing effectiveness through control testing results.  
+   c. Decide whether to accept, mitigate, transfer, or avoid the risk; document rationale and required approvals in the register workflow.
+4. **Treat**  
+   a. Define treatment actions, owners, costs, and due dates.  
+   b. Update the risk treatment plan and integrate actions with the CAPA register and project backlog.  
+   c. Monitor treatment progress monthly and reassess residual risk upon completion or significant change.
+
+### Quantitative Example – Monte Carlo Simulation
+
+For high-impact risks (residual score ≥16) the Director performs or commissions a Monte Carlo simulation to stress-test financial exposure:
+
+1. Identify probability distributions for key variables (e.g., frequency of credential compromise per year, average incident response cost).  
+2. Use a minimum of 10,000 iterations to simulate annual loss expectancy.  
+3. Record mean, median, 95th percentile, and worst-case outcomes in the risk register, attaching calculation worksheets.  
+4. Compare simulated outcomes against cyber insurance limits and business continuity impact tolerances to inform acceptance or further treatment decisions.  
+5. Update the Statement of Applicability and control assurance plan where additional controls are required to reduce tail risk.
+
+### Integration with the Enterprise Risk Register
+
+1. All risk records are created and maintained in the enterprise risk register (current platform: Microsoft Lists with Power BI dashboard).  
+2. Each risk entry must include asset linkage, regulatory obligations, scoring rationale, treatment status, and evidence references.  
+3. Automated workflows notify risk owners of overdue actions and escalate critical risks to the Director for decision within five working days.  
+4. Risk metrics feed into management review meetings, the Statement of Applicability, and customer assurance reports.
 
 ## Frequency
 
