@@ -7,19 +7,32 @@ This template provides standard terms for establishing confidentiality obligatio
 
 > For a fillable short-form NDA, use [templates/nda-template.md](../../templates/nda-template.md).
 
+## Cyber Ask Operating Context
+
+1. Cyber Ask Ltd operates with a single employee who also serves as the sole director responsible for governance, risk, and compliance decisions.
+2. Cyber Ask Ltd maintains professional liability insurance covering its consulting and advisory services.
+3. A dedicated virtual machine functions as the single Windows Server domain controller and is synchronized with Microsoft Entra ID for identity management.
+4. The organisation holds a standard Microsoft 365 licence; Microsoft Purview and Microsoft Defender add-ons are not deployed, and Windows Defender provides endpoint protection.
+5. Customer data is stored on BitLocker-encrypted drives to protect information at rest.
+6. Cyber Ask Ltd assets are vulnerability-assessed weekly and patched promptly according to remediation guidance.
+7. Cyber Ask Ltd has not yet achieved Cyber Essentials, Cyber Essentials Plus, or ISO 27001 certification but aligns its controls with those standards where practicable.
+8. The Director personally fulfils HR, IT administration, and compliance duties, engaging specialist suppliers when additional expertise is required.
+
+
+
 ## Parties
 
-- **Disclosing Party:** Company sharing confidential information.
-- **Receiving Party:** Entity receiving confidential information.
+1. **Disclosing Party:** Company sharing confidential information.
+2. **Receiving Party:** Entity receiving confidential information.
 
 ## Key Clauses
 
-- **Purpose:** Define the business purpose for which information is shared.
-- **Confidentiality:** Receiving Party must protect information with the same care used for its own confidential data.
-- **Use Restriction:** Information may be used only for the stated purpose.
-- **Term:** Obligations survive for three years after disclosure.
-- **Return or Destruction:** Upon request, the Receiving Party will return or destroy information.
-- **Remedies:** Breach may result in injunctive relief and damages.
+1. **Purpose:** Define the business purpose for which information is shared.
+2. **Confidentiality:** Receiving Party must protect information with the same care used for its own confidential data.
+3. **Use Restriction:** Information may be used only for the stated purpose.
+4. **Term:** Obligations survive for three years after disclosure.
+5. **Return or Destruction:** Upon request, the Receiving Party will return or destroy information.
+6. **Remedies:** Breach may result in injunctive relief and damages.
 
 ## Execution
 
@@ -27,20 +40,18 @@ The NDA is effective when signed by authorized representatives of both parties.
 
 ## Accountable Roles and Decision Authority
 
-- **Policy Owner (General Counsel):** Maintains this policy, coordinates updates, and ensures alignment with the Document Control Policy and Cyber Governance Policy.
-- **Chief Information Security Officer (CISO):** Validates security implications and approves exceptions affecting information assets per the Information Security Policy.
-- **Risk and Compliance Committee:** Oversees regulatory risk treatment decisions consistent with the Risk Management Policy.
-- **Executive Leadership Team:** Ratifies significant legal or contractual commitments in line with the Cyber Governance Policy.
-
-Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
+1. **Director:** Owns and maintains this policy, coordinates updates, and ensures alignment with the Cyber Governance Policy and Document Control Policy.
+2. **Director (Risk Owner):** Reviews and approves exceptions, risk acceptances, and material control changes, documenting rationale in line with the Risk Management Policy.
+3. **Director (Service Owner):** Oversees day-to-day execution of this policy, vendor engagement, and customer communications when actions affect external parties.
 
 
 ## Implementation Guidelines
-- All requests and approvals must be tracked in the ServiceDesk system.
-- Data at rest must use AES-256 encryption; data in transit must use TLS 1.2+ with perfect forward secrecy.
-- Security events shall log to the central SIEM and be retained for 12 months.
-- Control owners perform quarterly self-assessments; Information Security conducts annual audits.
-- Exceptions require written CISO approval and must include compensating controls.
+1. The Director records policy-related approvals and evidence in the central document repository and retains them for audit purposes.
+2. BitLocker-encrypted storage protects customer data on company systems, and Windows Defender telemetry is reviewed weekly.
+3. Weekly vulnerability scans and monthly patch reviews are led by the Director, with remediation actions tracked to completion.
+4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
+5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
+
 
 ## Revision History
 

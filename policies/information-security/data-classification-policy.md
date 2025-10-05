@@ -5,6 +5,19 @@
 
 This policy establishes a framework for classifying and handling information based on sensitivity, aligning with CE/CE+ and ISO 27001 requirements.
 
+## Cyber Ask Operating Context
+
+1. Cyber Ask Ltd operates with a single employee who also serves as the sole director responsible for governance, risk, and compliance decisions.
+2. Cyber Ask Ltd maintains professional liability insurance covering its consulting and advisory services.
+3. A dedicated virtual machine functions as the single Windows Server domain controller and is synchronized with Microsoft Entra ID for identity management.
+4. The organisation holds a standard Microsoft 365 licence; Microsoft Purview and Microsoft Defender add-ons are not deployed, and Windows Defender provides endpoint protection.
+5. Customer data is stored on BitLocker-encrypted drives to protect information at rest.
+6. Cyber Ask Ltd assets are vulnerability-assessed weekly and patched promptly according to remediation guidance.
+7. Cyber Ask Ltd has not yet achieved Cyber Essentials, Cyber Essentials Plus, or ISO 27001 certification but aligns its controls with those standards where practicable.
+8. The Director personally fulfils HR, IT administration, and compliance duties, engaging specialist suppliers when additional expertise is required.
+
+
+
 ## Classification Levels
 
 1. **Public:** Information approved for external release.
@@ -14,36 +27,35 @@ This policy establishes a framework for classifying and handling information bas
 
 ## Handling Requirements
 
-- Label documents and systems with appropriate classification.
-- Encrypt confidential and restricted data at rest and in transit.
-- Share restricted data only with authorized individuals under NDA.
-- Dispose of physical and electronic media according to classification level.
+1. Label documents and systems with appropriate classification.
+2. Encrypt confidential and restricted data at rest and in transit.
+3. Share restricted data only with authorized individuals under NDA.
+4. Dispose of physical and electronic media according to classification level.
 
 ## Roles and Responsibilities
 
-- **Data Owners:** Determine classification and handling requirements.
-- **Users:** Follow handling requirements and report misclassification.
-- **IT:** Provide technical controls to enforce classifications.
+1. **Data Owners:** Determine classification and handling requirements.
+2. **Users:** Follow handling requirements and report misclassification.
+3. **IT:** Provide technical controls to enforce classifications.
 
 ## Accountable Roles and Decision Authority
 
-- **Policy Owner (Information Security Manager):** Maintains this policy, coordinates updates, and ensures alignment with the Cyber Governance Policy and Document Control Policy.
-- **Chief Information Security Officer (CISO):** Approves exceptions, risk acceptances, and material control changes in line with the Information Security Policy and Risk Management Policy.
-- **Risk and Compliance Committee:** Reviews escalated risks, endorses significant remediation decisions, and provides oversight consistent with the Risk Management Policy.
-- **Executive Leadership Team:** Ratifies budgetary or strategic decisions related to this policy as defined in the Cyber Governance Policy.
+1. **Director:** Owns and maintains this policy, coordinates updates, and ensures alignment with the Cyber Governance Policy and Document Control Policy.
+2. **Director (Risk Owner):** Reviews and approves exceptions, risk acceptances, and material control changes, documenting rationale in line with the Risk Management Policy.
+3. **Director (Service Owner):** Oversees day-to-day execution of this policy, vendor engagement, and customer communications when actions affect external parties.
 
-Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
 
 ## Review
 
 Classifications are reviewed annually or when significant changes in data usage occur.
 
 ## Implementation Guidelines
-- All requests and approvals must be tracked in the ServiceDesk system.
-- Data at rest must use AES-256 encryption; data in transit must use TLS 1.2+ with perfect forward secrecy.
-- Security events shall log to the central SIEM and be retained for 12 months.
-- Control owners perform quarterly self-assessments; Information Security conducts annual audits.
-- Exceptions require written CISO approval and must include compensating controls.
+1. The Director records policy-related approvals and evidence in the central document repository and retains them for audit purposes.
+2. BitLocker-encrypted storage protects customer data on company systems, and Windows Defender telemetry is reviewed weekly.
+3. Weekly vulnerability scans and monthly patch reviews are led by the Director, with remediation actions tracked to completion.
+4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
+5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
+
 
 ## Revision History
 

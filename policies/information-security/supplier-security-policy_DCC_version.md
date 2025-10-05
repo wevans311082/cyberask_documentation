@@ -4,6 +4,19 @@
 **Author:** WEvans Director  
 **Classification:** OFFICIAL-SENSITIVE when completed
 
+## Cyber Ask Operating Context
+
+1. Cyber Ask Ltd operates with a single employee who also serves as the sole director responsible for governance, risk, and compliance decisions.
+2. Cyber Ask Ltd maintains professional liability insurance covering its consulting and advisory services.
+3. A dedicated virtual machine functions as the single Windows Server domain controller and is synchronized with Microsoft Entra ID for identity management.
+4. The organisation holds a standard Microsoft 365 licence; Microsoft Purview and Microsoft Defender add-ons are not deployed, and Windows Defender provides endpoint protection.
+5. Customer data is stored on BitLocker-encrypted drives to protect information at rest.
+6. Cyber Ask Ltd assets are vulnerability-assessed weekly and patched promptly according to remediation guidance.
+7. Cyber Ask Ltd has not yet achieved Cyber Essentials, Cyber Essentials Plus, or ISO 27001 certification but aligns its controls with those standards where practicable.
+8. The Director personally fulfils HR, IT administration, and compliance duties, engaging specialist suppliers when additional expertise is required.
+
+
+
 ## Purpose
 
 This Defence Cyber Compliance (DCC) aligned policy defines supplier security expectations for Ministry of Defence (MOD) delivery and support contracts. It establishes assurance tiers, onboarding and vetting controls, contractual flow-down clauses, and continuous monitoring obligations required to protect MOD information and services throughout the supply chain.
@@ -11,9 +24,9 @@ This Defence Cyber Compliance (DCC) aligned policy defines supplier security exp
 ## Scope
 
 This policy applies to:
-- All Cyber Ask Ltd staff managing MOD contracts and supplier relationships.
-- Direct suppliers, subcontractors, and service partners engaged on MOD-funded or MOD-owned deliverables.
-- Any external party that stores, processes, transmits, transports, or disposes of MOD protectively marked assets on behalf of Cyber Ask Ltd.
+1. All Cyber Ask Ltd staff managing MOD contracts and supplier relationships.
+2. Direct suppliers, subcontractors, and service partners engaged on MOD-funded or MOD-owned deliverables.
+3. Any external party that stores, processes, transmits, transports, or disposes of MOD protectively marked assets on behalf of Cyber Ask Ltd.
 
 ## Policy Requirements
 
@@ -32,12 +45,12 @@ Assurance tiers shall be reviewed when scope changes, new data classifications a
 
 ### Onboarding, Personnel Vetting, and Access Provisioning
 
-1. Suppliers must not be activated in procurement systems until onboarding tasks defined for their assurance tier are completed and approved by the Information Security Manager.
+1. Suppliers must not be activated in procurement systems until onboarding tasks defined for their assurance tier are completed and approved by the Director.
 2. Personnel vetting shall be commensurate with the highest protective marking of information to be accessed:
-   - Tier 1: Baseline Personnel Security Standard (BPSS) verification with confirmation retained by the Contract Manager.
-   - Tier 2: BPSS plus Security Check (SC) where MOD data includes personal or sensitive operational details; onboarding must validate SC currency via UKSV.
-   - Tier 3: SC minimum; Developed Vetting (DV) for roles with routine SECRET or compartmented data access.
-   - Tier 4: DV or higher-level national caveat clearances as mandated by MOD Accreditor.
+   1. Tier 1: Baseline Personnel Security Standard (BPSS) verification with confirmation retained by the Contract Manager.
+   2. Tier 2: BPSS plus Security Check (SC) where MOD data includes personal or sensitive operational details; onboarding must validate SC currency via UKSV.
+   3. Tier 3: SC minimum; Developed Vetting (DV) for roles with routine SECRET or compartmented data access.
+   4. Tier 4: DV or higher-level national caveat clearances as mandated by MOD Accreditor.
 3. Suppliers shall provide named security points of contact and maintain joiner/mover/leaver logs. Access revocations must occur within four hours of notification for Tier 3 and Tier 4 suppliers.
 4. All supplier staff shall complete MOD-mandated security awareness (e.g., DSPCR regulation brief, JSP 440 modules) prior to system access.
 
@@ -46,9 +59,9 @@ Assurance tiers shall be reviewed when scope changes, new data classifications a
 1. Contract Managers shall maintain a Supplier Assurance Plan (SAP) aligned with DEF STAN 05-138 Annex B, documenting planned audits, evidence submissions, and remediation tracking.
 2. Tier 1 suppliers must submit annual self-assessment returns. Tier 2 suppliers provide semi-annual assurance statements and quarterly vulnerability status.
 3. Tier 3 and Tier 4 suppliers shall provide continuous monitoring data feeds, including:
-   - Monthly security KPI dashboards (patch status, incident metrics, privileged access reviews).
-   - Quarterly penetration test or red team summaries for in-scope services.
-   - Notification of configuration drift or control exceptions within five business days.
+   1. Monthly security KPI dashboards (patch status, incident metrics, privileged access reviews).
+   2. Quarterly penetration test or red team summaries for in-scope services.
+   3. Notification of configuration drift or control exceptions within five business days.
 4. Cyber Ask SOC shall integrate supplier-provided telemetry into joint threat detection where technically feasible.
 
 ### Contractual Flow-Down Requirements
@@ -61,17 +74,17 @@ Assurance tiers shall be reviewed when scope changes, new data classifications a
 
 1. Suppliers shall report suspected or confirmed security incidents affecting MOD data, services, or systems to Cyber Ask within one hour of discovery and to the MOD Defence Cyber Protection Partnership (DCPP) portal within 12 hours, unless otherwise directed by contract.
 2. Incident reports must include protective marking, impact assessment, initial containment actions, and preliminary timeline.
-3. High-severity incidents (impacting SECRET or operational availability) require immediate telephone escalation to the MOD Authority and Cyber Ask CISO.
+3. High-severity incidents (impacting SECRET or operational availability) require immediate telephone escalation to the MOD Authority and Cyber Ask Director.
 4. Suppliers shall cooperate with joint investigations, provide forensic images when requested, and maintain evidence in accordance with JSP 440 and JSP 604 guidelines.
 
 ### Assurance Evidence (DEF STAN 05-138 Alignment)
 
 Suppliers shall maintain evidence artefacts consistent with DEF STAN 05-138, including:
-- Completed Supplier Assurance Questionnaire and Cyber Implementation Plan with agreed risk profile.
-- Statement of Compliance matrix mapping controls to supplier policies and procedures.
-- Records of risk treatment plans, security testing reports, and remediation closure evidence.
-- Audit reports, certifications (Cyber Essentials Plus, ISO/IEC 27001, NIST SP 800-171 System Security Plans), and supplier assurance dashboards.
-- Logistics traceability logs covering chain-of-custody for protectively marked assets and hardware.
+1. Completed Supplier Assurance Questionnaire and Cyber Implementation Plan with agreed risk profile.
+2. Statement of Compliance matrix mapping controls to supplier policies and procedures.
+3. Records of risk treatment plans, security testing reports, and remediation closure evidence.
+4. Audit reports, certifications (Cyber Essentials Plus, ISO/IEC 27001, NIST SP 800-171 System Security Plans), and supplier assurance dashboards.
+5. Logistics traceability logs covering chain-of-custody for protectively marked assets and hardware.
 
 ### Secure Logistics and Protective Marking Handling
 
@@ -89,15 +102,15 @@ Suppliers shall maintain evidence artefacts consistent with DEF STAN 05-138, inc
 
 ## Roles and Responsibilities
 
-- **Information Security Manager:** Owns supplier assurance framework, approves onboarding, and ensures DEF STAN 05-138 alignment.
-- **Contract Manager:** Maintains Supplier Assurance Plans, confirms contractual flow-down clauses, and monitors compliance evidence.
-- **Security Operations Centre (SOC):** Integrates supplier telemetry, monitors incidents, and coordinates response activities.
-- **Supplier Security Point of Contact:** Ensures supplier personnel vetting, manages joiner/mover/leaver processes, and reports incidents.
-- **Executive Leadership Team:** Provides oversight, resources, and governance for MOD supply chain security obligations.
+1. **Director:** Owns supplier assurance framework, approves onboarding, and ensures DEF STAN 05-138 alignment.
+2. **Contract Manager:** Maintains Supplier Assurance Plans, confirms contractual flow-down clauses, and monitors compliance evidence.
+3. **Security Operations Centre (SOC):** Integrates supplier telemetry, monitors incidents, and coordinates response activities.
+4. **Supplier Security Point of Contact:** Ensures supplier personnel vetting, manages joiner/mover/leaver processes, and reports incidents.
+5. **Executive Leadership Team:** Provides oversight, resources, and governance for MOD supply chain security obligations.
 
 ## Compliance and Exceptions
 
-Failure to comply with this policy may result in suspension of supplier access, contract termination, and notification to the MOD Authority. Exceptions require written approval from the CISO, endorsement by the MOD Accreditor where mandated, and documented compensating controls.
+Failure to comply with this policy may result in suspension of supplier access, contract termination, and notification to the MOD Authority. Exceptions require written approval from the Director, endorsement by the MOD Accreditor where mandated, and documented compensating controls.
 
 ## Review
 

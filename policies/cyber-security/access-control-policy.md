@@ -5,6 +5,19 @@
 
 This policy establishes comprehensive requirements for granting, reviewing, and revoking access to information systems so that only authorized individuals perform approved activities. It aligns with ISO/IEC 27001 and other regulatory frameworks, providing a control environment that protects confidentiality, integrity, and availability of organizational assets.
 
+## Cyber Ask Operating Context
+
+1. Cyber Ask Ltd operates with a single employee who also serves as the sole director responsible for governance, risk, and compliance decisions.
+2. Cyber Ask Ltd maintains professional liability insurance covering its consulting and advisory services.
+3. A dedicated virtual machine functions as the single Windows Server domain controller and is synchronized with Microsoft Entra ID for identity management.
+4. The organisation holds a standard Microsoft 365 licence; Microsoft Purview and Microsoft Defender add-ons are not deployed, and Windows Defender provides endpoint protection.
+5. Customer data is stored on BitLocker-encrypted drives to protect information at rest.
+6. Cyber Ask Ltd assets are vulnerability-assessed weekly and patched promptly according to remediation guidance.
+7. Cyber Ask Ltd has not yet achieved Cyber Essentials, Cyber Essentials Plus, or ISO 27001 certification but aligns its controls with those standards where practicable.
+8. The Director personally fulfils HR, IT administration, and compliance duties, engaging specialist suppliers when additional expertise is required.
+
+
+
 ## Purpose
 
 The purpose of this policy is to define a consistent and auditable process for managing access to company resources. It ensures that access rights are granted based on legitimate business needs, remain commensurate with job responsibilities, and are removed promptly when no longer required. The policy also seeks to minimize security risks posed by excessive or outdated privileges.
@@ -15,87 +28,85 @@ This policy applies to all employees, contractors, consultants, partners, and te
 
 ## Definitions
 
-- **Access Rights:** The specific permissions granted to a user to read, modify, execute, or delete information or resources.
-- **Least Privilege:** The principle that users should be granted only the minimum access necessary to perform their duties.
-- **Multi-factor Authentication (MFA):** A security mechanism requiring two or more verification methods to authenticate a user.
-- **Privileged Account:** An account with elevated permissions that can modify system configurations or access restricted data.
+1. **Access Rights:** The specific permissions granted to a user to read, modify, execute, or delete information or resources.
+2. **Least Privilege:** The principle that users should be granted only the minimum access necessary to perform their duties.
+3. **Multi-factor Authentication (MFA):** A security mechanism requiring two or more verification methods to authenticate a user.
+4. **Privileged Account:** An account with elevated permissions that can modify system configurations or access restricted data.
 
 ## Policy Statements
 
 1. **Account Provisioning**
-   - Managers must submit documented access requests through the approved ticketing system.
-   - IT will create accounts with unique user IDs and verify managerial approval prior to granting access.
-   - Temporary accounts shall include an expiration date not exceeding 30 days unless renewed.
+   1. Managers must submit documented access requests through the approved ticketing system.
+   2. IT will create accounts with unique user IDs and verify managerial approval prior to granting access.
+   3. Temporary accounts shall include an expiration date not exceeding 30 days unless renewed.
 
 2. **Access Modification**
-   - Any change to a user’s role or responsibilities requires a reassessment of existing access rights.
-   - Managers and system owners must validate requests for additional permissions and ensure they align with business needs.
+   1. Any change to a user’s role or responsibilities requires a reassessment of existing access rights.
+   2. Managers and system owners must validate requests for additional permissions and ensure they align with business needs.
 
 3. **Access Reviews**
-   - Managers must conduct access reviews at least quarterly to confirm continued necessity of privileges.
-   - Results of access reviews shall be documented and retained for a minimum of three years.
-   - Internal audit may perform independent spot checks of user access to verify compliance.
+   1. Managers must conduct access reviews at least quarterly to confirm continued necessity of privileges.
+   2. Results of access reviews shall be documented and retained for a minimum of three years.
+   3. Internal audit may perform independent spot checks of user access to verify compliance.
 
 4. **Access Revocation**
-   - HR will notify IT of employee departures or role changes immediately upon confirmation.
-   - IT shall disable associated accounts within one business day of notification.
-   - Physical access devices (badges, keys, tokens) must be returned or deactivated on termination.
+   1. HR will notify IT of employee departures or role changes immediately upon confirmation.
+   2. IT shall disable associated accounts within one business day of notification.
+   3. Physical access devices (badges, keys, tokens) must be returned or deactivated on termination.
 
 5. **Privileged Access Management**
-   - Administrative accounts must use MFA and are restricted to authorized personnel with demonstrated need.
-   - Privileged sessions shall be logged and monitored for anomalous activity.
-   - Shared privileged accounts are prohibited unless technically unavoidable, in which case compensating controls such as password vaulting must be implemented.
+   1. Administrative accounts must use MFA and are restricted to authorized personnel with demonstrated need.
+   2. Privileged sessions shall be logged and monitored for anomalous activity.
+   3. Shared privileged accounts are prohibited unless technically unavoidable, in which case compensating controls such as password vaulting must be implemented.
 
 6. **Password Management**
-   - Passwords must meet complexity requirements defined by the company’s password standard and be changed at least every 90 days.
-   - Reuse of the previous 12 passwords is prohibited.
-   - Default passwords on new systems must be changed before deployment and never used in production environments.
+   1. Passwords must meet complexity requirements defined by the company’s password standard and be changed at least every 90 days.
+   2. Reuse of the previous 12 passwords is prohibited.
+   3. Default passwords on new systems must be changed before deployment and never used in production environments.
 
 7. **Separation of Duties**
-   - No single individual should be able to develop, approve, and deploy changes to production systems without oversight.
-   - Access granting functions must be segregated from approval functions to prevent abuse.
+   1. No single individual should be able to develop, approve, and deploy changes to production systems without oversight.
+   2. Access granting functions must be segregated from approval functions to prevent abuse.
 
 8. **Third-Party Access**
-   - External vendors or partners requiring system access must sign appropriate agreements and comply with this policy.
-   - Accounts for third parties shall be time-bound and reviewed before renewal.
+   1. External vendors or partners requiring system access must sign appropriate agreements and comply with this policy.
+   2. Accounts for third parties shall be time-bound and reviewed before renewal.
 
 ## Roles and Responsibilities
 
-- **IT Department:** Implements technical controls, maintains audit logs, and enforces provisioning and revocation procedures. IT is responsible for monitoring privileged activities and reporting suspected violations.
-- **Managers and System Owners:** Initiate access requests, perform periodic access reviews, and ensure that staff receive appropriate security training.
-- **Human Resources:** Communicates staffing changes that affect access and coordinates offboarding activities.
-- **Internal Audit:** Performs independent assessments of access control effectiveness and reports findings to management.
-- **Users:** Maintain the confidentiality of their credentials, follow approved procedures, and report suspected account misuse.
+1. **IT Department:** Implements technical controls, maintains audit logs, and enforces provisioning and revocation procedures. IT is responsible for monitoring privileged activities and reporting suspected violations.
+2. **Managers and System Owners:** Initiate access requests, perform periodic access reviews, and ensure that staff receive appropriate security training.
+3. **Human Resources:** Communicates staffing changes that affect access and coordinates offboarding activities.
+4. **Internal Audit:** Performs independent assessments of access control effectiveness and reports findings to management.
+5. **Users:** Maintain the confidentiality of their credentials, follow approved procedures, and report suspected account misuse.
 
 ## Accountable Roles and Decision Authority
 
-- **Policy Owner (Information Security Manager):** Maintains this policy, coordinates updates, and ensures alignment with the Cyber Governance Policy and Document Control Policy.
-- **Chief Information Security Officer (CISO):** Approves exceptions, risk acceptances, and material control changes in line with the Information Security Policy and Risk Management Policy.
-- **Risk and Compliance Committee:** Reviews escalated risks, endorses significant remediation decisions, and provides oversight consistent with the Risk Management Policy.
-- **Executive Leadership Team:** Ratifies budgetary or strategic decisions related to this policy as defined in the Cyber Governance Policy.
+1. **Director:** Owns and maintains this policy, coordinates updates, and ensures alignment with the Cyber Governance Policy and Document Control Policy.
+2. **Director (Risk Owner):** Reviews and approves exceptions, risk acceptances, and material control changes, documenting rationale in line with the Risk Management Policy.
+3. **Director (Service Owner):** Oversees day-to-day execution of this policy, vendor engagement, and customer communications when actions affect external parties.
 
-Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
 
 ## Monitoring and Enforcement
 
-- All access to critical systems must be logged and retained according to the company’s data retention schedule.
-- Security operations will review logs for suspicious activity and escalate incidents per the incident response plan.
-- Violations of this policy may result in disciplinary action up to and including termination, civil liability, or criminal prosecution.
+1. All access to critical systems must be logged and retained according to the company’s data retention schedule.
+2. Security operations will review logs for suspicious activity and escalate incidents per the incident response plan.
+3. Violations of this policy may result in disciplinary action up to and including termination, civil liability, or criminal prosecution.
 
 ## Training and Awareness
 
-- All users must complete annual security awareness training that covers secure authentication practices, proper handling of credentials, and reporting procedures for suspected access violations.
-- IT shall provide targeted training for administrators on privileged account management tools and procedures.
+1. All users must complete annual security awareness training that covers secure authentication practices, proper handling of credentials, and reporting procedures for suspected access violations.
+2. IT shall provide targeted training for administrators on privileged account management tools and procedures.
 
 ## Access Control Technologies
 
-- Systems handling sensitive information must implement industry-standard authentication mechanisms such as LDAP, SAML, or OAuth2.
-- Wherever feasible, single sign-on (SSO) shall be used to centralize authentication and streamline account management.
-- Encryption must protect authentication data in transit and at rest, and default system credentials shall be changed prior to production use.
+1. Systems handling sensitive information must implement industry-standard authentication mechanisms such as LDAP, SAML, or OAuth2.
+2. Wherever feasible, single sign-on (SSO) shall be used to centralize authentication and streamline account management.
+3. Encryption must protect authentication data in transit and at rest, and default system credentials shall be changed prior to production use.
 
 ## Exceptions
 
-- Exceptions to this policy require a documented risk assessment and written approval from the Chief Information Security Officer (CISO) or delegate. Approved exceptions must include compensating controls and an expiration date.
+1. Exceptions to this policy require a documented risk assessment and written approval from the Chief Director (CISO) or delegate. Approved exceptions must include compensating controls and an expiration date.
 
 ## Compliance and Review
 
@@ -110,9 +121,9 @@ This policy is reviewed at least annually or upon significant system changes to 
 | 3.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
 
 ## Implementation Guidelines
-- All requests and approvals must be tracked in the ServiceDesk system.
-- Data at rest must use AES-256 encryption; data in transit must use TLS 1.2+ with perfect forward secrecy.
-- Security events shall log to the central SIEM and be retained for 12 months.
-- Control owners perform quarterly self-assessments; Information Security conducts annual audits.
-- Exceptions require written CISO approval and must include compensating controls.
+1. The Director records policy-related approvals and evidence in the central document repository and retains them for audit purposes.
+2. BitLocker-encrypted storage protects customer data on company systems, and Windows Defender telemetry is reviewed weekly.
+3. Weekly vulnerability scans and monthly patch reviews are led by the Director, with remediation actions tracked to completion.
+4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
+5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
 
