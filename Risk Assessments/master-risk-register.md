@@ -4,17 +4,64 @@
 
 This register consolidates enterprise cyber security, information security, and supporting operational risks. It is maintained by the Director and reviewed quarterly in accordance with the Risk Management Policy. Risks are prioritised using a 5x5 likelihood/impact matrix and mapped to treatment status.
 
-| Risk ID | Category | Description | Likelihood | Impact | Inherent Score | Treatment Strategy | Key Controls / Actions | Owner | Status | Next Review |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R1 | Cyber Security | Microsoft 365 / Entra ID credential compromise through phishing or credential stuffing | 3 | 4 | 12 | Mitigate | Enforce adaptive MFA and conditional access; deploy phishing detection and simulations; awareness refreshers | Director | Planned enhancements underway | 2025-06-30 |
-| R2 | Cyber Security | Ransomware impacting Windows Server domain controller and BitLocker devices | 3 | 5 | 15 | Mitigate | Harden endpoints with ASR/WDAC; implement immutable backups; test response playbook | Director | In progress | 2025-05-31 |
-| R3 | Information Security | Data loss or retention failure for client deliverables and contractual records | 2 | 4 | 8 | Mitigate | Automate backup verification; perform quarterly restore tests; evidence retention compliance | Director | Planned | 2025-04-30 |
-| R4 | Third-Party | Supplier data handling weaknesses exposing client information | 2 | 4 | 8 | Mitigate | Security questionnaire and attestations; secure file transfer controls; contract clauses | Director | Planned | 2025-07-31 |
-| R5 | Governance | Single-person dependency affecting change, incident, and risk oversight | 3 | 3 | 9 | Mitigate | External peer review; ticketing workflow; documented SOPs and calendar reminders | Director | Planned | 2025-08-31 |
-| R6 | Technology | Cloud misconfiguration due to limited automation and tooling | 3 | 4 | 12 | Mitigate | Configuration baselines; Secure Score monitoring; automated drift detection | Director | Planned | 2025-06-30 |
-| R7 | Compliance | Failure to evidence ISO/IEC 27001 alignment and policy adherence | 2 | 3 | 6 | Mitigate | Maintain audit trail; conduct annual internal audit; integrate metrics and alerts | Director | Planned | 2025-09-30 |
-| R8 | Business Continuity | Extended outage of key SaaS providers (Microsoft 365) | 2 | 4 | 8 | Mitigate | Document continuity procedures; subscribe to service health alerts; prepare alternative communication channels | Director | Planned | 2025-05-31 |
-| R9 | Privacy | Breach of personal data through improper handling or transfer | 2 | 4 | 8 | Mitigate | Apply data classification and sensitivity labels; enforce DLP compensating controls; conduct privacy training | Director | Planned | 2025-04-30 |
+## Risk Register
+
+| Risk ID | Description | Likelihood | Impact | Owner | Status |
+| --- | --- | --- | --- | --- | --- |
+| R1 | **Cyber** – Compromise of third-party AI model updates introducing malicious outputs into client deliverables | 3 | 5 | Director | In progress |
+| R2 | **Cyber** – Double-extortion ransomware targeting Microsoft 365 backups and SharePoint repositories | 3 | 5 | Director | In progress |
+| R3 | **Cyber** – OAuth token theft from Microsoft Entra ID through adversary-in-the-middle phishing | 3 | 4 | Director | Planned |
+| R4 | **Cyber** – Generative AI prompt injection leading to leakage of confidential assessment data | 4 | 4 | Director | Planned |
+| R5 | **Cyber** – Cloud configuration drift exposing storage containers or collaboration sites publicly | 3 | 4 | Director | Planned |
+| R6 | **Cyber** – Zero-day exploitation of Microsoft Teams add-ins to gain code execution | 2 | 4 | Director | Monitoring |
+| R7 | **Cyber** – Deepfake-enabled business email compromise targeting finance workflows | 3 | 3 | Director | Planned |
+| R8 | **Cyber** – Managed service provider compromise enabling downstream access to Cyber Ask tenant | 2 | 5 | Director | Planned |
+| R9 | **Cyber** – Supply-chain tampering of vulnerability scanning scripts introducing backdoors | 2 | 4 | Director | Planned |
+| R10 | **Cyber** – Quantum-capable adversaries decrypting archived client data prior to PQC migration | 2 | 5 | Director | Planned |
+| R11 | **Operational** – Single-person dependency delaying incident response and change approvals | 3 | 3 | Director | In progress |
+| R12 | **Operational** – Regulatory or contractual reporting failure due to manual evidence tracking | 2 | 3 | Director | Planned |
+| R13 | **Operational** – Secure laptop hardware supply delays impacting project readiness | 3 | 2 | Director | Monitoring |
+| R14 | **Operational** – Extended power or fibre outage at home office disrupting service delivery | 3 | 3 | Director | Planned |
+| R15 | **Operational** – Contract lifecycle mismanagement causing revenue leakage or scope gaps | 2 | 3 | Director | Monitoring |
+| R16 | **Operational** – Critical SaaS analytics vendor insolvency affecting deliverable quality | 2 | 4 | Director | Planned |
+| R17 | **Operational** – Travel disruption preventing onsite engagements for key clients | 3 | 2 | Director | Monitoring |
+| R18 | **Operational** – Health or wellbeing event reducing available capacity for extended period | 2 | 4 | Director | Monitoring |
+| R19 | **Operational** – Data retention schedule lapses leading to missing audit evidence | 2 | 3 | Director | Planned |
+| R20 | **Operational** – Risk governance process drift causing register reviews to be missed | 2 | 2 | Director | Planned |
+
+### Filter Instructions
+
+Use the filtered tables below to focus on specific risk categories when reviewing or reporting.
+
+### Cyber Risk Filter
+
+| Risk ID | Description | Likelihood | Impact | Owner | Status |
+| --- | --- | --- | --- | --- | --- |
+| R1 | Compromise of third-party AI model updates introducing malicious outputs into client deliverables | 3 | 5 | Director | In progress |
+| R2 | Double-extortion ransomware targeting Microsoft 365 backups and SharePoint repositories | 3 | 5 | Director | In progress |
+| R3 | OAuth token theft from Microsoft Entra ID through adversary-in-the-middle phishing | 3 | 4 | Director | Planned |
+| R4 | Generative AI prompt injection leading to leakage of confidential assessment data | 4 | 4 | Director | Planned |
+| R5 | Cloud configuration drift exposing storage containers or collaboration sites publicly | 3 | 4 | Director | Planned |
+| R6 | Zero-day exploitation of Microsoft Teams add-ins to gain code execution | 2 | 4 | Director | Monitoring |
+| R7 | Deepfake-enabled business email compromise targeting finance workflows | 3 | 3 | Director | Planned |
+| R8 | Managed service provider compromise enabling downstream access to Cyber Ask tenant | 2 | 5 | Director | Planned |
+| R9 | Supply-chain tampering of vulnerability scanning scripts introducing backdoors | 2 | 4 | Director | Planned |
+| R10 | Quantum-capable adversaries decrypting archived client data prior to PQC migration | 2 | 5 | Director | Planned |
+
+### Operational Risk Filter
+
+| Risk ID | Description | Likelihood | Impact | Owner | Status |
+| --- | --- | --- | --- | --- | --- |
+| R11 | Single-person dependency delaying incident response and change approvals | 3 | 3 | Director | In progress |
+| R12 | Regulatory or contractual reporting failure due to manual evidence tracking | 2 | 3 | Director | Planned |
+| R13 | Secure laptop hardware supply delays impacting project readiness | 3 | 2 | Director | Monitoring |
+| R14 | Extended power or fibre outage at home office disrupting service delivery | 3 | 3 | Director | Planned |
+| R15 | Contract lifecycle mismanagement causing revenue leakage or scope gaps | 2 | 3 | Director | Monitoring |
+| R16 | Critical SaaS analytics vendor insolvency affecting deliverable quality | 2 | 4 | Director | Planned |
+| R17 | Travel disruption preventing onsite engagements for key clients | 3 | 2 | Director | Monitoring |
+| R18 | Health or wellbeing event reducing available capacity for extended period | 2 | 4 | Director | Monitoring |
+| R19 | Data retention schedule lapses leading to missing audit evidence | 2 | 3 | Director | Planned |
+| R20 | Risk governance process drift causing register reviews to be missed | 2 | 2 | Director | Planned |
 
 ## Monitoring and Escalation
 
@@ -32,3 +79,4 @@ This register consolidates enterprise cyber security, information security, and 
 | Version | Date | Description | Author |
 | --- | --- | --- | --- |
 | 1.0 | 2025-02-14 | Initial consolidated register issued following annual risk assessment | Director |
+| 1.1 | 2025-03-05 | Expanded dynamic 2025 register with cyber/operational filters and sample risks | Director |
