@@ -28,6 +28,15 @@ This policy applies to all employees, contractors, and third parties who access 
 1. The company maintains a register of applicable laws and regulations including, but not limited to, the UK Data Protection Act 2018, UK GDPR, Computer Misuse Act 1990, PCI DSS, and relevant industry guidance from the FCA and NCSC.
 2. Each regulation within the register is assigned an owner responsible for monitoring changes and ensuring that business processes remain compliant.
 
+| Regulation | Core Obligations | Business Processes and Controls | Control Owner |
+| ---------- | ---------------- | ------------------------------ | ------------- |
+| UK GDPR / EU GDPR | Lawful basis for processing, data subject rights, records of processing, DPIAs, breach notification within statutory timeframes | Privacy notices, consent management, Records of Processing Policy, access controls, incident response playbooks | Data Protection Officer |
+| HIPAA (where U.S. healthcare data is processed for clients) | Safeguards for PHI, BAAs, minimum necessary use, breach notification | Contractual due diligence, secure file transfer, encryption standards, vendor management | Compliance Manager |
+| PCI DSS | Cardholder data protection, network segmentation, quarterly vulnerability scans, annual SAQ or ROC submissions | Payment service integration reviews, secure coding standards, vulnerability management, logging and monitoring | Director (Service Owner) |
+| EU AI Act (for AI-enabled advisory services) | Risk classification, transparency obligations, human oversight, technical documentation, conformity assessments | AI model inventories, impact assessments, human-in-the-loop controls, model change management | Director (Risk Owner) |
+
+3. Jurisdiction-specific appendices detail additional requirements for client engagements in the EU, UK, and United States, and are reviewed with legal counsel prior to contract execution.
+
 ### Compliance Management
 1. A Data Protection Officer (DPO) oversees adherence to privacy legislation and coordinates responses to data subject requests in line with the [Records of Processing Policy](records-of-processing-policy.md) and the [Data Protection and Privacy Policy](../cyber-security/data-protection-and-privacy-policy.md).
 2. Compliance obligations are reviewed quarterly. Evidence such as audit reports, training records, and contracts are stored in the compliance management system for a minimum of six years.
@@ -38,6 +47,19 @@ This policy applies to all employees, contractors, and third parties who access 
 1. Suspected legal or regulatory breaches must be reported to the Compliance Manager within one business day.
 2. Non-compliance issues are logged in the ticketing system, assigned to control owners, and tracked until closure.
 3. Serious breaches are escalated to the board and, where required, reported to the Information Commissioner’s Office within 72 hours.
+
+### Breach Notification Timelines
+1. **GDPR / UK GDPR:** Notify the ICO (or relevant supervisory authority) within 72 hours of becoming aware of a personal data breach; notify affected data subjects without undue delay if there is a high risk to their rights and freedoms.
+2. **HIPAA:** Report breaches of unsecured protected health information to affected individuals without unreasonable delay and no later than 60 calendar days; notify the U.S. Department of Health and Human Services annually for incidents affecting fewer than 500 individuals or within 60 days for larger breaches.
+3. **PCI DSS:** Inform the payment card brands, acquiring bank, and affected merchants immediately upon confirmation of a cardholder data compromise, following the incident response plan and forensic investigation requirements.
+4. **EU AI Act (draft timelines pending final enactment):** Provide competent authorities with incident notifications without undue delay when AI systems cause or are likely to cause serious incidents or malfunction that constitute a breach of fundamental rights obligations.
+
+### Annual Compliance Audit Plan
+1. **Q1 – Regulatory Register Review:** Validate the completeness of the regulatory register, confirm owner assignments, and document legislative updates with supporting evidence.
+2. **Q2 – Control Effectiveness Testing:** Perform sample-based testing of privacy, payment security, and contractual controls; document findings, remediation actions, and residual risks.
+3. **Q3 – Third-Party Assurance:** Review supplier attestations, renew contractual clauses, and assess subcontractor compliance for high-risk engagements.
+4. **Q4 – Independent Assurance and Management Review:** Commission an internal or external audit over critical controls, present results to the board, and update the compliance roadmap for the following year.
+5. Audit artefacts, corrective action plans, and management responses are stored in the compliance management system and retained for a minimum of six years.
 
 ## Technical Controls
 1. Compliance management tools track regulatory obligations, map them to controls, and produce audit-ready evidence.

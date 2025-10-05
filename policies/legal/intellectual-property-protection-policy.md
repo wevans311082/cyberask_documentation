@@ -48,6 +48,21 @@ This policy applies to all employees, contractors, and third parties who access 
 5. Data associated with Intellectual Property Protection Policy must be protected in accordance with GDPR and UK statutory requirements.
 6. Users shall acknowledge and accept this policy annually to retain relevant access rights.
 
+## Information Classification and Marking Guidelines
+
+1. **Classification Levels:**
+   - **Public:** Information approved for unrestricted release. Mark documents with the footer “Public – No Restrictions” and ensure no confidential client references are included.
+   - **Internal:** Operational content for employees and vetted contractors. Mark emails and documents with the header and footer “Internal – Cyber Ask Use Only.”
+   - **Confidential:** Proprietary methods, client deliverables, and licensing agreements. Apply document protection, watermark “Confidential – Cyber Ask Ltd” diagonally across each page, and restrict sharing to named recipients.
+   - **Restricted:** High-value intellectual property, source code, and trade secrets. Apply digital rights management, limit access to named individuals, and watermark “Restricted – Do Not Distribute” with user identification metadata.
+2. **Digital Assets:** Embed metadata tags in design files (e.g., CAD, multimedia) reflecting classification level, owner, and review date.
+3. **Watermarking Examples:**
+   - Consulting reports exported from Microsoft 365 must use the built-in “Confidential” watermark template with custom text: “Property of Cyber Ask Ltd – Client Copy.”
+   - Prototype screenshots stored in SharePoint are overlaid with semi-transparent watermarks showing the classification and export timestamp prior to external sharing.
+   - Training videos include an opening slate and persistent corner watermark identifying the viewer’s email address when streamed to contractors.
+4. **Handling Requirements:** Label physical media with tamper-evident seals, store Restricted media in locked cabinets, and log check-in/check-out activity.
+5. **Review Cycle:** Classification markings are reviewed quarterly to confirm accuracy and are updated immediately when the sensitivity of the content changes.
+
 ## Technical Controls
 
 1. Configure and maintain systems to enforce the requirements of the Intellectual Property Protection Policy, using appropriate tools and automation.
