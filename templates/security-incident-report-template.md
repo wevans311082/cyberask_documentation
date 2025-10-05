@@ -34,10 +34,22 @@ Complete this report after closing an incident. Attach supporting evidence (logs
 
 ## 4. Root Cause Analysis
 
-- **Initial Cause:** 
-- **Contributing Factors:** 
-- **Root Cause Summary:** 
-- **Detection Method:** 
+- **Initial Cause:**
+- **Contributing Factors:**
+- **Root Cause Summary:**
+- **Detection Method:**
+
+### 5 Whys Investigation
+
+| Why # | Question Asked | Response / Observation | Evidence or Data Source | Owner | Follow-up Needed? |
+| --- | --- | --- | --- | --- | --- |
+| 1 |  |  |  |  |  |
+| 2 |  |  |  |  |  |
+| 3 |  |  |  |  |  |
+| 4 |  |  |  |  |  |
+| 5 |  |  |  |  |  |
+
+> **Tip:** If the answer to any "Why" identifies an unresolved control gap, create a corrective action in Section 8 or Section 9 and link the reference number here.
 
 ## 5. Impact Assessment
 

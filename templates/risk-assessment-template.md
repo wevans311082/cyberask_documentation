@@ -37,13 +37,55 @@ Use this template to document new risk assessments or periodic reviews. Align sc
 | 4 | Major – Significant disruption, reportable breach likely |
 | 5 | Severe – Critical failure, substantial legal/financial penalties |
 
+### Likelihood vs Impact Heat Map
+
+Use the heat map to plot each risk based on its likelihood and impact scores. Update the colour or labels to reflect your organisational scoring bands.
+
+```mermaid
+%%{init: {"theme": "neutral"}}%%
+heatmap
+    title Risk Heat Map (Higher values = greater risk)
+    xAxis Likelihood 1 2 3 4 5
+    yAxis Impact 5 4 3 2 1
+    data
+        1 5 1
+        2 5 2
+        3 5 3
+        4 5 4
+        5 5 5
+        1 4 2
+        2 4 3
+        3 4 4
+        4 4 5
+        5 4 6
+        1 3 3
+        2 3 4
+        3 3 5
+        4 3 6
+        5 3 7
+        1 2 4
+        2 2 5
+        3 2 6
+        4 2 7
+        5 2 8
+        1 1 5
+        2 1 6
+        3 1 7
+        4 1 8
+        5 1 9
+```
+
+> **How to use:** Place the Risk ID in the relevant likelihood/impact cell. Highlight cells (e.g., green/amber/red) according to your risk appetite.
+
 ## 4. Risk Register
 
-| Risk ID | Threat / Vulnerability Description | Impacted Assets / Processes | Existing Controls | Likelihood | Impact | Inherent Risk (L x I) | Additional Controls / Actions | Control Owner | Target Date | Residual Risk |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |
+| Risk ID | Threat / Vulnerability Description | Impacted Assets / Processes | Existing Controls | Likelihood | Impact | Inherent Risk (L × I) | Control Effectiveness (0–1) | Additional Controls / Actions | Control Owner | Target Date | Residual Risk |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |  |
+
+> **Residual Risk Formula:** Residual Risk = (Likelihood × Impact) × (1 − Control Effectiveness). Adjust the formula if your methodology uses alternative scaling (e.g., qualitative bands or weighted factors).
 
 ## 5. Risk Acceptance and Treatment Decisions
 
