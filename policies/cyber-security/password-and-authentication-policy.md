@@ -89,3 +89,36 @@ This policy will be reviewed at least annually and updated as necessary to remai
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
 | 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
+
+## Strategic Direction: Phasing Out Passwords
+
+Cyber Ask Ltd is transitioning to passwordless authentication as the default method for all corporate services by the end of 2025. Passwords remain as a temporary fallback for legacy systems only when compensating controls are in place. The following mandates apply across the estate:
+
+- Passwords must never be shared or stored in unsecured locations; credential managers approved by the Director are mandatory for any residual password use.
+- Weak or deprecated authentication factors, including SMS one-time passwords (OTP), voice calls, and email-based codes, are prohibited due to susceptibility to SIM swap and phishing attacks.
+- Hardware-backed phishing-resistant methods (FIDO2 security keys, Windows Hello for Business, certificate-based smart cards) are required for privileged accounts effective immediately.
+- Any new system procurement must evidence support for passwordless protocols (FIDO2/WebAuthn, certificate auth) before approval.
+
+## Interim Password Requirements
+
+Where passwords cannot yet be eliminated, the following controls ensure resilience during the transition:
+
+1. **Complexity and Length:** Minimum length of 14 characters with passphrase guidance, though complexity requirements are relaxed to support usability.
+2. **Credential Rotation:** Password changes are event-driven (suspected compromise or policy exception). Routine forced rotations are discouraged to maintain usability and align with NIST SP 800-63B.
+3. **Breach Monitoring:** Passwords are screened against known compromised credential databases using automated tooling. Detections trigger immediate resets and security investigations.
+4. **System Isolation:** Legacy password-dependent services must reside behind secure gateways enforcing conditional access and continuous monitoring.
+
+## Enforcement and Assurance
+
+- Quarterly authentication audits verify that no accounts rely on SMS OTP or basic push approvals. Findings are documented in the compliance tracker and remediated within 15 days.
+- The Director reviews authentication logs monthly to ensure MFA fatigue attacks are mitigated by number matching and device-binding policies.
+- Annual penetration tests include social engineering scenarios to validate resistance to credential phishing.
+
+## Training and Awareness
+
+Cyber Ask University provides micro-learning modules on phishing-resistant authentication, secure use of hardware tokens, and incident reporting. Completion is mandatory prior to issuance of security keys and refreshed annually. Supplementary job aids demonstrate how to register FIDO2 devices and recover accounts through secure administrator-assisted processes.
+
+## Dependencies and Related Policies
+
+This policy operates alongside the [Multi-Factor Authentication (MFA) Policy](./multi-factor-authentication-mfa-policy.md) and the [Passwordless Authentication Policy](./passwordless-authentication-policy.md). All three documents form the cohesive authentication control framework guiding the passwordless transition.
+

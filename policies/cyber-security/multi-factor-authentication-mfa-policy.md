@@ -93,3 +93,39 @@ This policy will be reviewed at least annually and updated as necessary to remai
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
 | 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
+
+## Modern Authentication Mandates
+
+To support the enterprise shift away from passwords, MFA is mandatory for every user and service that interacts with company resources. The following practices are enforced:
+
+- SMS OTP, voice calls, email verification codes, and other single-channel factors are prohibited. Phishing-resistant factors such as FIDO2 hardware keys, platform authenticators, or certificate-based smart cards are the only approved methods.
+- Push-based authenticators must implement number matching and device binding to defeat MFA fatigue attacks.
+- Legacy protocols (IMAP/POP/SMTP basic auth) are blocked at the tenant level unless an exception is approved by the Director with compensating controls and a sunset date.
+
+## Adoption Roadmap
+
+The MFA rollout is tracked via quarterly milestones to ensure enterprise-wide coverage by Q4 2025.
+
+| Quarter | Target Milestone | Coverage Goal | Key Activities |
+| --- | --- | --- | --- |
+| Q1 2025 | Pilot passwordless-capable MFA for privileged users. | 30% of workforce enrolled in FIDO2 keys. | Distribute hardware keys, update conditional access policies, deliver administrator training. |
+| Q2 2025 | Extend phishing-resistant MFA to all core applications. | 65% of workforce using hardware or platform authenticators. | Integrate third-party SaaS via SAML/OIDC, retire legacy OTP methods, monitor adoption metrics. |
+| Q3 2025 | Enforce MFA on service accounts and automation workflows. | 85% coverage including non-interactive accounts. | Implement managed identities, rotate secrets, and transition scripts to certificate-based auth. |
+| Q4 2025 | Achieve universal phishing-resistant MFA adoption. | 100% workforce coverage with passwordless sign-in for daily workflows. | Decommission password-only login paths, validate recovery procedures, and perform independent assurance review. |
+
+Progress is reported monthly to the Director, with blockers recorded in the risk register and resolved before the next milestone.
+
+## Control Assurance and Auditing
+
+- Continuous monitoring dashboards track MFA success/failure rates, unusual prompt frequency, and impossible travel events. Alerts feed into the SIEM for investigation.
+- Semi-annual configuration reviews verify that conditional access policies enforce compliant devices, block legacy authentication, and align with the Zero Trust Security Policy.
+- Third-party attestations are obtained from managed service providers to confirm MFA enforcement on shared platforms.
+
+## Training and Support
+
+Training includes live demonstrations on registering FIDO2 devices, recovery using administrative unlock codes, and recognising MFA push bombing. A just-in-time knowledge base article is provided when users enrol new devices. The helpdesk maintains secure break-glass accounts protected by hardware tokens and audited monthly.
+
+## Integration with Complementary Policies
+
+This policy must be applied in tandem with the [Password and Authentication Policy](./password-and-authentication-policy.md) and the [Passwordless Authentication Policy](./passwordless-authentication-policy.md). Together they establish a unified authentication standard that supports zero-trust principles and regulatory expectations.
+

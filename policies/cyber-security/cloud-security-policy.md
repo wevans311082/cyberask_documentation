@@ -92,3 +92,64 @@ This policy will be reviewed at least annually and updated as necessary to remai
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
 | 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
+
+## Shared Responsibility Model
+
+Cyber Ask recognises that cloud security is a shared endeavour between the customer and the cloud service provider (CSP). Responsibilities vary by service model (IaaS, PaaS, SaaS) and must be documented for each engagement.
+
+```mermaid
+graph TD
+    A[Cloud Service Provider] -->|Infrastructure Security| B[Physical Data Centres]
+    A -->|Platform Controls| C[Hypervisors & Network]
+    A -->|Core Services| D[Managed Databases]
+    E[Cyber Ask Ltd] -->|Identity & Access Management| C
+    E -->|Data Governance| F[Customer Data]
+    E -->|Configuration & Monitoring| G[Workloads & Applications]
+    E -->|Compliance & Risk| H[Policies & Audits]
+    C --> G
+    D --> G
+    B --> C
+```
+
+Responsibilities are formalised in supplier contracts, and compliance checks ensure both parties fulfil their obligations.
+
+## Cloud Service Provider Evaluation Checklist
+
+Prior to onboarding a new CSP or renewing an existing contract, the Director must complete the following checklist:
+
+1. **Security Governance**
+   - Review independent audit reports (ISO 27001, SOC 2 Type II) and confirm scope covers required services.
+   - Evaluate CSP zero-trust posture, including support for conditional access, network segmentation, and logging.
+2. **Data Protection**
+   - Confirm data residency options and encryption capabilities (at rest and in transit) with customer-managed keys where available.
+   - Validate backup and disaster recovery SLAs, ensuring they meet organisational RTO/RPO targets.
+3. **Identity and Access**
+   - Ensure SSO integration via SAML/OIDC and support for FIDO2 or certificate-based authentication.
+   - Assess RBAC granularity and availability of just-in-time privileged access features.
+4. **Monitoring and Incident Response**
+   - Confirm availability of detailed audit logs, API access for SIEM ingestion, and support for automated alerting.
+   - Review CSP incident response commitments, notification timelines, and joint investigation procedures.
+5. **Compliance and Legal**
+   - Verify contractual clauses covering data processing, subcontractor usage, breach notification, and right-to-audit provisions.
+   - Assess alignment with GDPR, UK regulatory requirements, and sector-specific obligations relevant to clients.
+6. **Financial and Operational Stability**
+   - Evaluate CSP financial health, service uptime history, and roadmap to ensure continuity of operations.
+7. **API and Integration Security**
+   - Coordinate with the [API Security Policy](./api-security-policy.md) to assess secure API gateway features, rate limiting, and support for mutual TLS.
+
+Findings are documented in the vendor due diligence register, and remediation plans must be agreed upon before contract execution.
+
+## Hybrid Cloud and API Considerations
+
+Many client deliverables rely on integrated cloud and API ecosystems. Cyber Ask maintains tight coupling between this policy and the [API Security Policy](./api-security-policy.md) to manage shared risks:
+
+- Joint architecture reviews validate that API gateways, service meshes, and workload identities enforce zero-trust principles across cloud boundaries.
+- Unified logging pipelines collect telemetry from cloud control planes and API platforms to support forensic investigations.
+- Change management requires coordinated approvals when modifications impact both cloud infrastructure and exposed APIs.
+
+## Continuous Compliance Monitoring
+
+- Cloud Security Posture Management (CSPM) tools scan environments daily against CIS benchmarks and custom policies. Non-compliant resources trigger automated remediation scripts.
+- Secure Score metrics are reviewed weekly, and action plans are tracked to closure within 30 days.
+- Quarterly tabletop exercises test cloud incident scenarios, including API abuse and supply chain compromise.
+

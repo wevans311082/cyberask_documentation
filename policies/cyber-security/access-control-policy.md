@@ -128,3 +128,101 @@ This policy is reviewed at least annually or upon significant system changes to 
 4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
 5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
 
+
+## Role-Based Access Control Standards
+
+Role-based access control (RBAC) is the authoritative method for assigning privileges across the organisation. Roles are mapped to business functions, and each access change must demonstrate compliance with the principle of least privilege. The following matrix defines the approved enterprise roles, the standard permission sets, and the justification for each access level in alignment with NIST AC-2 (Account Management) and AC-3 (Access Enforcement):
+
+| Role | Permissions | Justification |
+| --- | --- | --- |
+| Director / Executive Owner | Global administrator rights in Microsoft Entra ID, access to financial systems, contractual repositories, and incident response tooling. | Required to discharge governance obligations, approve risk treatments, and coordinate emergency response actions across all systems. |
+| Security Administrator | Privileged access to identity governance, SIEM configurations, endpoint detection consoles, and network policy enforcement platforms. | Ensures technical enforcement of access controls, continuous monitoring, and rapid containment of threats. |
+| Systems Engineer | Deployment, configuration, and maintenance rights on server infrastructure, cloud workloads, and automation pipelines with no access to financial records. | Supports operational continuity and patching activities while maintaining separation of duties. |
+| Business Analyst | Read-only access to client deliverables, analytics dashboards, and collaboration spaces with data export controls. | Enables client reporting without exposing administrative functions or sensitive configuration data. |
+| Contractor / Third Party | Time-bound access to designated project workspaces, ticketing queues, and required APIs via just-in-time provisioning. | Provides the minimum permissions necessary to fulfil contracted deliverables and supports contractual auditability. |
+| Guest / Client Collaborator | Scoped access to shared Microsoft 365 folders and secure messaging channels with watermarking and download restrictions. | Facilitates client collaboration while preventing exfiltration of unapproved data. |
+
+Role definitions are reviewed quarterly by the Director and security administrator to verify they still represent business functions accurately. When new services are introduced, a role design workshop must precede production onboarding to ensure the new access profile inherits the least privilege posture.
+
+## Provisioning and Deprovisioning Procedures
+
+Access provisioning, modification, and revocation are orchestrated through automated workflows anchored in the company identity platform (Okta or Microsoft Entra ID). The Director maintains the authoritative roster of personnel and contractors, and the following procedural controls are enforced:
+
+1. **Intake and Verification**
+   - Managers or engagement leads raise a service request in the ticketing system, attaching signed statements of work or employment agreements. Requests are validated against HR records and vendor onboarding checklists.
+   - Tickets lacking documented business justification, data handling requirements, or retention periods are automatically rejected by workflow rules.
+
+2. **Automated Provisioning**
+   - Once approved, Okta Lifecycle Management triggers just-in-time account creation in downstream applications using SCIM or API integrations. Default access bundles are applied based on RBAC mappings, and MFA enrolment is required before first login.
+   - Access requiring privileged roles triggers a secondary approval by the security administrator, and session recordings are enabled automatically for systems supporting Privileged Access Management (PAM).
+
+3. **Change Management**
+   - Changes to access rights follow the same ticketed workflow. The system owner must document risk impact, segregation-of-duties conflicts, and data classification levels affected. Automation enforces dual approval for any elevation to privileged roles.
+   - Recertification prompts are issued whenever a user’s department, contract duration, or project assignment changes, ensuring dynamic alignment with organisational structure.
+
+4. **Deprovisioning and Exit Controls**
+   - HR triggers an offboarding runbook within one hour of termination confirmation. The automation disables SSO tokens, revokes device certificates, and wipes enrolled mobile devices via Microsoft Intune.
+   - Physical assets (hardware tokens, laptops, access badges) are reconciled using asset tracking logs, and the Director signs off on asset return forms before closing the ticket.
+   - Residual access anomalies detected during post-termination audits are reported as security incidents in accordance with the Incident Response Policy.
+
+5. **Evidence and Auditability**
+   - All provisioning actions generate immutable audit records stored in the central logging platform. Reports are retained for seven years to meet contractual obligations and support external audits.
+   - Quarterly control attestations summarise provisioning metrics (e.g., average fulfilment time, orphaned accounts resolved) and are submitted to the Risk Committee.
+
+## Least Privilege Enforcement Playbooks
+
+The least privilege principle is applied through layered technical and administrative controls that satisfy NIST AC-3. Key enforcement mechanisms include:
+
+- **Attribute-Based Access Control (ABAC) Enhancements:** Attributes such as device compliance status, geolocation, and time-of-day constraints are referenced by conditional access policies to enforce contextual risk reduction. Users attempting to access sensitive data from unmanaged devices are redirected to virtual desktops with limited functionality.
+- **Privileged Identity Management (PIM):** Elevated access roles are granted using just-in-time activation with automatic expiration after a maximum of four hours. PIM requires multi-factor re-authentication, change ticket IDs, and managerial justification before activation is confirmed.
+- **Data Segmentation:** Collaboration spaces and repositories are classified by data sensitivity. Only those with documented need-to-know are assigned membership, and DLP policies enforce restrictions on copying, printing, or sharing protected content externally.
+- **Session Monitoring:** High-risk sessions are monitored via Microsoft Defender for Cloud Apps and alerts integrate with the SIEM for behavioural analytics. Deviations from established baselines trigger containment procedures.
+- **Certification and Validation:** Quarterly access recertification requires managers to attest to the necessity of every privilege. Non-responses trigger automatic revocation after 72 hours to prevent privilege creep.
+
+These playbooks are codified in standard operating procedures (SOPs) and tested during tabletop exercises to confirm operational readiness.
+
+## Continuous Verification in a Zero-Trust Model
+
+Zero-trust architecture (ZTA) principles extend the access control policy by requiring continuous verification of user, device, and session posture. Cyber Ask Ltd integrates the policy with BeyondCorp-inspired controls to ensure no implicit trust is granted based on network location:
+
+1. **Identity Assurance:** Authentication relies on phishing-resistant MFA, device certificates, and risk-based adaptive scoring. Suspicious logins invoke step-up verification using hardware security keys.
+2. **Device Health Verification:** Endpoints must demonstrate compliance with baseline controls (patched OS, encrypted storage, active endpoint protection) before receiving access tokens. Device posture assessments occur at login and every 15 minutes thereafter.
+3. **Application Micro-Gateways:** Access to SaaS and on-premise applications routes through secure access service edge (SASE) platforms that enforce conditional access, inline DLP, and browser isolation for high-risk sessions.
+4. **Continuous Monitoring:** Behavioural analytics ingest telemetry from Okta, Microsoft 365, and endpoint detection solutions. Machine learning models baseline typical user behaviour and escalate anomalies to the incident response team for triage.
+5. **Policy Feedback Loop:** Lessons from incidents, penetration tests, and audit findings feed into policy refinements. Controls are mapped to NIST 800-207 guidance, ensuring consistent implementation of ZTA components.
+
+## Approval Workflow for Access Requests
+
+The following Mermaid diagram illustrates the approval workflow from request submission to fulfilment, demonstrating segregation of duties and continuous oversight:
+
+```mermaid
+graph TD
+    A[User submits access request in ticketing system] --> B{Manager approval?}
+    B -- No --> C[Request rejected with feedback]
+    B -- Yes --> D[Identity platform validates role mapping]
+    D --> E{Privileged access?}
+    E -- No --> F[Automated provisioning via Okta]
+    F --> G[User completes MFA enrolment]
+    G --> H[Access review scheduled]
+    E -- Yes --> I[Security admin reviews and approves]
+    I --> J[PIM issues time-bound credentials]
+    J --> G
+    H --> K[Quarterly recertification reminder sent]
+```
+
+## Metrics and Continuous Improvement
+
+To evidence policy effectiveness and fulfil NIST AC-2 control requirements, the Director tracks the following metrics:
+
+- Average provisioning time per role and variance across departments.
+- Percentage of privileged activations with documented approvals and ticket references.
+- Number of terminated accounts disabled within the one-hour target window.
+- Reduction of orphaned accounts following each quarterly access review.
+- Mean time to detect (MTTD) and mean time to revoke (MTTR) anomalous access patterns.
+
+Metrics are reviewed during governance meetings and documented in the risk register. Action plans are assigned for any indicators outside tolerance thresholds.
+
+## Training and Awareness Enhancements
+
+Annual training modules include interactive labs demonstrating how RBAC, least privilege, and zero-trust controls protect organisational assets. Administrators receive hands-on refreshers in lifecycle management tooling, while managers are coached on writing risk-based justifications for access requests. Completion records feed into the compliance dashboard and are linked to performance reviews to reinforce accountability.
+

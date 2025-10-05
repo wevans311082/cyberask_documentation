@@ -89,3 +89,73 @@ This policy will be reviewed at least annually and updated as necessary to remai
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
 | 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
+
+## Incident Response Objectives and Targets
+
+Cyber Ask Ltd commits to containing security incidents swiftly, safeguarding evidence, and restoring services within defined business recovery thresholds. The Director establishes the following objectives:
+
+- **Recovery Time Objective (RTO):** High-severity incidents must restore critical client-facing services within four hours; medium severity incidents within 12 hours; low severity incidents within 24 hours.
+- **Recovery Point Objective (RPO):** Data loss must not exceed one hour for high severity, four hours for medium, and one business day for low severity incidents.
+- **Notification Commitment:** Regulatory and contractual notifications shall be issued within statutory timelines and no later than 72 hours from breach confirmation.
+
+These targets underpin resource allocation, tabletop exercises, and investment in automation capabilities.
+
+## Phased Response Framework
+
+The policy adopts a six-phase lifecycle aligned with ISO/IEC 27035 and NIST SP 800-61. Each phase includes mandatory actions, decision authorities, and success criteria. Detailed procedures reside in the [Incident Response Plan](./incident-response-plan.md).
+
+### 1. Preparation
+- Maintain updated playbooks, AI-enhanced detection tooling, secure communications, and incident documentation templates.
+- Conduct semi-annual resilience assessments covering backup integrity, privileged access controls, and third-party readiness.
+- Ensure all responders complete annual legal, evidentiary, and technical training.
+
+### 2. Identification
+- Monitor environments with layered telemetry including SIEM, endpoint detection and response (EDR), and AI-driven anomaly detection. Integration with Microsoft Sentinel or Splunk automates correlation of behavioral indicators.
+- Classify incidents using the severity matrix, referencing RTO/RPO thresholds.
+- Record initial findings in the incident management platform within 30 minutes of detection.
+
+### 3. Containment
+- Apply short-term containment within 60 minutes of high-severity confirmation, such as isolating systems or enforcing firewall blocks.
+- Implement long-term containment controls (patches, segmentation, credential resets) with change management oversight.
+- Ensure that containment actions preserve forensic evidence and comply with chain-of-custody requirements.
+
+### 4. Eradication
+- Remove malicious artifacts, unauthorized changes, and compromised credentials.
+- Validate remediation steps via vulnerability scans and integrity checks before progressing to recovery.
+- Document root cause analysis, leveraging threat intelligence feeds to understand attacker tradecraft.
+
+### 5. Recovery
+- Restore services from verified clean backups, prioritizing systems based on business impact.
+- Monitor for recurrence, ensuring that systems meet hardened baseline configurations prior to returning to production.
+- Coordinate communications with customers and partners to confirm service restoration.
+
+### 6. Lessons Learned
+- Convene a post-incident review within ten business days of closure.
+- Update policies, playbooks, and training materials based on findings.
+- Track corrective actions and control improvements through the risk register until completion.
+
+## Governance and Metrics
+
+Incident response governance integrates with the enterprise risk management programme. The Director reviews performance metrics quarterly, including:
+
+- Mean time to detect (MTTD) and mean time to respond (MTTR) across severity levels.
+- Adherence to RTO/RPO thresholds and percentage of incidents meeting target windows.
+- Number of incidents detected through AI/ML correlation as part of the 2025 detection enhancement initiative.
+- Completion rate of lessons learned action items within 60 days.
+
+Findings are reported to executive leadership alongside recommendations for tooling, staffing, or process improvements.
+
+## Technology Enablement and 2025 Enhancements
+
+The 2025 roadmap integrates AI-driven threat detection and automated response coordination:
+
+- **AI-Assisted Detection:** Deploy behaviour analytics in the SIEM to highlight anomalies in user access, network flows, and cloud API usage. Models are tuned monthly using red-team simulation data.
+- **Automated Playbook Orchestration:** Security orchestration, automation, and response (SOAR) workflows execute repeatable tasks such as quarantine, credential resets, and notification templating, reducing manual toil.
+- **Collaborative Incident Workspace:** Cloud-based case management consolidates evidence, approvals, and communication threads, ensuring traceability for audits.
+
+These enhancements are tested during quarterly exercises to validate interoperability with manual processes.
+
+## Policy Linkage and Awareness
+
+All personnel must acknowledge receipt of this policy and review the operational [Incident Response Plan](./incident-response-plan.md) before receiving access to privileged monitoring tools. The Director ensures that contractors and third-party providers are contractually obligated to follow both documents. Deviations are subject to disciplinary measures and may result in contract termination.
+
