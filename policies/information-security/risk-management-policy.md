@@ -29,6 +29,8 @@ This policy applies to all employees, contractors, and third parties who access 
 2. Controls for risk management must align with industry best practices and regulatory obligations.
 3. Activities related to risk management shall be reviewed and updated regularly to address emerging risks.
 4. Records demonstrating compliance with this policy shall be maintained.
+5. A master risk register, risk treatment plan, and supporting risk assessments shall be maintained in the "Risk Assessments" repository folder with version control and access limited to authorised personnel.
+6. Risk treatment progress shall be monitored monthly and reported through the security metrics pack alongside evidence of control effectiveness.
 
 1. All aspects of Risk Management Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
 2. Procedures shall be documented, communicated, and reviewed at least annually by the Director.
@@ -47,6 +49,7 @@ This policy applies to all employees, contractors, and third parties who access 
 4. Internal audits shall verify adherence to Risk Management Policy at least annually and report findings to senior management.
 5. Data associated with Risk Management Policy must be protected in accordance with GDPR and UK statutory requirements.
 6. Users shall acknowledge and accept this policy annually to retain relevant access rights.
+7. Risk decisions, approvals, and evidentiary artefacts shall be retained for a minimum of six years within the secure document repository referenced by the master risk register.
 
 ## Technical Controls
 
@@ -81,10 +84,13 @@ This policy will be reviewed at least annually and updated as necessary to remai
 3. Weekly vulnerability scans and monthly patch reviews are led by the Director, with remediation actions tracked to completion.
 4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
 5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
+6. The Director maintains the Risk Assessments folder structure (current risk assessments, master risk register, technical control roadmap, and risk treatment plan) and logs updates via the ticketing workflow defined in the Risk Treatment Plan.
+7. Monthly risk review meetings confirm progress against treatment actions, update residual risk scores, and ensure alignment with ISO/IEC 27001:2022 and NCSC CAF objectives.
 
 
 ## Revision History
 
 | Version | Date | Description | Author |
 | ------- | ---------- | ----------------------- | ------ |
+| 2.1     | 2025-02-14 | Added Risk Assessments repository requirements and monthly monitoring expectations | Director |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
