@@ -3,6 +3,19 @@
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248
 **Author:** WEvans Director
 
+## Cyber Ask Operating Context
+
+1. Cyber Ask Ltd operates with a single employee who also serves as the sole director responsible for governance, risk, and compliance decisions.
+2. Cyber Ask Ltd maintains professional liability insurance covering its consulting and advisory services.
+3. A dedicated virtual machine functions as the single Windows Server domain controller and is synchronized with Microsoft Entra ID for identity management.
+4. The organisation holds a standard Microsoft 365 licence; Microsoft Purview and Microsoft Defender add-ons are not deployed, and Windows Defender provides endpoint protection.
+5. Customer data is stored on BitLocker-encrypted drives to protect information at rest.
+6. Cyber Ask Ltd assets are vulnerability-assessed weekly and patched promptly according to remediation guidance.
+7. Cyber Ask Ltd has not yet achieved Cyber Essentials, Cyber Essentials Plus, or ISO 27001 certification but aligns its controls with those standards where practicable.
+8. The Director personally fulfils HR, IT administration, and compliance duties, engaging specialist suppliers when additional expertise is required.
+
+
+
 ## Purpose
 Define mandatory standards of professional, ethical, and secure behaviour for all personnel so that Cyber Ask Ltd complies with UK legislation, ISO/IEC 27001 controls, the NCSC Cyber Assessment Framework and relevant CIS Benchmarks.
 
@@ -55,24 +68,22 @@ This Code applies to every employee, director, agency worker, consultant, and co
 9.2 Breaches shall be investigated in accordance with the Disciplinary Policy. Sanctions may include dismissal or referral to law enforcement.
 
 ## Roles and Responsibilities
-- **All Personnel:** Understand and comply with this Code; attend mandatory training and report concerns.
-- **Managers:** Lead by example, ensure team compliance and respond to reported issues.
-- **Human Resources:** Maintain this Code, provide guidance and ensure disciplinary processes are followed.
-- **Information Security Manager:** Monitor compliance with security-related obligations and advise on protective measures.
+1. **All Personnel:** Understand and comply with this Code; attend mandatory training and report concerns.
+2. **Managers:** Lead by example, ensure team compliance and respond to reported issues.
+3. **Human Resources:** Maintain this Code, provide guidance and ensure disciplinary processes are followed.
+4. **Director:** Monitor compliance with security-related obligations and advise on protective measures.
 
 ## Accountable Roles and Decision Authority
 
-- **Policy Owner (HR Director):** Maintains this policy, coordinates updates, and ensures alignment with the Document Control Policy and Cyber Governance Policy.
-- **Chief Information Security Officer (CISO):** Reviews people-related security risks and approves exceptions impacting information assets in line with the Information Security Policy.
-- **Risk and Compliance Committee:** Evaluates residual workforce risks and endorses major decisions consistent with the Risk Management Policy.
-- **Executive Leadership Team:** Approves strategic or resource-intensive changes in accordance with the Cyber Governance Policy.
+1. **Director:** Owns and maintains this policy, coordinates updates, and ensures alignment with the Cyber Governance Policy and Document Control Policy.
+2. **Director (Risk Owner):** Reviews and approves exceptions, risk acceptances, and material control changes, documenting rationale in line with the Risk Management Policy.
+3. **Director (Service Owner):** Oversees day-to-day execution of this policy, vendor engagement, and customer communications when actions affect external parties.
 
-Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
 
 ## Approval and Communication
-- The Board of Directors and Chief Executive Officer approve this Code of Conduct and any material revisions before they take effect.
-- Following approval, the Executive Leadership Team and HR Director distribute the current version to all personnel via email, the intranet, and formal briefings.
-- Employees must sign an acknowledgement within 10 working days of publication; completed acknowledgements are stored with individual HR records in the secure HR information system.
+1. The Board of Directors and Chief Executive Officer approve this Code of Conduct and any material revisions before they take effect.
+2. Following approval, the Executive Leadership Team and Director distribute the current version to all personnel via email, the intranet, and formal briefings.
+3. Employees must sign an acknowledgement within 10 working days of publication; completed acknowledgements are stored with individual HR records in the secure HR information system.
 
 ## Reporting
 Employees must report suspected violations or unethical behaviour to management, Human Resources or the confidential reporting channel without fear of retaliation. Anonymous reports will be accepted where legally permissible.
@@ -94,9 +105,9 @@ This Code will be reviewed at least annually or upon significant legal or organi
 | 3.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
 
 ## Implementation Guidelines
-- All requests and approvals must be tracked in the ServiceDesk system.
-- Data at rest must use AES-256 encryption; data in transit must use TLS 1.2+ with perfect forward secrecy.
-- Security events shall log to the central SIEM and be retained for 12 months.
-- Control owners perform quarterly self-assessments; Information Security conducts annual audits.
-- Exceptions require written CISO approval and must include compensating controls.
+1. The Director records policy-related approvals and evidence in the central document repository and retains them for audit purposes.
+2. BitLocker-encrypted storage protects customer data on company systems, and Windows Defender telemetry is reviewed weekly.
+3. Weekly vulnerability scans and monthly patch reviews are led by the Director, with remediation actions tracked to completion.
+4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
+5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
 

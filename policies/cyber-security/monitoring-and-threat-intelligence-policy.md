@@ -3,6 +3,19 @@
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
 **Author:** WEvans Director
 
+## Cyber Ask Operating Context
+
+1. Cyber Ask Ltd operates with a single employee who also serves as the sole director responsible for governance, risk, and compliance decisions.
+2. Cyber Ask Ltd maintains professional liability insurance covering its consulting and advisory services.
+3. A dedicated virtual machine functions as the single Windows Server domain controller and is synchronized with Microsoft Entra ID for identity management.
+4. The organisation holds a standard Microsoft 365 licence; Microsoft Purview and Microsoft Defender add-ons are not deployed, and Windows Defender provides endpoint protection.
+5. Customer data is stored on BitLocker-encrypted drives to protect information at rest.
+6. Cyber Ask Ltd assets are vulnerability-assessed weekly and patched promptly according to remediation guidance.
+7. Cyber Ask Ltd has not yet achieved Cyber Essentials, Cyber Essentials Plus, or ISO 27001 certification but aligns its controls with those standards where practicable.
+8. The Director personally fulfils HR, IT administration, and compliance duties, engaging specialist suppliers when additional expertise is required.
+
+
+
 ## Purpose
 
 This policy establishes requirements for monitoring and threat intelligence to protect organizational assets and ensure compliance with applicable laws and regulations.
@@ -17,47 +30,45 @@ This policy applies to all employees, contractors, and third parties who access 
 3. Activities related to monitoring and threat intelligence shall be reviewed and updated regularly to address emerging risks.
 4. Records demonstrating compliance with this policy shall be maintained.
 
-- All aspects of Monitoring And Threat Intelligence Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
-- Procedures shall be documented, communicated, and reviewed at least annually by the Information Security Manager.
-- Staff and contractors must receive training on Monitoring And Threat Intelligence Policy before being granted related responsibilities.
-- Access and activities associated with Monitoring And Threat Intelligence Policy shall be logged and monitored to detect and respond to unauthorised actions.
-- Deviations from this policy must be reported within 24 hours and remedied within 30 days.
-- Technology configurations supporting Monitoring And Threat Intelligence Policy must follow relevant CIS Benchmarks and vendor hardening guides.
-- Third parties engaged in Monitoring And Threat Intelligence Policy processes shall have contractual obligations to meet equivalent security standards.
-- Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
-- The Information Security Manager must approve exceptions in writing, including scope, duration, and compensating controls.
-- Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
+1. All aspects of Monitoring And Threat Intelligence Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
+2. Procedures shall be documented, communicated, and reviewed at least annually by the Director.
+3. Staff and contractors must receive training on Monitoring And Threat Intelligence Policy before being granted related responsibilities.
+4. Access and activities associated with Monitoring And Threat Intelligence Policy shall be logged and monitored to detect and respond to unauthorised actions.
+5. Deviations from this policy must be reported within 24 hours and remedied within 30 days.
+6. Technology configurations supporting Monitoring And Threat Intelligence Policy must follow relevant CIS Benchmarks and vendor hardening guides.
+7. Third parties engaged in Monitoring And Threat Intelligence Policy processes shall have contractual obligations to meet equivalent security standards.
+8. Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
+9. The Director must approve exceptions in writing, including scope, duration, and compensating controls.
+10. Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
 
-- Systems processing Monitoring And Threat Intelligence Policy shall enforce least privilege and role-based access controls.
-- Changes affecting Monitoring And Threat Intelligence Policy configurations must follow the Change Management Policy and receive formal approval.
-- Monitoring tools shall generate alerts for Monitoring And Threat Intelligence Policy violations and designated staff must review these alerts daily.
-- Internal audits shall verify adherence to Monitoring And Threat Intelligence Policy at least annually and report findings to senior management.
-- Data associated with Monitoring And Threat Intelligence Policy must be protected in accordance with GDPR and UK statutory requirements.
-- Personal data collected through monitoring or threat intelligence activities shall be processed on the lawful bases of legal obligation and legitimate interests under UK GDPR Article 6(1)(c) and 6(1)(f), supporting risk management, regulatory compliance, and incident detection.
-- Monitoring operations must comply with the Data Protection Act 2018, the Investigatory Powers Act 2016, and the Telecommunications (Lawful Business Practice) (Interception of Communications) Regulations 2000, ensuring interception or surveillance is proportionate and limited to authorised purposes.
-- The Data Protection Officer (DPO) is responsible for overseeing related data protection impact assessments, advising on safeguards, and routinely reviewing monitoring outputs to confirm continued protection of individual rights.
-- Users shall acknowledge and accept this policy annually to retain relevant access rights.
+1. Systems processing Monitoring And Threat Intelligence Policy shall enforce least privilege and role-based access controls.
+2. Changes affecting Monitoring And Threat Intelligence Policy configurations must follow the Change Management Policy and receive formal approval.
+3. Monitoring tools shall generate alerts for Monitoring And Threat Intelligence Policy violations and designated staff must review these alerts daily.
+4. Internal audits shall verify adherence to Monitoring And Threat Intelligence Policy at least annually and report findings to senior management.
+5. Data associated with Monitoring And Threat Intelligence Policy must be protected in accordance with GDPR and UK statutory requirements.
+6. Personal data collected through monitoring or threat intelligence activities shall be processed on the lawful bases of legal obligation and legitimate interests under UK GDPR Article 6(1)(c) and 6(1)(f), supporting risk management, regulatory compliance, and incident detection.
+7. Monitoring operations must comply with the Data Protection Act 2018, the Investigatory Powers Act 2016, and the Telecommunications (Lawful Business Practice) (Interception of Communications) Regulations 2000, ensuring interception or surveillance is proportionate and limited to authorised purposes.
+8. The Data Protection Officer (DPO) is responsible for overseeing related data protection impact assessments, advising on safeguards, and routinely reviewing monitoring outputs to confirm continued protection of individual rights.
+9. Users shall acknowledge and accept this policy annually to retain relevant access rights.
 
 ## Technical Controls
 
-- Configure and maintain systems to enforce the requirements of the Monitoring and Threat Intelligence Policy, using appropriate tools and automation.
-- Enable logging, monitoring, and alerting to detect and respond to deviations from the Monitoring and Threat Intelligence Policy.
-- Apply encryption, access controls, and regular audits to ensure compliance with this policy.
+1. Configure and maintain systems to enforce the requirements of the Monitoring and Threat Intelligence Policy, using appropriate tools and automation.
+2. Enable logging, monitoring, and alerting to detect and respond to deviations from the Monitoring and Threat Intelligence Policy.
+3. Apply encryption, access controls, and regular audits to ensure compliance with this policy.
 
 ## Roles and Responsibilities
 
-- **Employees and Contractors:** Follow monitoring and threat intelligence procedures and report issues or non-compliance.
-- **Management:** Provide resources and enforce this policy within their areas of responsibility.
-- **Security and Compliance Teams:** Monitor monitoring and threat intelligence controls, provide guidance, and coordinate improvements.
+1. **Employees and Contractors:** Follow monitoring and threat intelligence procedures and report issues or non-compliance.
+2. **Management:** Provide resources and enforce this policy within their areas of responsibility.
+3. **Security and Compliance Teams:** Monitor monitoring and threat intelligence controls, provide guidance, and coordinate improvements.
 
 ## Accountable Roles and Decision Authority
 
-- **Policy Owner (Information Security Manager):** Maintains this policy, coordinates updates, and ensures alignment with the Cyber Governance Policy and Document Control Policy.
-- **Chief Information Security Officer (CISO):** Approves exceptions, risk acceptances, and material control changes in line with the Information Security Policy and Risk Management Policy.
-- **Risk and Compliance Committee:** Reviews escalated risks, endorses significant remediation decisions, and provides oversight consistent with the Risk Management Policy.
-- **Executive Leadership Team:** Ratifies budgetary or strategic decisions related to this policy as defined in the Cyber Governance Policy.
+1. **Director:** Owns and maintains this policy, coordinates updates, and ensures alignment with the Cyber Governance Policy and Document Control Policy.
+2. **Director (Risk Owner):** Reviews and approves exceptions, risk acceptances, and material control changes, documenting rationale in line with the Risk Management Policy.
+3. **Director (Service Owner):** Oversees day-to-day execution of this policy, vendor engagement, and customer communications when actions affect external parties.
 
-Exception requests must follow the exception management process described in the Cyber Governance Policy and all approvals must be recorded in accordance with the Document Control Policy.
 
 ## Compliance
 
@@ -68,11 +79,12 @@ Failure to adhere to this policy may result in disciplinary action, up to and in
 This policy will be reviewed at least annually and updated as necessary to remain effective and compliant with relevant requirements.
 
 ## Implementation Guidelines
-- All requests and approvals must be tracked in the ServiceDesk system.
-- Data at rest must use AES-256 encryption; data in transit must use TLS 1.2+ with perfect forward secrecy.
-- Security events shall log to the central SIEM and be retained for 12 months.
-- Control owners perform quarterly self-assessments; Information Security conducts annual audits.
-- Exceptions require written CISO approval and must include compensating controls.
+1. The Director records policy-related approvals and evidence in the central document repository and retains them for audit purposes.
+2. BitLocker-encrypted storage protects customer data on company systems, and Windows Defender telemetry is reviewed weekly.
+3. Weekly vulnerability scans and monthly patch reviews are led by the Director, with remediation actions tracked to completion.
+4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
+5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
+
 
 ## Revision History
 
