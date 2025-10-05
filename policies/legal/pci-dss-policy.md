@@ -25,28 +25,73 @@ This policy establishes requirements for pci dss to protect organizational asset
 This policy applies to all employees, contractors, and third parties who access or manage company resources related to pci dss.
 
 ## Policy
-1. The organization shall define and document procedures for pci dss.
-2. Controls for pci dss must align with industry best practices and regulatory obligations.
-3. Activities related to pci dss shall be reviewed and updated regularly to address emerging risks.
-4. Records demonstrating compliance with this policy shall be maintained.
 
-1. All aspects of Pci Dss Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
-2. Procedures shall be documented, communicated, and reviewed at least annually by the Director.
-3. Staff and contractors must receive training on Pci Dss Policy before being granted related responsibilities.
-4. Access and activities associated with Pci Dss Policy shall be logged and monitored to detect and respond to unauthorised actions.
-5. Deviations from this policy must be reported within 24 hours and remedied within 30 days.
-6. Technology configurations supporting Pci Dss Policy must follow relevant CIS Benchmarks and vendor hardening guides.
-7. Third parties engaged in Pci Dss Policy processes shall have contractual obligations to meet equivalent security standards.
-8. Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
-9. The Director must approve exceptions in writing, including scope, duration, and compensating controls.
-10. Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
+Cyber Ask Ltd adopts the Payment Card Industry Data Security Standard (PCI DSS) as the baseline framework for protecting cardholder data. The following subsections detail the 12 PCI DSS requirements and the controls implemented to satisfy them.
 
-1. Systems processing Pci Dss Policy shall enforce least privilege and role-based access controls.
-2. Changes affecting Pci Dss Policy configurations must follow the Change Management Policy and receive formal approval.
-3. Monitoring tools shall generate alerts for Pci Dss Policy violations and designated staff must review these alerts daily.
-4. Internal audits shall verify adherence to Pci Dss Policy at least annually and report findings to senior management.
-5. Data associated with Pci Dss Policy must be protected in accordance with GDPR and UK statutory requirements.
-6. Users shall acknowledge and accept this policy annually to retain relevant access rights.
+### Requirement 1 – Install and Maintain Network Security Controls
+1. Maintain documented firewall and router standards, including justification for all open ports and services.
+2. Enforce network segmentation that isolates the Cardholder Data Environment (CDE) from corporate and development networks, with quarterly verification of segmentation effectiveness.
+3. Restrict inbound and outbound traffic to only what is necessary for payment processing partners and service providers.
+
+### Requirement 2 – Apply Secure Configurations to All System Components
+1. Change vendor-supplied defaults (passwords, SNMP strings, certificates) before systems are deployed in the CDE.
+2. Maintain configuration hardening baselines aligned to CIS Benchmarks for servers, workstations, and network devices supporting payment services.
+3. Document and approve configuration deviations through the Change Management Policy with compensating controls.
+
+### Requirement 3 – Protect Stored Account Data
+1. Prohibit storage of sensitive authentication data post-authorization unless explicitly justified and approved.
+2. Encrypt primary account numbers (PAN) using industry-standard algorithms and manage keys in secure, access-controlled repositories.
+3. Render PAN unreadable wherever stored through truncation, tokenisation, or hashing mechanisms.
+
+### Requirement 4 – Protect Cardholder Data with Strong Cryptography During Transmission
+1. Use TLS 1.2 or higher for all transmissions of cardholder data across open, public networks.
+2. Maintain up-to-date certificates and disable insecure protocols and ciphers.
+3. Monitor network connections for unauthorised services attempting to transmit cardholder data.
+
+### Requirement 5 – Protect Systems and Networks from Malicious Software
+1. Deploy anti-malware solutions with automatic signature updates across all endpoints within the CDE and supporting systems.
+2. Restrict administrative privileges to reduce the likelihood of malware execution.
+3. Review malware alerts daily and document response actions within the incident management system.
+
+### Requirement 6 – Develop and Maintain Secure Systems and Software
+1. Track vendor security advisories and apply critical patches within 30 days for systems in scope for PCI DSS.
+2. Follow secure coding practices, including static and dynamic testing, for any bespoke payment integrations.
+3. Document change approvals and rollback procedures for software impacting the CDE.
+
+### Requirement 7 – Restrict Access to System Components and Cardholder Data
+1. Grant access based on least privilege and role-based access controls reviewed at least quarterly.
+2. Enforce unique IDs for each user and document access approval workflows.
+3. Remove or disable access promptly when personnel change roles or leave the organisation.
+
+### Requirement 8 – Identify Users and Authenticate Access to System Components
+1. Require multi-factor authentication for all remote access to the CDE and administrative functions.
+2. Enforce password complexity, lockout thresholds, and session timeouts per PCI DSS minimums.
+3. Log authentication events and correlate them with privileged activity monitoring.
+
+### Requirement 9 – Restrict Physical Access to Cardholder Data
+1. Store physical media containing cardholder data in locked cabinets with access logs and CCTV coverage where applicable.
+2. Escort visitors within facilities housing CDE systems and record their entry/exit times.
+3. Destroy media securely using shredding or degaussing before disposal or reuse.
+
+### Requirement 10 – Log and Monitor All Access to System Components and Cardholder Data
+1. Centralise log collection for all CDE systems and security devices with retention meeting PCI DSS requirements.
+2. Review daily security event logs, file integrity monitoring alerts, and access anomalies.
+3. Synchronise system clocks using authenticated NTP sources to support forensic investigations.
+
+### Requirement 11 – Test Security of Systems and Networks Regularly
+1. Conduct quarterly external vulnerability scans by an Approved Scanning Vendor (ASV) and remediate non-compliant findings within 30 days.
+2. Perform internal vulnerability scans at least quarterly and after significant changes, documenting remediation actions.
+3. Execute annual penetration tests that include segmentation testing and validation of scoping assumptions.
+
+### Requirement 12 – Support Information Security with Organisational Policies and Programmes
+1. Maintain and annually review PCI DSS policies, incident response procedures, and third-party agreements.
+2. Deliver PCI DSS awareness training to all personnel with access to the CDE before access is granted and annually thereafter.
+3. Maintain a risk assessment covering the CDE, including vendor reliance, emerging threats, and business changes.
+
+### Merchant-Specific Exemptions
+1. Cyber Ask Ltd primarily operates as a consultancy without direct storage, processing, or transmission of cardholder data, relying on third-party payment service providers. As such, the company qualifies for the SAQ A or SAQ A-EP (where web redirection is used) and leverages service provider attestations to reduce control scope.
+2. Where engagements require handling of client-provided card data for analysis, a documented risk assessment and temporary scope expansion must be approved by the Director, including compensating controls and data minimisation steps.
+3. Any reliance on service provider PCI DSS compliance is documented with current Attestations of Compliance (AOCs) and service descriptions clarifying shared responsibilities.
 
 ## Technical Controls
 

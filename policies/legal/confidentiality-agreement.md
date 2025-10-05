@@ -57,6 +57,20 @@ This agreement is governed by the laws of the jurisdiction specified in the asso
 5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
 
 
+## Appendix A: Template NDA Clauses
+
+1. **Purpose of Disclosure:** “The parties agree that Confidential Information is disclosed solely for the purpose of evaluating or delivering the services defined in the Statement of Work dated __.”
+2. **Definition of Confidential Information:** “Confidential Information includes all non-public business, commercial, technical, financial, and personal data disclosed in written, oral, visual, or electronic form, and any copies or derivatives thereof.”
+3. **Permitted Use:** “The receiving party shall use Confidential Information only for the Purpose and shall not reverse engineer, disassemble, or decompile any tangible embodiments provided.”
+4. **Non-Disclosure Obligations:** “The receiving party shall protect Confidential Information with the same degree of care it uses for its own confidential data, and at a minimum with commercially reasonable safeguards, ensuring disclosure only to personnel with a demonstrable need to know who are bound by confidentiality obligations at least as protective as those herein.”
+5. **Data Handling and Security:** “The receiving party shall implement encryption for data in transit and at rest, maintain access logs, and promptly notify the disclosing party of any confirmed or suspected compromise of Confidential Information.”
+6. **Return or Destruction:** “Upon written request or termination, the receiving party shall, within 10 business days, return or securely destroy all Confidential Information and certify destruction in writing, subject to any statutory retention requirements.”
+7. **Compelled Disclosure:** “If legally compelled to disclose Confidential Information, the receiving party shall provide prior written notice (where lawful) to allow the disclosing party to seek protective measures and shall disclose only the portion required by law.”
+8. **Term and Survival:** “Confidentiality obligations commence on the Effective Date and survive for a period of three (3) years following termination or expiration of the Agreement, except for trade secrets which shall remain protected for so long as they retain trade secret status.”
+9. **Remedies:** “The parties acknowledge that unauthorized disclosure may cause irreparable harm and agree that injunctive relief, in addition to any other legal remedies, is an appropriate remedy for breach.”
+10. **Governing Law and Jurisdiction:** “This Agreement is governed by the laws of England and Wales, and the parties submit to the exclusive jurisdiction of the courts of England and Wales, unless superseded by the governing law clause in the Master Services Agreement.”
+
+
 ## Revision History
 
 | Version | Date | Description | Author |
