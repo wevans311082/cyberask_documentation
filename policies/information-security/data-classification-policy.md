@@ -1,7 +1,7 @@
 # Data Classification Policy
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 This policy establishes a framework for classifying and handling information based on sensitivity, aligning with CE/CE+ and ISO 27001 requirements.
 
@@ -62,3 +62,4 @@ Classifications are reviewed annually or when significant changes in data usage 
 | Version | Date | Description | Author |
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |

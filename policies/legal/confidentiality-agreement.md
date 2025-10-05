@@ -1,7 +1,7 @@
 # Confidentiality Agreement
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 This agreement governs the protection of confidential information exchanged between the company and third parties.
 
@@ -62,3 +62,4 @@ This agreement is governed by the laws of the jurisdiction specified in the asso
 | Version | Date | Description | Author |
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |

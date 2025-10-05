@@ -1,7 +1,7 @@
 # Non-Disclosure Agreement (NDA) Template
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 This template provides standard terms for establishing confidentiality obligations with partners, vendors, or prospective clients.
 
@@ -58,3 +58,4 @@ The NDA is effective when signed by authorized representatives of both parties.
 | Version | Date | Description | Author |
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |

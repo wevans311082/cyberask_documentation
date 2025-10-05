@@ -1,7 +1,7 @@
 # Risk Assessment Report
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 This report summarizes the results of the latest information security risk assessment in accordance with ISO 27001.
 
@@ -57,3 +57,4 @@ Management reviews and approves this report and associated treatment decisions.
 | Version | Date | Description | Author |
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |

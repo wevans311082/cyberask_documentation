@@ -1,7 +1,7 @@
 # Supplier Security Policy (DCC Version)
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director  
+**Author:** Wayne Evans (Director)
 **Classification:** OFFICIAL-SENSITIVE when completed
 
 ## Cyber Ask Operating Context
@@ -122,3 +122,4 @@ This policy shall be reviewed at least annually or upon significant change to MO
 | ------- | ---------- | ------------ | ------ |
 | 1.0 | 2024-07-01 | Initial DCC-aligned supplier security policy issued. | Policy Team |
 | 1.1 | 2025-09-10 | Updated assurance tiers, MOD onboarding, DEFCON flow-down, incident reporting, NIST SP 800-171/172 alignment, and secure logistics guidance. | Policy Team |
+| 1.2     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |

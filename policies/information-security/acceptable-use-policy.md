@@ -1,7 +1,7 @@
 # Acceptable Use Policy
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 This policy defines acceptable and unacceptable uses of company information assets and technology resources in support of CE/CE+ and ISO 27001.
 
@@ -98,3 +98,4 @@ This policy is reviewed annually and communicated to all users upon revision.
 | Version | Date | Description | Author |
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |

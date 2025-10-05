@@ -1,7 +1,7 @@
 # Information Security Policy (DCC Level 2 Alignment)
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director  
+**Author:** Wayne Evans (Director)
 **Current Version:** 3.0
 
 ## Cyber Ask Operating Context
@@ -127,6 +127,7 @@ This policy is reviewed annually or upon significant changes to ISO/IEC 27001, N
 | ------- | ---------- | ----------------------------- | ------ |
 | 3.0 | 2025-09-18 | Added NIST alignment, DEF STAN & DCC Level 2 crosswalk annexes, and evidence register references | Policy Team |
 | 2.0 | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
 
 ## Related Policy References
 

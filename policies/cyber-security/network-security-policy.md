@@ -1,7 +1,7 @@
 # Network Security Policy
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 This policy defines comprehensive safeguards for protecting company networks from unauthorized access, misuse, and disruption, supporting CE/CE+ and ISO/IEC 27001 control requirements. A secure network infrastructure is essential for protecting information assets and ensuring reliable business operations.
 
@@ -117,6 +117,7 @@ Noncompliance may result in access restrictions or disciplinary action. This pol
 | 1.0     | 2023-01-01 | Initial policy release             | NetSec |
 | 2.0     | 2025-09-10 | Comprehensive expansion and update | NetSec |
 | 3.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 3.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
 
 ## Implementation Guidelines
 1. The Director records policy-related approvals and evidence in the central document repository and retains them for audit purposes.

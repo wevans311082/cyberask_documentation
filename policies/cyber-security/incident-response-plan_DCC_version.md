@@ -1,7 +1,7 @@
 # Incident Response Plan (DCC Version)
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** Defence Cyber Compliance Lead  
+**Author:** Wayne Evans (Director)
 **Applicable Frameworks:** DEF STAN 05-138 Issue 4, DCPP Level 2 (Balanced Profile), ISO/IEC 27035, NCSC Cyber Assessment Framework
 
 This Defence Cyber Contractor (DCC) incident response plan extends the corporate Incident Response Plan to satisfy Ministry of Defence (MOD) contractual obligations, Defence Cyber Protection Partnership (DCPP) supplier requirements, and the notification and liaison duties contained in DEF STAN 05-138 and the DCC Level 2 guide.
@@ -113,4 +113,5 @@ Severity re-evaluation occurs whenever new facts emerge. Downgrades require docu
 | --- | --- | --- | --- |
 | 1.0 | 2024-04-15 | Initial DCC-aligned incident response plan issued. | Defence Cyber Compliance Lead |
 | 1.1 | 2025-09-15 | Updated MOD/DCPP notification triggers, impact categories, liaison procedures, evidence retention, and training expectations per DEF STAN 05-138 Issue 4 and DCC Level 2 guidance. | Defence Cyber Compliance Lead |
+| 1.2     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
 

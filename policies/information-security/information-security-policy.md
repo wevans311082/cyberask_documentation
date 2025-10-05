@@ -1,7 +1,7 @@
 # Information Security Policy
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 This policy defines the organization's overall approach to managing information security risks and maintaining compliance with CE/CE+ and ISO 27001.
 
@@ -102,3 +102,4 @@ This policy is reviewed annually by management and updated as needed to address 
 | Version | Date | Description | Author |
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |

@@ -1,7 +1,7 @@
 # Incident Response Plan
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 This plan outlines the process for detecting, responding to, and recovering from cybersecurity incidents in alignment with CE/CE+ and ISO/IEC 27035 incident management requirements. A consistent response framework ensures that security events are handled efficiently, evidence is preserved, and stakeholder communication is timely and accurate.
 
@@ -134,6 +134,7 @@ This plan applies to all information assets, personnel, facilities, and third pa
 | 1.0     | 2023-01-01 | Initial plan release               | IR Team |
 | 2.0     | 2025-09-10 | Comprehensive expansion and update | IR Team |
 | 3.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 3.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
 
 ## Implementation Guidelines
 1. The Director records policy-related approvals and evidence in the central document repository and retains them for audit purposes.
