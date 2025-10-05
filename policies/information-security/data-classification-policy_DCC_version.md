@@ -1,7 +1,7 @@
 # Data Classification Policy (DCC / MOD-Aligned)
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director  
+**Author:** Wayne Evans (Director)
 **Applicable Contract:** Defence Cyber Protection Partnership (DCPP) – Dynamic Purchasing System, DCC Level 2  
 **Reference Standards:** DEF STAN 05-138 Issue 4, DCC Level 2 Supplier Cyber Protection Guide, ISO/IEC 27001:2022
 
@@ -119,3 +119,4 @@ findings.
 | Version | Date | Description | Author |
 | ------- | ---------- | ----------- | ------ |
 | 3.0-DCC | 2025-11-24 | Introduced MOD protective markings, DCC handling controls, and evidence retention updates. | Policy Team |
+| 3.0-DCC.1 | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |

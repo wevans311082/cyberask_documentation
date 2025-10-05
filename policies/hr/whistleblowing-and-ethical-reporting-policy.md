@@ -1,7 +1,7 @@
 # Whistleblowing and Ethical Reporting Policy
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 ## Cyber Ask Operating Context
 
@@ -66,3 +66,4 @@ This policy shall be reviewed annually to ensure effectiveness and compliance wi
 | Version | Date | Description | Author |
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |

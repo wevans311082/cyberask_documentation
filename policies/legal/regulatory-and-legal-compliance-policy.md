@@ -1,7 +1,7 @@
 # Regulatory and Legal Compliance Policy
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 ## Cyber Ask Operating Context
 
@@ -66,9 +66,10 @@ This policy will be reviewed at least annually and updated as necessary to remai
 
 | Version | Date       | Description                                                       | Author |
 | ------- | ---------- | ----------------------------------------------------------------- | ------ |
-| 1.0     | 2023-01-01 | Initial policy release                                            | WEvans Director |
+| 1.0     | 2023-01-01 | Initial policy release                                            | Wayne Evans (Director) |
 | 1.1     | 2025-09-10 | Detailed regulatory register, compliance process and cross-references added | ChatGPT |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
 
 ## Implementation Guidelines
 1. The Director records policy-related approvals and evidence in the central document repository and retains them for audit purposes.

@@ -1,7 +1,7 @@
 # Risk Treatment Plan
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 This plan documents actions to address identified information security risks, fulfilling ISO 27001 requirements.
 
@@ -54,3 +54,4 @@ Management approves the plan and residual risk levels.
 | Version | Date | Description | Author |
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |

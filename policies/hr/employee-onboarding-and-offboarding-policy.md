@@ -1,7 +1,7 @@
 # Employee Onboarding and Offboarding Policy
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 ## Cyber Ask Operating Context
 
@@ -78,3 +78,4 @@ This policy will be reviewed annually and after any significant organisational c
 | Version | Date | Description | Author |
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |

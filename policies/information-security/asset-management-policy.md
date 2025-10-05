@@ -1,7 +1,7 @@
 # Asset Management Policy
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 This policy outlines requirements for inventorying and protecting information assets in alignment with ISO 27001.
 
@@ -59,3 +59,4 @@ This policy is reviewed annually by the Director.
 | Version | Date | Description | Author |
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |

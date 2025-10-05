@@ -1,7 +1,7 @@
 # Scope of the ISMS
 
 **Company:** Cyber Ask Ltd (CYBER ASK LTD), Registered No. 15113248  
-**Author:** WEvans Director
+**Author:** Wayne Evans (Director)
 
 This document defines the boundaries and applicability of the Information Security Management System (ISMS) in accordance with ISO 27001.
 
@@ -56,3 +56,4 @@ Senior management approves this scope statement and reviews it annually or when 
 | Version | Date | Description | Author |
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
+| 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
