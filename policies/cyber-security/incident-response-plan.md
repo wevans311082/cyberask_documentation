@@ -143,3 +143,100 @@ This plan applies to all information assets, personnel, facilities, and third pa
 4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
 5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
 
+
+## Contact Directory
+
+The following contacts must be reachable 24/7 during incident response. Contact information is reviewed quarterly and whenever staffing changes occur.
+
+| Role | Primary Contact | Contact Details | Availability | Backup Contact |
+| --- | --- | --- | --- | --- |
+| Incident Response Coordinator | Wayne Evans | +44 20 0000 0000 / incident@cyberask.co.uk | 24/7 on-call | Managed Service SOC lead |
+| Security Operations (Managed SOC) | SecureOps Partner | soc@secureops.example / +44 800 555 0101 | 24/7 monitoring | Director |
+| Legal Counsel | External Counsel (TechLaw LLP) | legal@techlawllp.example / +44 20 5555 2222 | Business hours with emergency hotline | Director |
+| Cloud Provider Support | Microsoft Premier Support | portal.microsoft.com | 24/7 with severity-based SLA | Director |
+| Cyber Insurance Carrier | InsureCyber Claims Desk | claims@insurecyber.example / +44 800 777 3333 | 24/7 | Legal Counsel |
+| Law Enforcement Liaison | National Cyber Security Centre (NCSC) | ncscincidents@ncsc.gov.uk | 24/7 | Director |
+
+## Escalation Matrix
+
+Incident escalations follow the matrix below to ensure timely leadership engagement and resource mobilization.
+
+| Severity | Impact Description | RTO Target | RPO Target | Notification Requirements | Escalation Path |
+| --- | --- | --- | --- | --- | --- |
+| Low | Minor service degradation, no data exposure. | 24 hours | 1 business day | Internal ticket updates. | IRC → Managed SOC |
+| Medium | Limited data exposure or customer impact. | 12 hours | 4 hours | Director, affected clients within 48 hours. | IRC → Director → Legal |
+| High | Significant data breach or service outage. | 4 hours | 1 hour | Director, clients within 24 hours, regulators within 72 hours. | IRC → Director → Executive Briefing → Legal & Communications |
+| Critical | Catastrophic impact or existential threat. | 2 hours | Near-zero tolerance | Immediate regulator and law enforcement engagement. | IRC → Director → Crisis Management Team → Board |
+
+## AI-Enhanced Detection and Analysis
+
+As of 2025, the Managed SOC deploys AI-driven detection pipelines that fuse endpoint telemetry, Microsoft 365 audit logs, and cloud workload metrics. Machine learning models surface anomalous behaviours such as lateral movement, data exfiltration patterns, and suspicious OAuth consent grants. Analysts validate AI-generated alerts within 15 minutes, and feedback is fed into model tuning cycles. Integration with the SOAR platform enables automated enrichment, including threat intelligence lookups, geolocation tagging, and historical event correlation.
+
+## Response Playbooks
+
+Playbooks provide step-by-step guidance tailored to incident type. Each playbook references the core response phases defined in the [Incident Response Policy](./incident-response-policy.md).
+
+### Ransomware Playbook
+
+1. **Detection and Validation**
+   - Confirm the ransomware strain using hash analysis and reverse engineering resources provided by NoMoreRansom.
+   - Initiate forensic imaging of affected systems before powering down or reimaging devices.
+
+2. **Containment**
+   - Isolate infected endpoints by disabling network interfaces and removing from domain trust relationships.
+   - Revoke compromised credentials and enforce password resets or key rotation for service accounts.
+   - Block command-and-control indicators at firewall and proxy layers.
+
+3. **Eradication**
+   - Deploy EDR cleansing scripts or trusted rebuild images to affected systems.
+   - Patch exploited vulnerabilities and review access control changes introduced by attackers.
+   - Remove persistence mechanisms (scheduled tasks, registry keys, startup items).
+
+4. **Recovery**
+   - Restore systems from immutable, offline backups verified to be ransomware-free. Validate integrity via checksums and application testing.
+   - Reintroduce services gradually, prioritizing critical workloads to meet the four-hour RTO.
+   - Monitor network traffic and SIEM alerts for evidence of reinfection.
+
+5. **Negotiation and Communication**
+   - Engage legal counsel and cyber insurance prior to any communication with threat actors. Payment decisions require Director approval and insurer concurrence.
+   - Prepare client and regulator notifications outlining impact, remediation, and next steps.
+
+6. **Lessons Learned**
+   - Document attack vectors, security control gaps, and response timelines. Update the ransomware tabletop exercise scenario to incorporate observed tactics.
+
+### Business Email Compromise (BEC) Playbook
+
+1. Validate suspicious email forwarding rules, OAuth grants, and unusual login locations using SIEM dashboards.
+2. Revoke tokens, reset passwords, and enable conditional access requiring phishing-resistant MFA.
+3. Coordinate with finance to halt fraudulent payments and initiate recall procedures.
+4. Notify affected clients and update DMARC/DKIM policies to strengthen email authentication.
+
+### Cloud Configuration Breach Playbook
+
+1. Use cloud security posture management (CSPM) alerts to identify misconfigured resources.
+2. Apply remediation templates (infrastructure as code) to enforce baseline security settings.
+3. Run compliance scans post-remediation to verify alignment with CIS benchmarks.
+
+## Communication Templates
+
+Incident handlers must use approved communication templates stored in the secure document library. Templates cover executive briefings, customer notifications, regulatory disclosures, and internal status updates. Each template includes sections for incident summary, impact, containment status, next steps, and key contacts.
+
+## Evidence Handling Procedures
+
+- Capture system images, log exports, and memory dumps using write-protected media.
+- Maintain chain-of-custody documentation, logging each transfer of evidence with timestamps and signatures.
+- Store evidence in encrypted repositories with access restricted to the Director, IRC, and legal counsel.
+
+## Post-Incident Review Workflow
+
+1. Schedule debrief within ten business days of incident closure.
+2. Review timeline, tooling performance, communications, and decision points.
+3. Identify corrective actions, assign owners, and track remediation progress via the risk register.
+4. Update metrics dashboards with actual MTTD/MTTR values and RTO/RPO performance.
+
+## Plan Testing and Continuous Improvement
+
+- Conduct quarterly tabletop exercises focused on ransomware, BEC, and insider threat scenarios, incorporating AI-generated anomalies to test detection accuracy.
+- Perform at least one live failover test annually to verify backup restoration capabilities meet RPO expectations.
+- Coordinate with third-party providers to validate incident communication pathways and joint responsibilities.
+

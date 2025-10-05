@@ -89,3 +89,49 @@ This policy will be reviewed at least annually and updated as necessary to remai
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
 | 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
+
+## Passwordless Principles
+
+The organisation adopts passwordless authentication as the strategic default for all systems. Core principles include:
+
+- Phishing-resistant authenticators (FIDO2 security keys, Windows Hello for Business, certificate-based smart cards) must be used whenever technically feasible.
+- SMS OTP, email links, knowledge-based verification, and push notifications without number matching are prohibited.
+- Device biometrics must be backed by hardware security modules (e.g., TPM) and configured to require secure PIN fallback for accessibility.
+- Service onboarding checklists require confirmation of WebAuthn or certificate-based authentication support prior to procurement.
+
+## FIDO2 Implementation Approach
+
+1. **Architecture:** FIDO2 authenticators bind users to specific devices using public-key cryptography. Microsoft Entra ID provides the relying party service and integrates with Azure AD Conditional Access. Hardware keys are centrally procured, asset-tagged, and distributed with tamper-evident packaging.
+2. **Registration:** Users enrol at least two authenticators (primary hardware key and backup platform authenticator) through a supervised onboarding session. Registration requires in-person identity verification or approved remote proofing.
+3. **Lifecycle Management:** Lost or stolen authenticators are reported within one hour. Helpdesk staff verify identity using secure video calls and revoke keys via the identity platform. Replacement devices are issued within one business day.
+4. **Integration:** Legacy applications that cannot support WebAuthn are fronted by identity-aware proxies enforcing token-based access. Exceptions must include a compensating control plan and defined retirement date.
+
+## Benefits and Considerations
+
+| Aspect | Benefits | Considerations |
+| --- | --- | --- |
+| Security | Resistant to phishing, credential stuffing, and replay attacks. | Requires physical key distribution and inventory management. |
+| User Experience | Fast, seamless sign-ins with minimal friction. | Users must have access to compatible hardware and may need accessibility accommodations. |
+| Compliance | Aligns with NIST SP 800-63B AAL3 and UK NCSC guidance on phishing-resistant MFA. | Auditors require evidence of key lifecycle management and tamper-proof storage. |
+| Operations | Reduces password reset volume and helpdesk workload. | Contingency procedures needed for travel scenarios or shared workstations. |
+
+## Enforcement and Auditing
+
+- Quarterly audits confirm that 100% of active users possess at least two registered FIDO2 authenticators. Audit evidence is archived for seven years.
+- Conditional Access policies enforce passwordless sign-in for all cloud services, blocking fallbacks to passwords unless a Director-approved break-glass account is used.
+- Break-glass accounts are reviewed monthly and tested quarterly to ensure availability while preventing misuse.
+
+## Training and Change Management
+
+A structured change programme educates users on passwordless benefits, secure key handling, and incident reporting. Training assets include:
+
+- Instructor-led onboarding sessions with live demonstrations and troubleshooting.
+- E-learning modules covering secure storage, travel considerations, and reporting lost keys.
+- Quick reference guides explaining how to authenticate on Windows, macOS, and mobile devices using FIDO2.
+
+Completion of training is required before activation of passwordless profiles. Refresher sessions occur annually and after any material platform updates.
+
+## Alignment with Related Policies
+
+This policy is enforced alongside the [Password and Authentication Policy](./password-and-authentication-policy.md) and [Multi-Factor Authentication (MFA) Policy](./multi-factor-authentication-mfa-policy.md), ensuring a coordinated move toward passwordless operations within the broader zero-trust programme.
+

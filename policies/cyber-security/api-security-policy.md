@@ -89,3 +89,73 @@ This policy will be reviewed at least annually and updated as necessary to remai
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
 | 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
+
+## Alignment with OWASP API Security Top 10
+
+Cyber Ask aligns API controls with the OWASP API Security Top 10 (2023) to mitigate prevalent threats:
+
+1. **Broken Object Level Authorization (API1):** Enforce fine-grained authorization checks using contextual RBAC and ABAC. All endpoints must verify ownership before returning data.
+2. **Broken Authentication (API2):** Integrate with passwordless and MFA policies to require phishing-resistant tokens for API consumers. Rotate credentials automatically and disable static shared secrets.
+3. **Broken Object Property Level Authorization (API3):** Implement field-level filtering to prevent exposure of sensitive attributes. Default responses exclude optional properties unless explicitly requested and authorized.
+4. **Unrestricted Resource Consumption (API4):** Apply adaptive rate limiting, circuit breakers, and pagination to prevent DoS attacks.
+5. **Broken Function Level Authorization (API5):** Separate administrative endpoints and require elevated scopes. Test with automated negative scenarios to confirm access controls.
+6. **Server-Side Request Forgery (API6):** Restrict outbound calls through allowlists, inspect URLs, and leverage service mesh policies to block unauthorized internal requests.
+7. **Security Misconfiguration (API7):** Use infrastructure-as-code templates with secure defaults. Validate deployments through automated configuration scanning.
+8. **Lack of Rate Limiting (API8):** Enforce global and per-client throttling through API gateways and application middleware.
+9. **Improper Inventory Management (API9):** Maintain an up-to-date API catalogue, including versioning, ownership, and data classification. Decommission deprecated APIs with documented retirement plans.
+10. **Unsafe Consumption of APIs (API10):** Vet third-party APIs, enforce schema validation, and sanitize inputs/outputs to prevent injection attacks.
+
+## Secure Coding Example: Rate Limiting in Python
+
+Developers must implement defence-in-depth controls in API code. The following Flask example illustrates per-client rate limiting using Redis to mitigate OWASP API4 and API8 threats:
+
+```python
+from flask import Flask, request, jsonify
+import redis
+import time
+
+app = Flask(__name__)
+cache = redis.Redis(host="redis", port=6379, db=0)
+RATE_LIMIT = 100  # requests
+WINDOW = 60       # seconds
+
+@app.before_request
+def enforce_rate_limit():
+    client_id = request.headers.get("X-Client-ID")
+    if not client_id:
+        return jsonify({"error": "missing client identifier"}), 400
+
+    key = f"rl:{client_id}:{int(time.time() // WINDOW)}"
+    current = cache.incr(key, 1)
+    if current == 1:
+        cache.expire(key, WINDOW)
+
+    if current > RATE_LIMIT:
+        return jsonify({"error": "rate limit exceeded"}), 429
+
+@app.route("/data")
+def data_endpoint():
+    return jsonify({"message": "success"})
+
+if __name__ == "__main__":
+    app.run()
+```
+
+This code should be complemented by gateway-level throttling, anomaly detection, and alerting to catch distributed attacks.
+
+## API Lifecycle Governance
+
+- **Design:** Security architects review OpenAPI specifications for adherence to zero-trust principles, data minimisation, and least privilege. Sensitive fields require encryption and masking policies.
+- **Development:** Static and dynamic testing (SAST/DAST) scan code for vulnerabilities. Automated unit tests validate authorization logic and input validation.
+- **Deployment:** APIs are deployed through CI/CD pipelines that enforce security gates, including dependency scanning and secret detection.
+- **Operations:** Runtime protection includes WAF rules, schema validation, and anomaly detection via the SIEM. Logs are forwarded to the central monitoring platform for correlation with cloud events.
+- **Retirement:** Deprecated APIs are sunset within six months. Clients are notified, and access tokens are revoked after the retirement date.
+
+## Integration with Cloud Security Controls
+
+Because APIs often run within cloud environments, this policy must be executed alongside the [Cloud Security Policy](./cloud-security-policy.md):
+
+- Shared responsibility assessments confirm which party manages API gateways, certificates, and infrastructure hardening.
+- CSP evaluations review support for API security features such as mutual TLS, threat protection, and data residency controls.
+- Incident response runbooks coordinate between cloud and API teams to manage hybrid cloud/API risks, including abuse of serverless endpoints or exposed credentials.
+
