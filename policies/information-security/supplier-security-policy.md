@@ -25,10 +25,40 @@ This policy establishes requirements for supplier security to protect organizati
 This policy applies to all employees, contractors, and third parties who access or manage company resources related to supplier security.
 
 ## Policy
-1. The organization shall define and document procedures for supplier security.
-2. Controls for supplier security must align with industry best practices and regulatory obligations.
-3. Activities related to supplier security shall be reviewed and updated regularly to address emerging risks.
-4. Records demonstrating compliance with this policy shall be maintained.
+1. The organisation shall define and document procedures for supplier security across onboarding, contract management, performance monitoring, and termination.
+2. Supplier security controls must align with industry best practices, UK GDPR requirements, contractual obligations, and defence sector guidance where applicable.
+3. Activities related to supplier security shall be reviewed at least annually or upon significant service changes to address emerging risks.
+4. Records demonstrating compliance with this policy—including due diligence packs, contracts, attestations, and audit reports—shall be maintained for a minimum of six years.
+5. All suppliers handling Confidential or Restricted data must provide a Software Bill of Materials (SBOM) for software components and commit to vulnerability disclosure timelines.
+
+## Supplier Onboarding Checklist
+
+| Task | Description | Owner | Evidence |
+| --- | --- | --- | --- |
+| Security questionnaire | Collect completed security & privacy questionnaire aligned to ISO 27001 and NCSC CAF controls. | Supplier Assurance Lead | Signed questionnaire, supporting artefacts |
+| Risk classification | Assign supplier tier (Critical, High, Medium, Low) based on data access and service criticality. | Director (Risk Owner) | Supplier risk record in enterprise register |
+| Contractual clauses | Ensure contracts include confidentiality, data processing, SBOM delivery, and breach notification (<72 hours) obligations. | Legal Advisor / Director | Executed contract, clause checklist |
+| Background checks | Verify corporate registration, sanctions, and references; confirm cyber insurance coverage. | Supplier Assurance Lead | Due diligence report |
+| Technical validation | Review security architecture, penetration test results, and API integrations. | Security Operations Coordinator | Technical assessment log |
+| Data protection impact | Determine need for DPIA and record outcomes where personal data is processed. | Data Protection Officer | DPIA record |
+
+## Ongoing Assurance
+
+| Activity | Frequency | Scope | Output |
+| --- | --- | --- | --- |
+| Security performance review | Quarterly | Critical and High-tier suppliers | Meeting minutes, action tracker |
+| Contract compliance audit | Annually | Critical suppliers | Audit report, remediation plan |
+| SBOM refresh and vulnerability attestation | Annually or on major release | Software suppliers | Updated SBOM, vulnerability remediation evidence |
+| Business continuity validation | Biennially | Suppliers providing hosting or operational support | Test results, recovery assurances |
+| Access review | Quarterly | Suppliers with privileged/system access | Access certification records |
+
+## Contractual Clauses
+
+1. Suppliers must notify Cyber Ask Ltd of any actual or suspected security breach impacting company data within 24 hours and provide full incident reports within 72 hours.  
+2. Contracts must mandate SBOM provision for any delivered software or embedded components, including update cadence and support arrangements.  
+3. Right-to-audit clauses shall allow Cyber Ask Ltd or its appointed assessors to review supplier controls with reasonable notice.  
+4. Sub-processor onboarding requires prior written approval and equivalent contractual terms.  
+5. Termination clauses must define secure data return/destruction requirements and timelines.
 
 1. All aspects of Supplier Security Policy must align with ISO/IEC 27001:2022 controls and the NCSC Cyber Assessment Framework.
 2. Procedures shall be documented, communicated, and reviewed at least annually by the Director.
