@@ -33,6 +33,39 @@ Applies to employees, contractors and third parties who require access to compan
 8. Training materials shall be reviewed at least annually to reflect changes in legislation, threats and business processes.
 9. Feedback surveys shall be issued after each course and results used to improve future training programmes.
 10. Records of training completion shall be retained for a minimum of six years for audit purposes.
+11. The annual training calendar shall include an AI ethics and responsible use module from 2025 onwards, covering governance of generative AI tooling and client privacy expectations.
+
+### Annual Training Programme
+The Director maintains an annual programme structured into quarterly releases to ensure skills remain current:
+
+| Quarter | Mandatory Modules | Delivery Method | Notes |
+| ------- | ----------------- | ---------------- | ----- |
+| Q1 | Security foundations refresher, phishing simulations, acceptable use policy updates | e-learning and simulated campaigns | Reinforced through monthly phishing drills with contextual feedback. |
+| Q2 | Insider threat awareness, data protection updates, incident reporting process | Virtual workshops with case studies | Includes tabletop exercises based on recent threat intelligence. |
+| Q3 | Secure remote working, third-party risk, business continuity refresher | Microlearning videos with knowledge checks | Integrates scenario-based assessments via the LMS. |
+| Q4 | Year-end compliance review, lessons learned from incidents, planning workshop for next year | Live webinar and open forum | Captures improvement actions for the subsequent programme. |
+
+Ad-hoc modules (e.g. new regulatory requirements or client-driven training) may be introduced following risk assessment.
+
+### Metrics and Reporting
+
+Training effectiveness is monitored through the HR dashboard and reported quarterly to governance meetings.
+
+| Metric | Target |
+| ------ | ------ |
+| Completion Rate | 95% within 10 working days of module release |
+| Assessment Pass Rate | 90% of participants on first attempt |
+| Phishing Simulation Click Rate | <5% per campaign |
+| Employee Satisfaction Score | ≥4/5 average post-training survey |
+
+### Engagement and Gamification
+
+To sustain engagement, the Director deploys light-touch gamification aligned with organisational scale:
+
+1. Award digital badges for completing module clusters (e.g. "Phishing Defender" for three consecutive low-click campaigns).
+2. Publish a quarterly leaderboard highlighting completion streaks while anonymising individual scores to respect privacy.
+3. Offer optional scenario challenges where employees earn recognition by submitting improved incident response playbooks.
+4. Integrate small incentives, such as charity donations in the employee’s name, for maintaining perfect completion rates across the year.
 
 ## Roles and Responsibilities
 1. **HR and Learning & Development:** Coordinate training programmes, maintain records and report completion statistics.

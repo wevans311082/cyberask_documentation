@@ -39,6 +39,31 @@ Applies to all employees, contractors and third parties who access Cyber Ask Ltd
 11. Contractors and third parties who breach security requirements shall have access revoked immediately and may face contract termination and legal action.
 12. All processes shall align with ISO/IEC 27001 control A.7.2.3 and NCSC CAF objective D: Detecting and Managing Security Incidents.
 
+### Progressive Discipline Flow
+
+```mermaid
+flowchart TD
+    A[Security Breach Reported] --> B[Investigation Initiated ≤1 Working Day]
+    B --> C{Misconduct Severity}
+    C -->|Minor| D[Verbal Warning & Coaching]
+    D --> E[Written Warning if Behaviour Repeats]
+    C -->|Serious| F[Written Warning & Mandatory Retraining]
+    F --> G[Final Written Warning]
+    C -->|Gross Misconduct| H[Immediate Suspension Pending Hearing]
+    E --> I[Final Written Warning]
+    G --> J[Short-term Suspension]
+    H --> J
+    J --> K[Termination of Employment]
+    K --> L[Appeal Process Overseen by Independent Manager]
+```
+
+### Fair Process and Legal Alignment
+
+1. At every stage of the progressive discipline flow, employees shall receive written notice of allegations, evidence summaries and reasonable time to prepare a response, satisfying the ACAS Code of Practice.
+2. Hearings must document decisions, rationale and mitigating factors to demonstrate fairness under the Employment Rights Act 1996 and Equality Act 2010.
+3. Where suspension is necessary, it shall be on full pay and reviewed weekly to remain proportionate.
+4. Employees may be accompanied by a trade union representative or colleague at formal meetings, and interpretation support shall be provided upon request to ensure accessibility.
+
 ## Roles and Responsibilities
 1. **Employees and Contractors:** Comply with security policies, report breaches and participate in investigations.
 2. **Line Managers:** Ensure staff understand security obligations and initiate disciplinary proceedings where required.
