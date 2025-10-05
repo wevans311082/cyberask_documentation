@@ -91,6 +91,31 @@ This policy will be reviewed at least annually and updated as necessary to remai
 4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
 5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
 
+## Data Subject Rights Management
+
+### Enumerated UK GDPR Rights
+The company recognises the following UK GDPR data subject rights and will respond without undue delay and within one month of receipt. The Director may extend the deadline by up to two additional months when requests are complex or numerous, and the requester will be notified within the initial month with an explanation of the delay.
+
+1. **Right of access (Article 15):** Provide confirmation of processing, access to personal data, and supplementary information within the statutory timeframe.
+2. **Right to rectification (Article 16):** Correct inaccurate or incomplete personal data promptly, documenting updates in the relevant systems and confirming completion to the requester.
+3. **Right to erasure (Article 17):** Assess requests to delete personal data and execute approved deletions across applicable systems while retaining suppression records to prevent reprocessing where required by law.
+4. **Right to restriction of processing (Article 18):** Flag and suspend processing in applicable systems while verifying the grounds for restriction and notifying downstream recipients where feasible.
+5. **Right to data portability (Article 20):** Provide personal data in a structured, commonly used, machine-readable format or transmit it directly to another controller when technically feasible.
+6. **Right to object (Article 21):** Evaluate objections to processing based on legitimate interests or direct marketing, cease processing where required, and document the lawful basis assessment.
+7. **Rights related to automated decision-making and profiling (Article 22):** Review automated processing, offer human intervention, and document outcomes to demonstrate fairness and transparency.
+
+### Intake and Verification Procedures
+1. **Request channels:** Individuals may submit requests via the security and compliance mailbox (security@cyberask.co.uk), the managed service ticket queue, or through the secure contact form on the company website. Telephone requests are recorded in the ticket queue with follow-up written confirmation.
+2. **Identity verification:** The Director verifies identity using a combination of known account details, multifactor authentication challenges where available, and corroborating documentation (e.g., government-issued ID or signed letter on client letterhead). For repeat requesters with established credentials, verification may rely on previously validated factors documented in the request log.
+3. **Escalation:** All requests are logged in the compliance queue and immediately escalated to the Data Protection Officer (DPO) for oversight. The DPO confirms legal basis, response timeline, and any need for additional stakeholders (e.g., service delivery, incident response) to contribute to the fulfilment plan.
+4. **Record keeping:** Request metadata, identity checks, decisions, fulfilment actions, and communications are recorded in the privacy request register. Entries are cross-referenced with the Records of Processing Activities (RoPA) to ensure processing inventories reflect any changes to data flows, retention, or lawful bases.
+
+### Controller and Processor Responsibilities
+1. **Controller activities:** When Cyber Ask Ltd acts as controller for its internal operations or advisory services, the Director coordinates fulfilment of data subject rights. The DPO validates that actions align with the Incident Response Plan (for potential personal data breaches uncovered during the request) and the Records Management Procedure to ensure retention and disposal obligations are met.
+2. **Processor activities for managed security clients:** When operating as a processor, the company notifies the client-controller of any data subject request without delay, supports them in fulfilling the request according to the contractual data processing agreement, and documents actions taken. Any incident response activities triggered by the request follow the client-specific playbooks while referencing Cyber Ask’s incident escalation procedures.
+3. **Coordination with records management:** Whether acting as controller or processor, updates to data subject requests, restrictions, or erasures are communicated to the records management function to ensure logs, backup retention schedules, and RoPA entries are synchronised.
+4. **Audit trail expectations:** All correspondence, decisions, and technical actions taken to satisfy data subject rights are retained for at least six years to evidence compliance and support regulatory inquiries.
+
 
 ## Revision History
 
