@@ -115,7 +115,9 @@
 11. [Records Management and Archiving Policy](policies/legal/records-management-and-archiving-policy.md) – This policy establishes requirements for records management and archiving to protect organizational assets and ensure compliance with applicable laws and regulations.
 12. [Records of Processing Policy](policies/legal/records-of-processing-policy.md) – This policy establishes requirements for records of processing to protect organizational assets and ensure compliance with applicable laws and regulations.
 13. [Regulatory and Legal Compliance Policy](policies/legal/regulatory-and-legal-compliance-policy.md) – This policy establishes requirements for regulatory and legal compliance to protect organizational assets and ensure compliance with applicable laws and regulations.
-14. [Third-Party Access Control Policy](policies/legal/third-party-access-control-policy.md) – This policy establishes requirements for third-party access control to protect organizational assets and ensure compliance with applicable laws and regulations.
+14. [GDPR and UK Data Protection Act Policy](policies/legal/gdpr-and-uk-data-protection-act-policy.md) – Ensure compliance with UK GDPR, EU GDPR (where applicable), and the UK Data Protection Act 2018 through governance, lawful basis management, and protection of data subject rights.
+15. [GDPR and UK Data Protection Act Policy (DCC Version)](policies/legal/gdpr-and-uk-data-protection-act-policy_DCC_version.md) – Extend GDPR and DPA 2018 controls to meet MOD contractual requirements, DCC Level 2 obligations, and DEF STAN 05-138 privacy expectations.
+16. [Third-Party Access Control Policy](policies/legal/third-party-access-control-policy.md) – This policy establishes requirements for third-party access control to protect organizational assets and ensure compliance with applicable laws and regulations.
 
 
 ## Templates
