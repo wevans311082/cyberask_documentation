@@ -12,6 +12,12 @@
 8. The Director personally fulfils HR, IT administration, and compliance duties, engaging specialist suppliers when additional expertise is required.
 
 
+## Quality Management
+1. [Quality Policy](policies/quality-policy.md) – Commitments to customer focus, compliance, continual improvement, and Director authority over the Quality Management System.
+2. [Quality Manual](../qms/quality-manual.md) – Describes QMS scope, organizational context, interested parties, process interactions, and roles and responsibilities.
+3. [Quality Objectives and Plan](../qms/quality-objectives-and-plan.md) – Defines measurable objectives with KPIs, targets, owners, and review cadence.
+4. [Process Map](../qms/process-map.md) – Summarises core and support processes, their inputs/outputs, and how they interact.
+
 
 ## Cyber Security
 1. [Access Control Policy](policies/cyber-security/access-control-policy.md) – The purpose of this policy is to define a consistent and auditable process for managing access to company resources. It ensures that access rights are granted based on legitimate business needs, remain commensurate with job responsibilities, and are removed promptly when no longer required. The policy also seeks to minimize security risks posed by excessive or outdated privileges.
