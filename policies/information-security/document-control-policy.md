@@ -38,8 +38,9 @@ This policy applies to all employees, contractors, and third parties who access 
 6. Technology configurations supporting Document Control Policy must follow relevant CIS Benchmarks and vendor hardening guides.
 7. Third parties engaged in Document Control Policy processes shall have contractual obligations to meet equivalent security standards.
 8. Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
-9. The Director must approve exceptions in writing, including scope, duration, and compensating controls.
-10. Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
+9. Quality records (including contracts, design reviews, production/service checklists, calibration logs, audits, nonconformities, and corrective actions) must be stored in the controlled QMS repository with version history and retained for at least six years or contract life plus one year, whichever is longer.
+10. The Director must approve exceptions in writing, including scope, duration, and compensating controls.
+11. Failure to comply with this policy may result in disciplinary action, removal of access, or termination of contract.
 
 1. Systems processing Document Control Policy shall enforce least privilege and role-based access controls.
 2. Changes affecting Document Control Policy configurations must follow the Change Management Policy and receive formal approval.
