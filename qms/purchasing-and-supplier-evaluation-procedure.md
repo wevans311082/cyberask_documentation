@@ -17,21 +17,34 @@ Applies to all suppliers providing products, services, subcontracted work, tooli
 
 ## Procedure
 1. **Qualification and Due Diligence**
-   - Define required capabilities, regulatory constraints, and quality or security criteria.
-   - Assess supplier competence, capacity, financial stability, and relevant certifications.
-   - Document results in the approved supplier record and retain evidence.
+   - Define required capabilities, regulatory constraints, and quality or security criteria, referencing applicable policies in the Policy Index.
+   - Assess supplier competence, capacity, financial stability, and relevant certifications. Confirm subcontractors used by the supplier meet the same expectations.
+   - Document results in the approved supplier record and retain evidence such as certificates, references, and security questionnaires.
 2. **Selection and Approval**
-   - Compare shortlisted suppliers against defined criteria and risk appetite.
-   - Obtain Director approval prior to onboarding or contract award.
+   - Compare shortlisted suppliers against defined criteria, risk appetite, and results of due diligence.
+   - Obtain Director approval prior to onboarding or contract award. Record approved scope, limitations, and review frequency in the supplier register.
 3. **Contracting and Controls**
-   - Ensure contracts include scope, deliverables, service levels, confidentiality, data protection, change control, and right-to-audit clauses.
-   - Establish acceptance criteria and quality checkpoints for purchased products or services.
+   - Ensure contracts include scope, deliverables, service levels, confidentiality, data protection, change control, right-to-audit clauses, and requirements to use controlled templates where applicable.
+   - Establish acceptance criteria and quality checkpoints for purchased products or services. Link checkpoints to the *Production and Service Checklist* if the supplier supports delivery.
 4. **Performance Monitoring**
-   - Track delivery performance, issues, and corrective actions; log nonconformities when outputs deviate.
-   - Review supplier performance at least annually and during management reviews.
+   - Track delivery performance, issues, and corrective actions; log nonconformities when outputs deviate using the *Nonconforming Output Report*.
+   - Review supplier performance at least annually and during management reviews. Update risk ratings and corrective action status.
 5. **Re-evaluation and Removal**
-   - Re-evaluate suppliers after significant incidents, recurring issues, or at planned intervals.
-   - Remove or suspend suppliers who fail to meet requirements and document decisions.
+   - Re-evaluate suppliers after significant incidents, recurring issues, or at planned intervals. Consider the need for re-onboarding after long inactivity.
+   - Remove or suspend suppliers who fail to meet requirements and document decisions. Communicate outcomes to delivery teams and update the supplier list.
+
+### Supplier Management Flow
+```mermaid
+flowchart TD
+  Need[Define Need & Criteria] --> Evaluate[Due Diligence]
+  Evaluate --> Approve[Approve & Onboard]
+  Approve --> Contract[Contract & Controls]
+  Contract --> Monitor[Monitor Performance]
+  Monitor --> Review[Annual Review]
+  Review --> Reeval{Re-evaluate?}
+  Reeval --> Remove[Remove/Remediate]
+  Reeval --> Continue[Continue Supplier]
+```
 
 ## Records and Retention
 - Approved supplier evaluations, contracts, performance reviews, and corrective actions are retained for at least six years or the contractual retention requirement, whichever is longer.

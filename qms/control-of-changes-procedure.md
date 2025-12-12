@@ -16,21 +16,33 @@ Applies to changes in requirements, design outputs, processes, tooling, supplier
 
 ## Procedure
 1. **Initiation**
-   - Log the change request with a unique identifier, source, and description.
-   - Determine whether immediate containment is required.
+   - Log the change request with a unique identifier, source, and description. Identify whether the change is corrective, preventive, or improvement driven.
+   - Determine whether immediate containment is required and whether a Nonconformity record must be opened.
 2. **Impact Analysis**
-   - Assess effects on requirements, design, production/service steps, suppliers, risks, and records.
-   - Consult affected stakeholders and suppliers as needed.
+   - Assess effects on requirements, design, production/service steps, suppliers, risks, and records. Confirm affected templates and policies in the Policy Index.
+   - Consult affected stakeholders and suppliers as needed. Update risk assessments where the change alters threat exposure.
 3. **Approval**
-   - Define implementation steps, resources, and rollback plans.
-   - Obtain Director approval prior to implementation; record approvals in the change log.
+   - Define implementation steps, resources, and rollback plans. Identify required training or communication.
+   - Obtain Director approval prior to implementation; record approvals in the change log along with planned start and completion dates.
 4. **Implementation**
-   - Execute approved actions, updating controlled documents, checklists, and training materials.
-   - Communicate changes to impacted personnel and customers when required.
+   - Execute approved actions, updating controlled documents, checklists, and training materials. Ensure superseded versions are archived per the Document Control Policy.
+   - Communicate changes to impacted personnel and customers when required; record acknowledgements.
 5. **Verification and Closure**
-   - Verify the change achieved intended outcomes without introducing new issues.
-   - Update related records, including design, production, or service delivery documents.
-   - Close the change with evidence, date, and approver signature.
+   - Verify the change achieved intended outcomes without introducing new issues. Validate that related templates and procedures reference the updated process.
+   - Update related records, including design, production, service delivery documents, and the Policy Index where relevant.
+   - Close the change with evidence, date, and approver signature. If acceptance criteria are not met, reopen or raise a new change record.
+
+### Change Control Flow
+```mermaid
+flowchart TD
+  Request[Raise Change] --> Assess[Impact Analysis]
+  Assess --> Approve[Approve & Plan]
+  Approve --> Implement[Implement Change]
+  Implement --> Verify[Verify Outcome]
+  Verify --> Close[Close & Archive]
+  Verify --> Reopen{Issue Found?}
+  Reopen --> Assess
+```
 
 ## Records and Retention
 - Change logs, approvals, updated documents, and verification evidence are retained for at least six years or for the life of the service plus one year.
