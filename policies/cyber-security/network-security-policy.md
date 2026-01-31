@@ -86,6 +86,8 @@ This policy applies to all corporate networks, including wired, wireless, virtua
 
 13. **Documentation and Diagramming**
     1. Up-to-date network diagrams and asset inventories must be maintained to support security analysis and troubleshooting.
+    2. Logical and physical network diagrams are maintained in the `diagrams/` directory and include M365/Entra, the domain controller VM, endpoints, and remote access pathways.
+    3. Network diagrams must be updated after any material change, with the revision log in each diagram maintained to evidence currency.
 
 ## Roles and Responsibilities
 
@@ -118,6 +120,7 @@ Noncompliance may result in access restrictions or disciplinary action. This pol
 | 2.0     | 2025-09-10 | Comprehensive expansion and update | NetSec |
 | 3.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
 | 3.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
+| 3.2     | 2026-01-31 | Added references to logical/physical network diagrams and update triggers. | Policy Team |
 
 ## Implementation Guidelines
 1. The Director records policy-related approvals and evidence in the central document repository and retains them for audit purposes.
@@ -125,4 +128,3 @@ Noncompliance may result in access restrictions or disciplinary action. This pol
 3. Weekly vulnerability scans and monthly patch reviews are led by the Director, with remediation actions tracked to completion.
 4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
 5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
-
