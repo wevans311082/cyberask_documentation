@@ -30,7 +30,7 @@ This plan applies to all information assets, personnel, facilities, and third pa
 
 1. **Incident:** An event that compromises the confidentiality, integrity, or availability of information assets.
 2. **Event:** A deviation from normal operations that may or may not be an incident.
-3. **Security Operations Center (SOC):** The team responsible for monitoring and analyzing activity to detect threats.
+3. **Incident Response Lead (IRL):** The individual responsible for monitoring, triage, and coordinating incident response activities.
 4. **Forensic Preservation:** The process of collecting and maintaining evidence in a manner suitable for legal proceedings.
 
 ## Response Phases
@@ -41,9 +41,9 @@ This plan applies to all information assets, personnel, facilities, and third pa
    3. Ensure contact lists for internal teams, external partners, and regulators are current and accessible.
 
 2. **Identification**
-   1. Monitor systems, applications, and networks for indicators of compromise using automated tools and manual processes.
-   2. Employees must report suspected incidents to the SOC or service desk immediately.
-   3. The SOC validates alerts, classifies the incident, and assigns a severity level.
+   1. Monitor systems, applications, and networks for indicators of compromise using Windows Defender alerts, Microsoft 365 audit logs, Microsoft Entra ID sign-in logs, and manual reviews.
+   2. Employees must report suspected incidents to the Director (IRL) immediately using the service desk mailbox or phone contact.
+   3. The IRL validates alerts, classifies the incident, and assigns a severity level.
 
 3. **Containment**
    1. Implement short-term measures such as isolating affected systems, disabling compromised accounts, or blocking malicious IP addresses to prevent further damage.
@@ -64,8 +64,8 @@ This plan applies to all information assets, personnel, facilities, and third pa
 
 ## Roles and Responsibilities
 
-1. **Incident Response Coordinator (IRC):** Leads response activities, ensures adherence to the IRP, and serves as primary communication point.
-2. **Security Operations Center:** Detects and triages events, gathers evidence, and supports containment and eradication activities.
+1. **Incident Response Lead (IRL):** Leads response activities, ensures adherence to the IRP, and serves as primary communication point.
+2. **Director (Service Owner):** Performs monitoring, triage, and evidence handling when acting as the IRL.
 3. **IT and Infrastructure Teams:** Execute technical containment, eradication, and recovery tasks.
 4. **Management and Executive Team:** Approves external communications, allocates resources, and provides strategic direction.
 5. **Legal and Compliance:** Advises on regulatory obligations, coordinates with law enforcement, and manages eDiscovery requirements.
@@ -96,12 +96,13 @@ This plan applies to all information assets, personnel, facilities, and third pa
 ## Coordination with Law Enforcement and Regulators
 
 1. The Legal and Compliance team determines when engagement with law enforcement or regulatory bodies is required.
-2. All communications with external authorities must be coordinated through the IRC and Legal to maintain consistency and protect privileged information.
+2. All communications with external authorities must be coordinated through the IRL and Legal to maintain consistency and protect privileged information.
 
 ## Tools and Resources
 
 1. Maintain an incident response toolkit containing forensic utilities, communication templates, and hardware for evidence acquisition.
-2. Ensure secure storage for collected evidence and incident documentation.
+2. Use available tooling for detection and investigation: Windows Defender, Windows Event Viewer, Microsoft 365 audit logs, Microsoft Entra ID sign-in logs, and BitLocker recovery key history.
+3. Ensure secure storage for collected evidence and incident documentation in the encrypted document repository.
 
 ## Training and Exercises
 
@@ -135,6 +136,14 @@ This plan applies to all information assets, personnel, facilities, and third pa
 | 2.0     | 2025-09-10 | Comprehensive expansion and update | IR Team |
 | 3.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
 | 3.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
+| 3.2     | 2025-10-20 | Updated tooling, workflows, and evidence retention | Wayne Evans (Director) |
+
+## Evidence Sources and Retention
+
+1. Evidence sources used for investigations include Windows Event Logs, Windows Defender alerts, Microsoft 365 audit logs, Microsoft Entra ID sign-in logs, email gateway logs, and device configuration baselines.
+2. Evidence exports are stored in the encrypted document repository with access restricted to the Director and legal counsel.
+3. Incident evidence exports are retained for at least five years, or longer when required by customer contracts or legal holds.
+4. Log exports used for incident reconstruction are referenced in the incident report with export dates, source system, and retention expiration.
 
 ## Implementation Guidelines
 1. The Director records policy-related approvals and evidence in the central document repository and retains them for audit purposes.
@@ -142,6 +151,7 @@ This plan applies to all information assets, personnel, facilities, and third pa
 3. Weekly vulnerability scans and monthly patch reviews are led by the Director, with remediation actions tracked to completion.
 4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
 5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
+6. The Director maintains a manual log review checklist for Windows Event Logs and Microsoft 365 audit logs until a managed SOC/SIEM service is procured.
 
 
 ## Contact Directory
@@ -150,8 +160,8 @@ The following contacts must be reachable 24/7 during incident response. Contact 
 
 | Role | Primary Contact | Contact Details | Availability | Backup Contact |
 | --- | --- | --- | --- | --- |
-| Incident Response Coordinator | Wayne Evans | +44 20 0000 0000 / incident@cyberask.co.uk | 24/7 on-call | Managed Service SOC lead |
-| Security Operations (Managed SOC) | SecureOps Partner | soc@secureops.example / +44 800 555 0101 | 24/7 monitoring | Director |
+| Incident Response Lead | Wayne Evans | +44 20 0000 0000 / incident@cyberask.co.uk | 24/7 on-call | External IR consultant (on-call as needed) |
+| Security Operations (Internal) | Director | incident@cyberask.co.uk | Business hours monitoring | External IR consultant |
 | Legal Counsel | External Counsel (TechLaw LLP) | legal@techlawllp.example / +44 20 5555 2222 | Business hours with emergency hotline | Director |
 | Cloud Provider Support | Microsoft Premier Support | portal.microsoft.com | 24/7 with severity-based SLA | Director |
 | Cyber Insurance Carrier | InsureCyber Claims Desk | claims@insurecyber.example / +44 800 777 3333 | 24/7 | Legal Counsel |
@@ -163,14 +173,10 @@ Incident escalations follow the matrix below to ensure timely leadership engagem
 
 | Severity | Impact Description | RTO Target | RPO Target | Notification Requirements | Escalation Path |
 | --- | --- | --- | --- | --- | --- |
-| Low | Minor service degradation, no data exposure. | 24 hours | 1 business day | Internal ticket updates. | IRC → Managed SOC |
-| Medium | Limited data exposure or customer impact. | 12 hours | 4 hours | Director, affected clients within 48 hours. | IRC → Director → Legal |
-| High | Significant data breach or service outage. | 4 hours | 1 hour | Director, clients within 24 hours, regulators within 72 hours. | IRC → Director → Executive Briefing → Legal & Communications |
-| Critical | Catastrophic impact or existential threat. | 2 hours | Near-zero tolerance | Immediate regulator and law enforcement engagement. | IRC → Director → Crisis Management Team → Board |
-
-## AI-Enhanced Detection and Analysis
-
-As of 2025, the Managed SOC deploys AI-driven detection pipelines that fuse endpoint telemetry, Microsoft 365 audit logs, and cloud workload metrics. Machine learning models surface anomalous behaviours such as lateral movement, data exfiltration patterns, and suspicious OAuth consent grants. Analysts validate AI-generated alerts within 15 minutes, and feedback is fed into model tuning cycles. Integration with the SOAR platform enables automated enrichment, including threat intelligence lookups, geolocation tagging, and historical event correlation.
+| Low | Minor service degradation, no data exposure. | 24 hours | 1 business day | Internal ticket updates. | IRL → Director |
+| Medium | Limited data exposure or customer impact. | 12 hours | 4 hours | Director, affected clients within 48 hours. | IRL → Director → Legal |
+| High | Significant data breach or service outage. | 4 hours | 1 hour | Director, clients within 24 hours, regulators within 72 hours. | IRL → Director → Executive Briefing → Legal & Communications |
+| Critical | Catastrophic impact or existential threat. | 2 hours | Near-zero tolerance | Immediate regulator and law enforcement engagement. | IRL → Director → Crisis Management Team → Board |
 
 ## Response Playbooks
 
@@ -195,7 +201,7 @@ Playbooks provide step-by-step guidance tailored to incident type. Each playbook
 4. **Recovery**
    - Restore systems from immutable, offline backups verified to be ransomware-free. Validate integrity via checksums and application testing.
    - Reintroduce services gradually, prioritizing critical workloads to meet the four-hour RTO.
-   - Monitor network traffic and SIEM alerts for evidence of reinfection.
+   - Monitor network traffic, Windows Defender alerts, and log exports for evidence of reinfection.
 
 5. **Negotiation and Communication**
    - Engage legal counsel and cyber insurance prior to any communication with threat actors. Payment decisions require Director approval and insurer concurrence.
@@ -206,7 +212,7 @@ Playbooks provide step-by-step guidance tailored to incident type. Each playbook
 
 ### Business Email Compromise (BEC) Playbook
 
-1. Validate suspicious email forwarding rules, OAuth grants, and unusual login locations using SIEM dashboards.
+1. Validate suspicious email forwarding rules, OAuth grants, and unusual login locations using Microsoft 365 audit logs and Entra ID sign-in logs.
 2. Revoke tokens, reset passwords, and enable conditional access requiring phishing-resistant MFA.
 3. Coordinate with finance to halt fraudulent payments and initiate recall procedures.
 4. Notify affected clients and update DMARC/DKIM policies to strengthen email authentication.
@@ -225,7 +231,7 @@ Incident handlers must use approved communication templates stored in the secure
 
 - Capture system images, log exports, and memory dumps using write-protected media.
 - Maintain chain-of-custody documentation, logging each transfer of evidence with timestamps and signatures.
-- Store evidence in encrypted repositories with access restricted to the Director, IRC, and legal counsel.
+- Store evidence in encrypted repositories with access restricted to the Director, IRL, and legal counsel.
 
 ## Post-Incident Review Workflow
 
@@ -236,7 +242,6 @@ Incident handlers must use approved communication templates stored in the secure
 
 ## Plan Testing and Continuous Improvement
 
-- Conduct quarterly tabletop exercises focused on ransomware, BEC, and insider threat scenarios, incorporating AI-generated anomalies to test detection accuracy.
+- Conduct quarterly tabletop exercises focused on ransomware, BEC, and insider threat scenarios, incorporating recent threat intelligence and observed anomalies to test detection accuracy.
 - Perform at least one live failover test annually to verify backup restoration capabilities meet RPO expectations.
 - Coordinate with third-party providers to validate incident communication pathways and joint responsibilities.
-
