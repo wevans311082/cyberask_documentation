@@ -53,9 +53,11 @@ This policy applies to all employees, contractors, and third parties who access 
 
 ## Technical Controls
 
-1. Configure and maintain systems to enforce the requirements of the Logging and Monitoring Policy, using appropriate tools and automation.
+1. Configure and maintain systems to enforce the requirements of the Logging and Monitoring Policy, using appropriate tools and automation where available.
 2. Enable logging, monitoring, and alerting to detect and respond to deviations from the Logging and Monitoring Policy.
 3. Apply encryption, access controls, and regular audits to ensure compliance with this policy.
+4. Use the currently available tooling (Windows Defender, Windows Event Logs, Microsoft Entra ID sign-in logs, and Microsoft 365 audit logs) for detection and investigation workflows.
+5. When advanced SIEM/SOC tooling is unavailable, apply compensating controls such as manual log review, restricted logging scope, and risk-based prioritisation.
 
 ## Roles and Responsibilities
 
@@ -84,6 +86,20 @@ This policy will be reviewed at least annually and updated as necessary to remai
 3. Weekly vulnerability scans and monthly patch reviews are led by the Director, with remediation actions tracked to completion.
 4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
 5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
+6. Current monitoring workflows include:
+   1. Daily review of Microsoft Entra ID sign-in logs for anomalous access (new locations, repeated failures, impossible travel).
+   2. Weekly review of Windows Defender alerts and Microsoft 365 audit log summaries for suspicious activity.
+   3. Monthly review of Windows Event Logs (security, system, application) for privileged account changes, service failures, and policy changes.
+7. Compensating controls for missing SOC/SIEM tooling include:
+   1. Manual log reviews using checklists aligned to CIS benchmarks and recent threat intelligence.
+   2. Restricted logging scope to business-critical systems, privileged accounts, and customer data repositories.
+   3. Escalation to external specialists for forensic review when indicators exceed internal capabilities.
+8. Evidence sources and retention for current capabilities:
+   1. Windows Event Logs (security, system, application) retained locally for 90 days; monthly exports saved in the document repository for six years.
+   2. Windows Defender alert history retained in the Microsoft Security portal per vendor default; monthly PDF exports retained for six years.
+   3. Microsoft Entra ID sign-in and audit logs retained per Microsoft 365 standard licence defaults; monthly CSV exports retained for six years.
+   4. Microsoft 365 audit logs retained per standard licence defaults; monthly summaries retained for six years in the document repository.
+   5. Incident-related log exports retained for at least five years in line with the Incident Response Plan.
 
 
 ## Revision History
@@ -92,3 +108,4 @@ This policy will be reviewed at least annually and updated as necessary to remai
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
 | 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
+| 2.2     | 2025-10-20 | Updated tooling, compensating controls, and evidence retention | Wayne Evans (Director) |
