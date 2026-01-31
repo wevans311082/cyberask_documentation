@@ -26,6 +26,24 @@ This plan documents actions to address identified information security risks, fu
 4. **Target Date:** Expected completion date for treatment activities.
 5. **Residual Risk:** Level of risk remaining after treatment and acceptance decision.
 
+## Treatment Actions
+
+| Risk ID | Treatment Actions | Selected Controls (SoA) | Owner | Target Date | Residual Risk | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| R1 | Require supplier assurance evidence for AI model updates, document AI supplier risk reviews, and introduce validation checks on outputs before client delivery. | A.5.19, A.5.21, A.8.25 | Director | 2025-05-10 | L2/I4 (Medium) | In Progress |
+| R2 | Enable immutable backup policies where available, document offline export cadence, and test restoration quarterly. | A.5.24, A.8.13, A.8.16 | Director | 2025-05-20 | L2/I4 (Medium) | In Progress |
+| R3 | Roll out phishing-resistant MFA, enforce conditional access for risky sign-ins, and increase session monitoring. | A.5.17, A.8.5, A.8.16 | Director | 2025-04-30 | L2/I3 (Medium) | Planned |
+| R4 | Publish AI prompt hygiene guidance, segregate client datasets, and add review checklist for AI-assisted outputs. | A.5.10, A.5.12, A.8.11 | Director | 2025-05-15 | L2/I3 (Medium) | Planned |
+| R5 | Establish configuration baselines, weekly drift reviews, and alerting for public sharing changes. | A.8.9, A.8.16, A.8.20 | Director | 2025-05-05 | L2/I3 (Medium) | Planned |
+| R6 | Maintain rapid patch SLA for Teams add-ins and monitor vendor security advisories weekly. | A.8.8, A.8.19, A.8.20 | Director | 2025-04-15 | L2/I3 (Medium) | Monitoring |
+| R7 | Implement dual-approval for invoices and require out-of-band verification for changes to payment details. | A.5.2, A.5.15, A.8.2 | Director | 2025-04-22 | L2/I2 (Low) | Planned |
+| R8 | Complete annual supplier assurance review and restrict shared admin access to time-bound sessions. | A.5.19, A.5.22, A.8.21 | Director | 2025-06-01 | L2/I4 (Medium) | Planned |
+| R9 | Require signed scripts, introduce integrity checks in CI, and segregate dev/test automation. | A.8.28, A.8.31, A.8.32 | Director | 2025-05-25 | L1/I3 (Low) | Planned |
+| R10 | Approve PQC migration roadmap, classify long-term archives, and reduce retention where contractual allowances permit. | A.8.24, A.8.13, A.8.27 | Director | 2025-07-15 | L1/I4 (Medium) | Planned |
+| R11 | Document deputy coverage, cross-train suppliers for incident response, and add escalation criteria. | A.5.2, A.5.24, A.6.3 | Director | 2025-05-01 | L2/I2 (Low) | In Progress |
+| R12 | Implement evidence tracker with monthly checkpoints and standardised templates for client reporting. | A.5.33, A.5.37, A.8.15 | Director | 2025-05-12 | L1/I2 (Low) | Planned |
+| R14 | Add secondary connectivity option, document continuity checklist, and conduct semi-annual outage drills. | A.5.29, A.5.30, A.8.14 | Director | 2025-06-10 | L2/I2 (Low) | Planned |
+
 ## Accountable Roles and Decision Authority
 
 1. **Director:** Owns and maintains this policy, coordinates updates, and ensures alignment with the Cyber Governance Policy and Document Control Policy.
@@ -41,6 +59,9 @@ Risk owners provide status updates monthly until treatments are complete.
 
 Management approves the plan and residual risk levels.
 
+**Approval Date:** 2025-03-15  
+**Approved By:** Wayne Evans (Director)
+
 ## Implementation Guidelines
 1. The Director records policy-related approvals and evidence in the central document repository and retains them for audit purposes.
 2. BitLocker-encrypted storage protects customer data on company systems, and Windows Defender telemetry is reviewed weekly.
@@ -55,3 +76,4 @@ Management approves the plan and residual risk levels.
 | ------- | ---------- | ----------------------- | ------ |
 | 2.0     | 2025-09-10 | Implementation guidelines added | Policy Team |
 | 2.1     | 2025-10-05 | Author attribution updated | Wayne Evans (Director) |
+| 2.2     | 2025-03-15 | Populated treatment actions with risk IDs, controls, and dates | Wayne Evans (Director) |
