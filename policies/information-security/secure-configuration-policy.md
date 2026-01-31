@@ -35,7 +35,7 @@ This policy applies to all employees, contractors, and third parties who access 
 3. Staff and contractors must receive training on Secure Configuration Policy before being granted related responsibilities.
 4. Access and activities associated with Secure Configuration Policy shall be logged and monitored to detect and respond to unauthorised actions.
 5. Deviations from this policy must be reported within 24 hours and remedied within 30 days.
-6. Technology configurations supporting Secure Configuration Policy must follow relevant CIS Benchmarks and vendor hardening guides.
+6. Technology configurations supporting Secure Configuration Policy must follow relevant CIS Benchmarks, Microsoft 365 security baseline guidance, Windows Server security baseline guidance, and vendor hardening guides.
 7. Third parties engaged in Secure Configuration Policy processes shall have contractual obligations to meet equivalent security standards.
 8. Records demonstrating compliance with this policy shall be retained for audit for a minimum of six years.
 9. The Director must approve exceptions in writing, including scope, duration, and compensating controls.
@@ -51,8 +51,13 @@ This policy applies to all employees, contractors, and third parties who access 
 ## Technical Controls
 
 1. Configure and maintain systems to enforce the requirements of the Secure Configuration Policy, using appropriate tools and automation.
-2. Enable logging, monitoring, and alerting to detect and respond to deviations from the Secure Configuration Policy.
-3. Apply encryption, access controls, and regular audits to ensure compliance with this policy.
+2. Minimum configuration settings must include:
+   - Disabling or removing default, guest, and unused accounts.
+   - Removing or disabling unused services, protocols, and software components.
+   - Securing administrative interfaces (restricted access, encrypted sessions, and logging).
+   - Enforcing multi-factor authentication for administrative and privileged access.
+3. Enable logging, monitoring, and alerting to detect and respond to deviations from the Secure Configuration Policy.
+4. Apply encryption, access controls, and regular audits to ensure compliance with this policy.
 
 ## Roles and Responsibilities
 
@@ -81,6 +86,7 @@ This policy will be reviewed at least annually and updated as necessary to remai
 3. Weekly vulnerability scans and monthly patch reviews are led by the Director, with remediation actions tracked to completion.
 4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
 5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
+6. Secure configuration reviews occur at least quarterly and after material system changes, with evidence captured (configuration snapshots, change approvals, and remediation actions).
 
 
 ## Revision History
