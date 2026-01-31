@@ -60,6 +60,17 @@ This policy applies to all employees, contractors, and third parties who access 
 2. **Management:** Provide resources and enforce this policy within their areas of responsibility.
 3. **Security and Compliance Teams:** Monitor cyber governance controls, provide guidance, and coordinate improvements.
 
+## Simplified RACI (Director and External Providers)
+
+| Governance Activity | Director | SecureOps Partner (Managed SOC) | TechLaw LLP (Legal Counsel) | Forensic Response Partners (DFIR) |
+| --- | --- | --- | --- | --- |
+| Cyber governance oversight and policy ownership | **A/R** | C | C | C |
+| Risk acceptance and exceptions | **A/R** | C | C | C |
+| Security monitoring and alert triage | **A** | **R** | I | I |
+| Incident response coordination and decision-making | **A/R** | C | C | C |
+| Regulatory/legal notifications and advice | **A** | I | **R** | C |
+| Forensic evidence collection and analysis | **A** | C | C | **R** |
+
 ## Accountable Roles and Decision Authority
 
 1. **Director:** Owns and maintains this policy, coordinates updates, and ensures alignment with the Cyber Governance Policy and Document Control Policy.

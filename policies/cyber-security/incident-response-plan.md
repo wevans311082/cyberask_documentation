@@ -30,7 +30,7 @@ This plan applies to all information assets, personnel, facilities, and third pa
 
 1. **Incident:** An event that compromises the confidentiality, integrity, or availability of information assets.
 2. **Event:** A deviation from normal operations that may or may not be an incident.
-3. **Security Operations Center (SOC):** The team responsible for monitoring and analyzing activity to detect threats.
+3. **Security Operations Center (SOC):** The outsourced managed SOC responsible for monitoring and analyzing activity to detect threats.
 4. **Forensic Preservation:** The process of collecting and maintaining evidence in a manner suitable for legal proceedings.
 
 ## Response Phases
@@ -42,8 +42,8 @@ This plan applies to all information assets, personnel, facilities, and third pa
 
 2. **Identification**
    1. Monitor systems, applications, and networks for indicators of compromise using automated tools and manual processes.
-   2. Employees must report suspected incidents to the SOC or service desk immediately.
-   3. The SOC validates alerts, classifies the incident, and assigns a severity level.
+   2. Employees must report suspected incidents to the Director or the Managed SOC immediately.
+   3. The Managed SOC validates alerts, classifies the incident, and assigns a severity level.
 
 3. **Containment**
    1. Implement short-term measures such as isolating affected systems, disabling compromised accounts, or blocking malicious IP addresses to prevent further damage.
@@ -64,13 +64,20 @@ This plan applies to all information assets, personnel, facilities, and third pa
 
 ## Roles and Responsibilities
 
-1. **Incident Response Coordinator (IRC):** Leads response activities, ensures adherence to the IRP, and serves as primary communication point.
-2. **Security Operations Center:** Detects and triages events, gathers evidence, and supports containment and eradication activities.
-3. **IT and Infrastructure Teams:** Execute technical containment, eradication, and recovery tasks.
-4. **Management and Executive Team:** Approves external communications, allocates resources, and provides strategic direction.
-5. **Legal and Compliance:** Advises on regulatory obligations, coordinates with law enforcement, and manages eDiscovery requirements.
-6. **Communications/Public Relations:** Handles public statements and media inquiries in coordination with management.
+1. **Director (Incident Response Coordinator):** Leads response activities, ensures adherence to the IRP, and serves as primary communication point.
+2. **Managed SOC (SecureOps Partner):** Detects and triages events, gathers evidence, and supports containment and eradication activities.
+3. **Director (IT & Infrastructure):** Executes technical containment, eradication, and recovery tasks with support from suppliers as required.
+4. **External Legal Counsel (TechLaw LLP):** Advises on regulatory obligations, coordinates with law enforcement, and manages eDiscovery requirements.
+5. **Forensic Response Partners:** Provide forensic imaging, analysis, and evidence preservation services when engaged.
+6. **Communications:** Managed by the Director in coordination with legal counsel and affected clients.
 7. **All Employees:** Report suspected incidents promptly and cooperate with investigators.
+
+## Outsourced SOC and IR Arrangements
+
+1. Security monitoring, alert triage, and first-line investigation are delivered by SecureOps Partner (Managed SOC).
+2. The Director retains decision authority for incident classification, containment strategy, external notifications, and recovery acceptance.
+3. TechLaw LLP provides legal counsel for regulatory notifications, law enforcement engagement, and contractual obligations.
+4. Forensic Response Partners are engaged on-demand for evidence acquisition, root-cause analysis, and expert witness support.
 
 ## Accountable Roles and Decision Authority
 
@@ -81,27 +88,33 @@ This plan applies to all information assets, personnel, facilities, and third pa
 
 ## Communication and Reporting
 
-1. Incidents must be reported via the service desk or designated hotline within one hour of discovery.
-2. High-severity incidents are escalated immediately to executive management, legal, and the Director.
-3. External communications to customers, partners, or regulators require prior approval from management and legal.
+1. Incidents must be reported to the Director or the Managed SOC within one hour of discovery.
+2. High-severity incidents are escalated immediately to the Director and external legal counsel.
+3. External communications to customers, partners, or regulators require prior approval from the Director and legal counsel.
 4. Evidence must be collected and preserved according to forensic best practices; chain-of-custody documentation is mandatory for all collected evidence.
 
 ## Incident Severity Levels
 
 1. **Low:** Minimal impact with limited scope; handled by operational staff.
 2. **Medium:** Noticeable impact requiring coordination across teams; may involve external notifications.
-3. **High:** Significant impact on critical systems or data; requires executive management involvement and potential regulatory reporting.
-4. **Critical:** Severe impact threatening organizational viability or public safety; immediate escalation to crisis management team.
+3. **High:** Significant impact on critical systems or data; requires Director involvement and potential regulatory reporting.
+4. **Critical:** Severe impact threatening organizational viability or public safety; immediate escalation to the Director with legal counsel support.
 
 ## Coordination with Law Enforcement and Regulators
 
-1. The Legal and Compliance team determines when engagement with law enforcement or regulatory bodies is required.
-2. All communications with external authorities must be coordinated through the IRC and Legal to maintain consistency and protect privileged information.
+1. The Director, with TechLaw LLP, determines when engagement with law enforcement or regulatory bodies is required.
+2. All communications with external authorities must be coordinated through the Director and legal counsel to maintain consistency and protect privileged information.
 
 ## Tools and Resources
 
 1. Maintain an incident response toolkit containing forensic utilities, communication templates, and hardware for evidence acquisition.
 2. Ensure secure storage for collected evidence and incident documentation.
+
+## Supplier Evidence Requirements (Outsourced Roles)
+
+1. **SecureOps Partner (Managed SOC):** Annual SOC 2/ISO 27001 reports, service SLA metrics (MTTD/MTTR), and confirmation of 24/7 coverage.
+2. **TechLaw LLP (Legal Counsel):** Engagement letter, confidentiality agreement, and evidence of regulatory expertise (e.g., ICO/MOD notification experience).
+3. **Forensic Response Partners:** Evidence handling SOPs, certification evidence (e.g., CREST, ISO 17025 where applicable), and chain-of-custody templates.
 
 ## Training and Exercises
 
@@ -111,7 +124,7 @@ This plan applies to all information assets, personnel, facilities, and third pa
 ## Metrics and Reporting
 
 1. Track metrics such as mean time to detect (MTTD), mean time to respond (MTTR), and number of incidents by category.
-2. Report quarterly to executive management on incident trends and improvement initiatives.
+2. Report quarterly to the Director on incident trends and improvement initiatives.
 
 ## Post-Incident Reporting
 
@@ -153,6 +166,7 @@ The following contacts must be reachable 24/7 during incident response. Contact 
 | Incident Response Coordinator | Wayne Evans | +44 20 0000 0000 / incident@cyberask.co.uk | 24/7 on-call | Managed Service SOC lead |
 | Security Operations (Managed SOC) | SecureOps Partner | soc@secureops.example / +44 800 555 0101 | 24/7 monitoring | Director |
 | Legal Counsel | External Counsel (TechLaw LLP) | legal@techlawllp.example / +44 20 5555 2222 | Business hours with emergency hotline | Director |
+| Forensic Response | Forensic Response Partners | forensic@forensicresponse.example / +44 20 5555 3333 | On-call via Director | SecureOps Partner |
 | Cloud Provider Support | Microsoft Premier Support | portal.microsoft.com | 24/7 with severity-based SLA | Director |
 | Cyber Insurance Carrier | InsureCyber Claims Desk | claims@insurecyber.example / +44 800 777 3333 | 24/7 | Legal Counsel |
 | Law Enforcement Liaison | National Cyber Security Centre (NCSC) | ncscincidents@ncsc.gov.uk | 24/7 | Director |
@@ -165,8 +179,8 @@ Incident escalations follow the matrix below to ensure timely leadership engagem
 | --- | --- | --- | --- | --- | --- |
 | Low | Minor service degradation, no data exposure. | 24 hours | 1 business day | Internal ticket updates. | IRC → Managed SOC |
 | Medium | Limited data exposure or customer impact. | 12 hours | 4 hours | Director, affected clients within 48 hours. | IRC → Director → Legal |
-| High | Significant data breach or service outage. | 4 hours | 1 hour | Director, clients within 24 hours, regulators within 72 hours. | IRC → Director → Executive Briefing → Legal & Communications |
-| Critical | Catastrophic impact or existential threat. | 2 hours | Near-zero tolerance | Immediate regulator and law enforcement engagement. | IRC → Director → Crisis Management Team → Board |
+| High | Significant data breach or service outage. | 4 hours | 1 hour | Director, clients within 24 hours, regulators within 72 hours. | IRC → Director → Legal & Communications |
+| Critical | Catastrophic impact or existential threat. | 2 hours | Near-zero tolerance | Immediate regulator and law enforcement engagement. | IRC → Director → Legal → Law Enforcement |
 
 ## AI-Enhanced Detection and Analysis
 
@@ -239,4 +253,3 @@ Incident handlers must use approved communication templates stored in the secure
 - Conduct quarterly tabletop exercises focused on ransomware, BEC, and insider threat scenarios, incorporating AI-generated anomalies to test detection accuracy.
 - Perform at least one live failover test annually to verify backup restoration capabilities meet RPO expectations.
 - Coordinate with third-party providers to validate incident communication pathways and joint responsibilities.
-

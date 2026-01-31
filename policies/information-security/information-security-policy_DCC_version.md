@@ -70,9 +70,17 @@ This policy applies to all personnel, business units, information assets, proces
 
 ## Monitoring and Attestation
 
-1. Security monitoring is delivered through SIEM, vulnerability management, and endpoint detection systems aligned with the NIST CSF Detect function and DCC Level 2 monitoring expectations.
+1. Security monitoring is delivered through SIEM, vulnerability management, and endpoint detection systems aligned with the NIST CSF Detect function and DCC Level 2 monitoring expectations, supported by the outsourced Managed SOC (SecureOps Partner).
 2. Quarterly control attestations are required from control owners, confirming implementation and effectiveness across ISO/IEC 27001, NIST, DEF STAN 05-138, and DCC Level 2 controls.
 3. Evidence collection processes must capture screenshots, configuration exports, log samples, test results, and supplier attestations, stored in the ISMS evidence register with retention tags.
+
+## Outsourced Security Roles and Supplier Evidence
+
+| Outsourced Role | Provider | Evidence Required | Frequency | Evidence Owner |
+| --- | --- | --- | --- | --- |
+| Managed SOC (Monitoring & Triage) | SecureOps Partner | SOC 2/ISO 27001 report, 24/7 coverage attestation, monthly MTTD/MTTR service reports | Annual / Monthly | Director |
+| Legal Counsel (IR & Regulatory) | TechLaw LLP | Engagement letter, confidentiality agreement, regulatory notification playbooks | Annual / On change | Director |
+| Digital Forensics (DFIR) | Forensic Response Partners | Certifications (e.g., CREST), evidence handling SOPs, chain-of-custody templates | Annual | Director |
 
 ## Related Documents
 
@@ -113,9 +121,12 @@ This policy applies to all personnel, business units, information assets, proces
 | --- | --- | --- | --- | --- |
 | ISMS Evidence Register | Master index of ISO/NIST/DEF STAN/DCC evidence | Quarterly update | Director | ISMS SharePoint (restricted) |
 | MOD Assurance Pack | Consolidated compliance evidence for MOD audits | Annual / on request | Director | Secure file transfer portal |
-| Supplier Attestation Files | Signed supplier statements for DCPP alignment | Annual | Supplier Security Lead | Third-party risk repository |
+| Supplier Attestation Files | Signed supplier statements for DCPP alignment | Annual | Director | Third-party risk repository |
 | Control Test Reports | Results of integrated control testing | Quarterly | Compliance Analyst | GRC tool document library |
-| SIEM Monitoring Dashboards | Logs and alerts evidencing monitoring coverage | Continuous | Security Operations Lead | SOC platform export |
+| SIEM Monitoring Dashboards | Logs and alerts evidencing monitoring coverage | Continuous | SecureOps Partner | SOC platform export |
+| Managed SOC Service Reports | MTTD/MTTR reports, coverage attestations, escalation evidence | Monthly | Director | ISMS evidence register |
+| Legal Counsel Engagement Pack | Engagement letter, confidentiality agreements, notification playbooks | Annual / On change | Director | ISMS evidence register |
+| Forensic Provider Evidence Pack | Certifications, SOPs, chain-of-custody templates | Annual | Director | ISMS evidence register |
 
 ## Review
 
