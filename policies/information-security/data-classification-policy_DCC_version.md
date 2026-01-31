@@ -88,6 +88,15 @@ requirements meet the more stringent requirement when tiers diverge.
   with the Incident Response Policy and Records Management and Archiving Policy.
 1. Maintain destruction certificates, transfer receipts, and subcontractor assurance reports for audit review and MOD inspection.
 
+## Retention Overrides (DCC/MOD)
+
+1. For OFFICIAL-SENSITIVE and above, contractual MOD/DCC retention requirements apply and must be treated as the minimum retention
+  period, with a baseline of seven (7) years.
+1. Where legal, regulatory, or customer contractual requirements mandate longer retention, the longest requirement prevails in line
+  with the Records Management and Archiving Policy.
+1. Any approved deviations must be documented in the Document Control Policy exception register and supported by MOD-authorised
+  written approval.
+
 ## Roles and Responsibilities
 
 1. **Data Owners:** Determine classification and protective marking, ensuring records align with contractual security requirements.

@@ -27,6 +27,7 @@ This policy applies to all employees, contractors, and third parties who access 
 ## Policy
 
 ### Record Retention
+Records must be retained for the maximum duration required by applicable legal, regulatory, or contractual obligations, including MOD/DCC contracts and data classification mandates. This policy is read in conjunction with the Document Control Policy and the DCC Data Classification Policy for retention overrides where applicable.
 | Record Type                | Retention Period | Storage Location                |
 |---------------------------|-----------------|---------------------------------|
 | Financial records         | 7 years         | Secure accounting system and encrypted archive storage |
@@ -86,4 +87,3 @@ This policy will be reviewed at least annually and updated as necessary to remai
 3. Weekly vulnerability scans and monthly patch reviews are led by the Director, with remediation actions tracked to completion.
 4. Microsoft 365 security settings rely on features provided within the standard licence; compensating controls are documented when advanced tooling is unavailable.
 5. Exceptions require written approval from the Director, including compensating controls and a defined review date.
-
